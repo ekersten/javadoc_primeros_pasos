@@ -1,0 +1,108 @@
+@color_nav_bg: #2c333b;
+@btn_azul: #6492c8;
+@btn_azul_sombra: #3c6799;
+@header_nav_btn_bg: @btn_azul_sombra;
+
+header {
+	background: lighten(@color_nav_bg, 5%);
+	padding: 1em 0;
+
+	.col-xs-9 {
+		top: .5em;
+		text-align: right;
+	}
+
+	ul.nav {
+		display: inline-block;
+
+		li {
+			a {
+				color: white;
+
+				&:active,&:hover {
+					background: @header_nav_btn_bg;
+				}
+				
+			}
+			
+		}
+	}
+}
+
+.panel.no-padding{
+	.panel-body {
+		padding: 0;
+
+		.table {
+			margin-bottom: 0;
+			tr.info {
+				td {
+					background: lighten(@btn_azul, 75%);
+					color: @color_nav_bg;
+					font-weight: 600;
+				}
+				
+			}
+			tr {
+				td {
+					font-size: .85em;
+				}
+				
+			}
+
+			th {
+				text-transform: uppercase;
+				background: #ddd;
+			}
+
+			th,td {
+				text-align: center;
+			}
+			
+		}
+	}
+}
+
+/* BOOTSTRAP OVERRIDES */
+.container-fluid {
+	max-width: 1170px;
+}
+
+
+.navbar {
+	border-radius: 0;
+}
+
+.btn {
+	font-weight: 600;
+	letter-spacing: -.05em;
+	color: white;
+}
+
+
+.btn-primary {
+	background-color: @btn_azul;
+	border-color: @btn_azul_sombra;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+	background-color: @btn_azul;
+	border-color: @btn_azul_sombra;
+}
+
+.panel-primary {
+	&> .panel-heading {
+		background: @btn_azul;
+
+		h3 {
+			font-family: 'Ropa Sans';
+			text-transform: uppercase;
+			font-size: 1.4em;
+		}
+	}
+}
