@@ -4,12 +4,16 @@
 @header_nav_btn_bg: @btn_azul_sombra;
 @light_gray: #dedee3;
 
+html, body {
+	height: 100%;
+}
+
 header {
 	background: lighten(@color_nav_bg, 5%);
 	padding: 1em 0;
 
 	.col-xs-9 {
-		top: .5em;
+		top: .2em;
 		text-align: right;
 	}
 
@@ -69,6 +73,11 @@ footer {
 	}
 }
 
+footer, .page-wrap:after {
+	/* .push must be the same height as footer */
+	height: 5.625em; 
+}
+
 .panel.no-padding{
 	.panel-body {
 		padding: 0;
@@ -104,6 +113,15 @@ footer {
 }
 
 
+.page-wrap {
+	min-height: 100%;
+	/* equal to footer height */
+	margin-bottom: -5.625em; 
+}
+.page-wrap:after {
+	content: "";
+	display: block;
+}
 
 /* BOOTSTRAP OVERRIDES */
 .container-fluid {
@@ -144,23 +162,4 @@ footer {
 			font-size: 1.4em;
 		}
 	}
-}
-
-
-
-html, body {
-  height: 100%;
-}
-.page-wrap {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -5.625em; 
-}
-.page-wrap:after {
-  content: "";
-  display: block;
-}
-footer, .page-wrap:after {
-  /* .push must be the same height as footer */
-  height: 5.625em; 
 }
