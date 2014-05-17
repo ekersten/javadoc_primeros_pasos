@@ -218,4 +218,6 @@ pip-log.txt
 #############
 ## Windows detritus
 #############
-css/styles.css
+css/macrocampus.css
+css/*.map
+less/*.json
