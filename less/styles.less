@@ -2,7 +2,9 @@
 @btn_azul: #6492c8;
 @btn_azul_sombra: #3c6799;
 @header_nav_btn_bg: @btn_azul_sombra;
+
 @light_gray: #dedee3;
+@medium_gray: #a6a8ab;
 
 html, body {
 	height: 100%;
@@ -30,6 +32,41 @@ header {
 				
 			}
 			
+			&.open {
+				a {
+					color: @header_nav_btn_bg;
+					border-bottom-left-radius: 0;
+					border-bottom-right-radius: 0;
+				}
+
+				.dropdown-menu {
+					border-top-left-radius: 0;
+					border-top-right-radius: 0;
+					border-top-width: 0;
+
+					&.login {
+						width: 15em;
+						padding: .5em;
+						left: auto;
+						right: 0;
+
+						label {
+							display: block;
+							font-size: .8em;
+							text-align: left;
+							color: @medium_gray;
+						}
+
+						input[type=text], input[type=password] {
+							display: block;
+						}
+
+						.form-actions {
+							text-align: left;
+						}
+					}
+				}
+			}
 		}
 	}
 }
