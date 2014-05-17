@@ -2,6 +2,7 @@
 @btn_azul: #6492c8;
 @btn_azul_sombra: #3c6799;
 @header_nav_btn_bg: @btn_azul_sombra;
+@light_gray: #dedee3;
 
 header {
 	background: lighten(@color_nav_bg, 5%);
@@ -26,6 +27,45 @@ header {
 			}
 			
 		}
+	}
+}
+
+footer {
+
+	background: @light_gray;
+	padding: 2em 0;
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		li {
+			display: inline-block;
+			vertical-align: top;
+			margin-right: .8em;
+
+			a {
+				color: @color_nav_bg;
+				font-size: .8em;
+
+				&:hover {
+					color: @color_nav_bg;
+				}
+
+				&.icon:hover{
+					text-decoration: none;
+				}
+			}
+
+			&:first-child {
+				margin-right: .2em;
+			}
+		}
+	}
+	.icon {
+		font-family: 'icomoon';
+		font-size: 1.4em;
 	}
 }
 
@@ -62,6 +102,8 @@ header {
 		}
 	}
 }
+
+
 
 /* BOOTSTRAP OVERRIDES */
 .container-fluid {
@@ -102,4 +144,23 @@ header {
 			font-size: 1.4em;
 		}
 	}
+}
+
+
+
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -5.625em; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 5.625em; 
 }
