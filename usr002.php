@@ -11,63 +11,20 @@
 	<div class="page-wrap">
 		<?php include('includes/header.php'); ?>
 		<section class="container-fluid">
+			TIRA de opciones
 			<div class="row">
-				<div class="col-xs-4">
-					<div class="panel panel-primary no-padding">
-						<div class="panel-heading">
-							<h3 class="panel-title">General</h3>
-						</div>
-						<div class="panel-body">
-							<table class="table table-striped table-bordered ranking">
-								<thead>
-									<tr>
-										<th>Name</th>
-										<th>Score</th>
-										<th>Rank</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr class="info">
-										<td>YOU</td>
-										<td>18</td>
-										<td>60</td>
-									</tr>
-									<tr>
-										<td>Juan</td>
-										<td>50</td>
-										<td>1</td>
-									</tr>
-									<tr>
-										<td>Juan</td>
-										<td>49</td>
-										<td>2</td>
-									</tr>
-									<tr>
-										<td>Juan</td>
-										<td>48</td>
-										<td>3</td>
-									</tr>
-									<tr>
-										<td>Juan</td>
-										<td>47</td>
-										<td>4</td>
-									</tr>
-									<tr>
-										<td>Juan</td>
-										<td>46</td>
-										<td>5</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
+				<h1>Terms & Conditions</h1>
+				<form>
+				<div class="col-xs-12">
+					<textarea class="form-control" rows="7">iooioioiioiooiiiooio iooioioii oiooiiiooioiooioi oiioiooiii ooio iooioio iioiooiiiooio iooioioiio iooiiiooio iooioioiioio oiiiooio iooioioii oiooiiiooio iooioioi ioiooiii ooio</textarea>
+					<label class="centrado"><input type="checkbox">I have read and accepted the Terms & Conditions</label>
+      				<button type="submit" class="btn btn-primary right_btn">NEXT</button>
 				</div>
-				<div class="col-xs-4">
-					<p><button type="button" class="btn btn-primary btn-lg">Botón Grande</button></p>
-					<p><button type="button" class="btn btn-primary">Botón Normal</button></p>
-				</div>
-				<div class="col-xs-4">fsf</div>
-			</div>
+				
+			</form>
+				
+				
+		
 		</section>
 	</div>
 	<?php include('includes/footer.php'); ?>
