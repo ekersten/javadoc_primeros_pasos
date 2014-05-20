@@ -11,7 +11,11 @@
 	<div class="page-wrap">
 		<?php include('includes/header.php'); ?>
 		<section class="container-fluid">
-			<h1>Ranking</h1>
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Ranking</h1>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-xs-3">
 					<ul class="list-group">
@@ -172,8 +176,12 @@
 				</div> <!-- cierra col -->
 			</div>
 			<div class="row">
-				<div class="col-xs-3"><!-- vacio --></div>
-				<div class="col-xs-3">
+				<!--
+				<div class="col-xs-3"></div>
+				aplicandole un offset de 3 a la columna siguiente
+				no hace falta meter el div vacio
+				-->
+				<div class="col-xs-3 col-xs-offset-3">
 					<div class="panel panel-primary no-padding">
 						<div class="panel-heading">
 							<h3 class="panel-title">General</h3>

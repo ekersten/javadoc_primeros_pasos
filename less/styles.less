@@ -75,6 +75,7 @@ footer {
 
 	background: @light_gray;
 	padding: 2em 0;
+	.margin-top();
 
 	ul {
 		list-style: none;
@@ -107,6 +108,11 @@ footer {
 	.icon {
 		font-family: 'icomoon';
 		font-size: 1.4em;
+		opacity: .8;
+		
+		&:hover {
+			opacity: 1;
+		}
 	}
 }
 
@@ -160,18 +166,55 @@ footer, .page-wrap:after {
 	display: block;
 }
 
-/* pagina alta usuarios*/
+/* alta usuarios INICIO */
+.well.well-sm.terms {
+	overflow-y: auto;
+	max-height: 350px;
+	font-size: .8em;
+}
 
-.right_btn{
-	float: right;
+form.user-registration-form {
+
+	label {
+		padding-left: 0;
+		padding-right: 0;
+		text-align: left;
 	}
 
-.centrado{
-	display: block;
-text-align: center;
-margin-top: 30px;
-}	
+	.day-select, .month-select, .year-select {
+		padding-left: 0;
+		padding-right: 0;
+		float: left;
+	}
 
+	.day-select {
+		width: 20%;
+	}
+
+	.month-select {
+		width: 50%;
+		margin-left: 2%;
+	}
+
+	.year-select {
+		width: 26%;
+		margin-left: 2%;
+	}
+}
+
+/* alta usuarios FIN */
+
+
+
+ /* helpers */
+ .margin-top {
+ 	margin-top: @grid-gutter-width;
+ }
+
+ .margin-bottom {
+ 	margin-bottom: @grid-gutter-width;
+ }
+/* no crear margin left ni right. Usar solo para separar rows */
 
 
 /* BOOTSTRAP OVERRIDES */
