@@ -19,9 +19,9 @@
 			<div class="row">
 				<div class="col-xs-3">
 					<ul class="list-group">
-						<li class="list-group-item">Cras justo odio<span class="badge">14</span></li>
-						<li class="list-group-item">Dapibus ac facilisis in<span class="badge">2</span></li>
-						<li class="list-group-item">Morbi leo risus<span class="badge">1</span></li>
+						<li class="list-group-item">US<span class="badge">14</span></li>
+						<li class="list-group-item">Eurozone<span class="badge">2</span></li>
+						<li class="list-group-item">Germany<span class="badge">1</span></li>
 					</ul>
 				</div>
 				<div class="col-xs-3">
@@ -41,33 +41,33 @@
 								<tbody>
 									<tr class="info">
 										<td>YOU</td>
-										<td>18</td>
-										<td>60</td>
+										<td>170</td>
+										<td>17<sup>th</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>50</td>
-										<td>1</td>
+										<td>John</td>
+										<td>210</td>
+										<td>1<sup>st</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>49</td>
-										<td>2</td>
+										<td>Mike</td>
+										<td>208</td>
+										<td>2<sup>nd</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>48</td>
-										<td>3</td>
+										<td>Peter</td>
+										<td>203</td>
+										<td>3<sup>rd</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>47</td>
-										<td>4</td>
+										<td>Ben</td>
+										<td>198</td>
+										<td>4<sup>th</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>46</td>
-										<td>5</td>
+										<td>Alan</td>
+										<td>193</td>
+										<td>5<sup>th</sup></td>
 									</tr>
 								</tbody>
 							</table>
@@ -77,7 +77,7 @@
 				<div class="col-xs-3">
 					<div class="panel panel-primary no-padding">
 						<div class="panel-heading">
-							<h3 class="panel-title">General</h3>
+							<h3 class="panel-title">Markets</h3>
 						</div>
 						<div class="panel-body">
 							<table class="table table-striped table-bordered ranking">
@@ -91,33 +91,33 @@
 								<tbody>
 									<tr class="info">
 										<td>YOU</td>
-										<td>18</td>
-										<td>60</td>
+										<td>98</td>
+										<td>4<sup>th</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>50</td>
-										<td>1</td>
+										<td>Alan</td>
+										<td>108</td>
+										<td>1<sup>th</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
+										<td>Ben</td>
 										<td>49</td>
-										<td>2</td>
+										<td>2<sup>th</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>48</td>
-										<td>3</td>
+										<td>Janet</td>
+										<td>103</td>
+										<td>3<sup>th</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>47</td>
-										<td>4</td>
+										<td>Mike</td>
+										<td>98</td>
+										<td>4<sup>th</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>46</td>
-										<td>5</td>
+										<td>Peter</td>
+										<td>88</td>
+										<td>5<sup>th</sup></td>
 									</tr>
 								</tbody>
 							</table>
@@ -127,7 +127,7 @@
 				<div class="col-xs-3">
 					<div class="panel panel-primary no-padding">
 						<div class="panel-heading">
-							<h3 class="panel-title">General</h3>
+							<h3 class="panel-title">Activity</h3>
 						</div>
 						<div class="panel-body">
 							<table class="table table-striped table-bordered ranking">
@@ -141,33 +141,33 @@
 								<tbody>
 									<tr class="info">
 										<td>YOU</td>
-										<td>18</td>
-										<td>60</td>
+										<td>98</td>
+										<td>2<sup>nd</sup></td>
+									</tr>
+									<tr>
+										<td>Peter</td>
+										<td>120</td>
+										<td>1<sup>st</sup></td>
 									</tr>
 									<tr>
 										<td>Juan</td>
-										<td>50</td>
-										<td>1</td>
+										<td>108</td>
+										<td>3<sup>rd</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>49</td>
-										<td>2</td>
+										<td>Mike</td>
+										<td>103</td>
+										<td>4<sup>th</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>48</td>
-										<td>3</td>
+										<td>Ben</td>
+										<td>98</td>
+										<td>5<sup>th</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>47</td>
-										<td>4</td>
-									</tr>
-									<tr>
-										<td>Juan</td>
-										<td>46</td>
-										<td>5</td>
+										<td>Alan</td>
+										<td>93</td>
+										<td>6<sup>th</sup></td>
 									</tr>
 								</tbody>
 							</table>
@@ -184,7 +184,7 @@
 				<div class="col-xs-3 col-xs-offset-3">
 					<div class="panel panel-primary no-padding">
 						<div class="panel-heading">
-							<h3 class="panel-title">General</h3>
+							<h3 class="panel-title">Prices</h3>
 						</div>
 						<div class="panel-body">
 							<table class="table table-striped table-bordered ranking">
@@ -198,33 +198,33 @@
 								<tbody>
 									<tr class="info">
 										<td>YOU</td>
-										<td>18</td>
-										<td>60</td>
+										<td>96</td>
+										<td>17<sup>st</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>50</td>
-										<td>1</td>
+										<td>John</td>
+										<td>120</td>
+										<td>1<sup>nd</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>49</td>
-										<td>2</td>
+										<td>Mike</td>
+										<td>108</td>
+										<td>2<sup>rd</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>48</td>
-										<td>3</td>
+										<td>Peter</td>
+										<td>102</td>
+										<td>3<sup>th</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>47</td>
-										<td>4</td>
+										<td>Ben</td>
+										<td>94</td>
+										<td>4<sup>th</sup></td>
 									</tr>
 									<tr>
-										<td>Juan</td>
-										<td>46</td>
-										<td>5</td>
+										<td>Alan</td>
+										<td>88</td>
+										<td>5<sup>th</sup></td>
 									</tr>
 								</tbody>
 							</table>
@@ -249,32 +249,32 @@
 									<tr class="info">
 										<td>YOU</td>
 										<td>18</td>
-										<td>60</td>
+										<td>60<sup>th</sup></td>
 									</tr>
 									<tr>
 										<td>Juan</td>
 										<td>50</td>
-										<td>1</td>
+										<td>1<sup>st</sup></td>
 									</tr>
 									<tr>
 										<td>Juan</td>
 										<td>49</td>
-										<td>2</td>
+										<td>2<sup>nd</sup></td>
 									</tr>
 									<tr>
 										<td>Juan</td>
 										<td>48</td>
-										<td>3</td>
+										<td>3<sup>rd</sup></td>
 									</tr>
 									<tr>
 										<td>Juan</td>
 										<td>47</td>
-										<td>4</td>
+										<td>4<sup>th</sup></td>
 									</tr>
 									<tr>
 										<td>Juan</td>
 										<td>46</td>
-										<td>5</td>
+										<td>5<sup>th</sup></td>
 									</tr>
 								</tbody>
 							</table>
@@ -299,32 +299,32 @@
 									<tr class="info">
 										<td>YOU</td>
 										<td>18</td>
-										<td>60</td>
+										<td>60<sup>th</sup></td>
 									</tr>
 									<tr>
 										<td>Juan</td>
 										<td>50</td>
-										<td>1</td>
+										<td>1<sup>st</sup></td>
 									</tr>
 									<tr>
 										<td>Juan</td>
 										<td>49</td>
-										<td>2</td>
+										<td>2<sup>nd</sup></td>
 									</tr>
 									<tr>
 										<td>Juan</td>
 										<td>48</td>
-										<td>3</td>
+										<td>3<sup>rd</sup></td>
 									</tr>
 									<tr>
 										<td>Juan</td>
 										<td>47</td>
-										<td>4</td>
+										<td>4<sup>th</sup></td>
 									</tr>
 									<tr>
 										<td>Juan</td>
 										<td>46</td>
-										<td>5</td>
+										<td>5<sup>th</sup></td>
 									</tr>
 								</tbody>
 							</table>
