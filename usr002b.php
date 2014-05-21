@@ -10,10 +10,27 @@
 <body>
 	<div class="page-wrap">
 		<?php include('includes/header.php'); ?>
-		<section class="container-fluid">
+		<section class="container-fluid user-registration">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>TIRA de opciones</h1>
+					<div class="steps">
+						<div class="step past">
+							<div class="name">Step 1</div>
+							<div class="info">Terms &amp; Conditions</div>
+						</div>
+						<div class="step current">
+							<div class="name">Step 2</div>
+							<div class="info">Personal Information</div>
+						</div>
+						<div class="step">
+							<div class="name">Step 3</div>
+							<div class="info">Select Indicators</div>
+						</div>
+						<div class="step">
+							<div class="name">Step 4</div>
+							<div class="info">Open Leagues</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="row">
@@ -92,7 +109,7 @@
 						<label for="select" class="col-xs-4 control-label">Country</label>
 						<div class="col-xs-8">
 							<select class="form-control input-sm" id="select">
-								<option>1</option>
+								<option>United States</option>
 								<option>2</option>
 								<option>3</option>
 								<option>4</option>
@@ -115,6 +132,16 @@
 
 				</div>
 				<div class="col-xs-4">
+					<div class="form-group">
+						<div class="col-xs-3">
+							<!-- <img src="http://placehold.it/80x80" width="80"/> -->
+							<img src="img/img_user.jpg" width="80"/>
+						</div>
+						<div class="col-xs-9">
+							<button type="button" class="btn btn-default btn-lg btn-upload">Upload Image</button>
+						</div>
+					</div>
+					
 					<div class="form-group">
 						<label class="control-label col-xs-3" for="inputSmall">Studying at</label>
 						<div class="col-xs-9">
@@ -144,23 +171,25 @@
 							<input type="checkbox">Do you want your profile to be visible to the public?
 						</label>
 					</div>
+
 					<div class="checkbox">
 						<label>
 							<input type="checkbox">Do you want to be ranked in the General rankings?
 						</label>
 					</div>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-xs-4 social-icons">
 					<div class="form-group">
-						<label class="control-label col-xs-3" for="inputSmall">State/Province</label>
-						<div class="col-xs-9">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+						<label class="control-label col-xs-4" for="inputSmall"><span class="icon icon-twitter"></span></label>
+						
+						<div class="col-xs-8">
+							<input class="form-control input-sm" type="text" id="inputSmall" placeholder="Twitter Username">
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="control-label col-xs-3" for="inputSmall">City</label>
-						<div class="col-xs-9">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+						<label class="control-label col-xs-4" for="inputSmall"><span class="icon icon-linkedin"></span></label>
+						<div class="col-xs-8">
+							<input class="form-control input-sm" type="text" id="inputSmall" placeholder="LinkedIn Username">
 						</div>
 					</div>
 
@@ -170,7 +199,7 @@
 			<!-- fin fila2 -->
 			<hr/>
 			<!-- fila3 -->
-			<div class="row">
+			<div class="row" >
 				<div class="col-xs-12">
 					<h3>Alerts</h3>
 				</div>
@@ -201,7 +230,7 @@
 							<input type="checkbox">Tell me when someone reply to my commentaries
 						</label>
 					</div>
-					<h4>Summary Alert</h4>
+					<h4 class="margin-top">Summary Alert</h4>
 					<div class="checkbox">
 						<label>
 							<input type="checkbox">Send me my weekly summary

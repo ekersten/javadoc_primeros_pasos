@@ -11,7 +11,28 @@
 	<div class="page-wrap">
 		<?php include('includes/header.php'); ?>
 		<section class="container-fluid user-registration">
-			TIRA de opciones
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="steps">
+						<div class="step current">
+							<div class="name">Step 1</div>
+							<div class="info">Terms &amp; Conditions</div>
+						</div>
+						<div class="step">
+							<div class="name">Step 2</div>
+							<div class="info">Personal Information</div>
+						</div>
+						<div class="step">
+							<div class="name">Step 3</div>
+							<div class="info">Select Indicators</div>
+						</div>
+						<div class="step">
+							<div class="name">Step 4</div>
+							<div class="info">Open Leagues</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>Terms & Conditions</h1>
