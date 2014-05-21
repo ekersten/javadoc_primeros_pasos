@@ -1,7 +1,7 @@
 @color_nav_bg: #2c333b;
-@btn_azul: #6492c8;
-@btn_azul_sombra: #3c6799;
-@header_nav_btn_bg: @btn_azul_sombra;
+// @btn_azul: #6492c8;
+// @btn_azul_sombra: #3c6799;
+@header_nav_btn_bg: #3c6799;
 
 @light_gray: #dedee3;
 @medium_gray: #a6a8ab;
@@ -129,7 +129,7 @@ footer, .page-wrap:after {
 			margin-bottom: 0;
 			tr.info {
 				td {
-					background: lighten(@btn_azul, 35%);
+					background: lighten(@brand-primary, 35%);
 					color: @color_nav_bg;
 					font-weight: 600;
 				}
@@ -166,44 +166,87 @@ footer, .page-wrap:after {
 	display: block;
 }
 
-/* alta usuarios INICIO */
-.well.well-sm.terms {
-	overflow-y: auto;
-	max-height: 350px;
-	font-size: .8em;
-}
 
-form.user-registration-form {
+/* --- INICIO PAGINAS ---   */
+/*pagina ranking*/
+/*fin pagina ranking*/
 
-	label {
-		padding-left: 0;
-		padding-right: 0;
-		text-align: left;
+/* pagina listado de indicadores */
+.indicators-list {
+	
+	h3 {
+		margin-top: 0;
 	}
 
-	.day-select, .month-select, .year-select {
-		padding-left: 0;
-		padding-right: 0;
-		float: left;
+	hr {
+		margin-top: .5em;
+		margin-bottom: .5em;
 	}
 
-	.day-select {
-		width: 20%;
-	}
-
-	.month-select {
-		width: 50%;
-		margin-left: 2%;
-	}
-
-	.year-select {
-		width: 26%;
-		margin-left: 2%;
+	.list-group.indicators {
+		font-size: .8em;
 	}
 }
+/* fin pagina listado de indicadores */
 
-/* alta usuarios FIN */
+/* pagina registro de usuarios */
+.user-registration {
+	
+	.well.well-sm.terms {
+		overflow-y: auto;
+		max-height: 350px;
+		font-size: .8em;
+	}
 
+	form.user-registration-form {
+
+		label {
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.day-select, .month-select, .year-select {
+			padding-left: 0;
+			padding-right: 0;
+			float: left;
+		}
+
+		.day-select {
+			width: 20%;
+		}
+
+		.month-select {
+			width: 50%;
+			margin-left: 2%;
+		}
+
+		.year-select {
+			width: 26%;
+			margin-left: 2%;
+		}
+
+		.checkbox {
+			label {
+				font-size: .9em;
+			}
+		}
+	}
+
+	.btn-upload {
+		margin-top: 1.4em;
+	}
+
+	.social-icons {
+		.icon {
+			font-size: 1.5em;
+			position: relative;
+			bottom: .12em;
+		}
+	}
+}
+/* fin pagina registro de usuarios */
+
+/* --- FIN PAGINAS ---   */
 
 
  /* helpers */
@@ -229,27 +272,15 @@ form.user-registration-form {
 .btn {
 	font-weight: 600;
 	letter-spacing: -.05em;
-	color: white;
-}
-
-.btn-primary {
-	background-color: @btn_azul;
-	border-color: @btn_azul_sombra;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-	background-color: @btn_azul;
-	border-color: @btn_azul_sombra;
+	
+	&.btn-primary {
+		color: white;
+	}
 }
 
 .panel-primary {
 	&> .panel-heading {
-		background: @btn_azul;
-
+		
 		h3 {
 			font-family: 'Ropa Sans';
 			text-transform: uppercase;
@@ -257,12 +288,3 @@ form.user-registration-form {
 		}
 	}
 }
-
-/*pagina ranking*/
-
-.badge{
-	background: @btn_azul;
-}
-
-/*fin pagina ranking*/
-

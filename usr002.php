@@ -10,7 +10,7 @@
 <body>
 	<div class="page-wrap">
 		<?php include('includes/header.php'); ?>
-		<section class="container-fluid">
+		<section class="container-fluid user-registration">
 			TIRA de opciones
 			<div class="row">
 				<div class="col-xs-12">
@@ -43,14 +43,7 @@
 					<button type="submit" class="btn btn-primary">Next &gt;</button>
 				</div>
 			</div>
-				
-					
-						
-					
-					
-						
-					
-				
+
 		</section>
 	</div>
 	<?php include('includes/footer.php'); ?>
