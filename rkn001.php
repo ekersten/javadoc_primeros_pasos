@@ -18,11 +18,11 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-3">
-					<ul class="list-group">
-						<li class="list-group-item">US<span class="badge">14</span></li>
-						<li class="list-group-item">Eurozone<span class="badge">2</span></li>
-						<li class="list-group-item">Germany<span class="badge">1</span></li>
-					</ul>
+					<div class="list-group">
+						<a class="list-group-item active">US<span class="badge">14</span></a>
+						<a class="list-group-item">Eurozone<span class="badge">2</span></a>
+						<a class="list-group-item">Germany<span class="badge">1</span></a>
+					</div>
 				</div>
 				<div class="col-xs-3">
 					<div class="panel panel-primary no-padding">
@@ -39,7 +39,7 @@
 									</tr>
 								</thead>
 								<tbody>
-									<tr class="info">
+									<tr>
 										<td>YOU</td>
 										<td>170</td>
 										<td>17<sup>th</sup></td>
