@@ -35,7 +35,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>Terms & Conditions</h1>
+					<h1>Terms &amp; Conditions</h1>
 				</div>
 			</div>
 			<div class="row">
