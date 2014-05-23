@@ -38,31 +38,36 @@
 					<h1>Active &amp; Open Leagues</h1>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xs-6">
-					<div class="col-xs-3">
-						<img src="http://placehold.it/100x100" width="100"/>
+			<div class="row leagues">
+				<div class="col-xs-6 league">
+					<div class="row">
+						<div class="col-xs-10">
+							<img src="http://placehold.it/100x100" width="80"/>
+							<h5>Harvard - Us Macro Forescasting</h5>
+							<p>Sponsored by Harvard University - School of Economics<br/>
+							From 01/04/2014 to 31/10/2014<br/>
+							Prize: 50 credits</p>
+						</div>
+						<div class="col-xs-2">
+							<button type="submit" class="btn btn-default">Suscribe</button>
+						</div>
 					</div>
-					<div class="col-xs-6">
-						<h4>Harvard - Us Macro Forescasting</h4>
-						<span>Sponsored by Harvard University - School of Economics</span>
-						<span>From 01/04/2014 to 31/10/2014</span>
-						<span>Prize: 50 credits</span>
-					</div>
-					<div class="col-xs-3"><button type="submit" class="btn btn-success">Suscribe</button></div>
+					
 				</div>
-				<div class="col-xs-6">
-					<div class="col-xs-3">
-						<img src="http://placehold.it/100x100" width="100"/>
+				<div class="col-xs-6 league">
+					<div class="row">
+						<div class="col-xs-10">
+							<img src="http://placehold.it/100x100" width="80"/>
+							<h5>Harvard - Us Macro Forescasting</h5>
+							<p>Sponsored by Harvard University - School of Economics<br/>
+							From 01/04/2014 to 31/10/2014<br/>
+							Prize: 50 credits</p>
+						</div>
+						<div class="col-xs-2">
+							<button type="submit" class="btn btn-success">Suscribed</button>
+						</div>
 					</div>
-					<div class="col-xs-6">
-						<h4>Harvard - Us Macro Forescasting</h4>
-						<span>Sponsored by Harvard University - School of Economics</span>
-						<span>From 01/04/2014 to 31/10/2014</span>
-						<span>Prize: 50 credits</span>
-					</div>
-					<div class="col-xs-3"><button type="submit" class="btn btn-success">Suscribe</button>
-					</div>
+					
 				</div>
 			</div>
 			<hr>

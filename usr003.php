@@ -15,8 +15,8 @@
 				<div class="col-xs-10">
 					<h1>Edit Profile</h1>
 				</div>
-				<div class="col-xs-2 margin-top">
-					<button type="submit" class="btn btn-success">Save Change</button>
+				<div class="col-xs-2 margin-top text-right">
+					<button type="submit" class="btn btn-success btn-lg">Save Change</button>
 				</div>
 			</div>
 			<div class="row">

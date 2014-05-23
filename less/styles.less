@@ -425,6 +425,38 @@ footer, .page-wrap:after {
 			bottom: .12em;
 		}
 	}
+
+	.leagues {
+		.league {
+			img {
+				float: left;
+				margin-right: (@grid-gutter-width / 2);
+			}
+
+			h5 {
+				font-weight: bold;
+				margin-top: 0;
+			}
+
+			p {
+				font-size: .8em;
+				margin: .5em 0;
+			}
+
+			button {
+				position: relative;
+				top: 2em;
+
+				&.btn-success {
+					&:before {
+						content: "\e605";
+						font-family: 'icomoon';
+						margin-right: .4em;
+					}
+				}
+			}
+		}
+	}
 }
 
 /*Steps*/
@@ -732,7 +764,7 @@ footer, .page-wrap:after {
 
 .btn {
 	font-weight: 600;
-	letter-spacing: -.05em;
+	letter-spacing: -.02em;
 	
 	&.btn-primary {
 		color: white;
