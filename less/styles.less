@@ -172,8 +172,186 @@ footer, .page-wrap:after {
 
 
 /* --- INICIO PAGINAS ---   */
-/*pagina ranking*/
-/*fin pagina ranking*/
+/* pagina ranking */
+/* fin pagina ranking */
+
+/* pagina home */
+.home {
+	.leagues {
+		
+		text-align: center;
+
+		h3 {
+			color: @medium_gray;
+			display: inline-block;
+			margin: .8em 1em 0 0;
+			position: relative;
+			top: .2em;
+		}
+
+		ul {
+			display: inline-block;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+			li {
+				display: inline-block;
+				margin-left: 1em;
+				position: relative;
+
+				&:first-child {
+					margin-left: 0;
+				}
+
+				&.new:after {
+					background: @brand-primary;
+					border-radius: .5em;
+					color: white;
+					content: 'new';
+					font-size: .6em;
+					padding: .2em .4em;
+					position: absolute;
+					right: -1.5em;
+					text-transform: uppercase;
+					top: -0.5em;
+				}
+			}
+		}
+
+		a {
+			font-size: .8em;
+			margin-left: 1.3em;
+		}
+	}
+
+	.articles {
+		.article {
+			border-bottom: 1px solid @light_gray;
+			padding-bottom: 1em;
+			margin-top: 1em;
+			
+			&:first-child {
+				margin-top: 0;
+			}
+
+			&:last-child {
+				border-bottom: none;
+			}
+
+			.text {
+				h5 {
+					margin: 0 0 .5em 0;
+				}
+
+				p {
+					font-size: .8em;
+				}
+			}
+
+			.author {
+				font-size: .7em;
+				font-weight: bold;
+				position: relative;
+				top: .5em;
+				color: @medium_gray;
+			}
+
+			.read-more {
+				a:before {
+					content: "\e608";
+					font-family: 'icomoon';
+					margin-right: .5em;
+					position: relative;
+					top: .2em;
+				}
+			}
+		}
+
+		.view-all {
+			font-size: .8em;
+			.half-margin-top();
+		}
+	}
+
+	.ranking {
+		.category {
+
+			h6 {
+				padding-bottom: .6em;
+				border-bottom: 1px solid @light_gray;
+				margin-bottom: .9em;
+			}
+
+			ol {
+				counter-reset: li;
+				margin: 0;
+				padding: 0;
+
+				li {
+					position: relative;
+					list-style: none;
+					margin-top: 1em;
+
+					&:first-child {
+						margin-top: 0;
+					}
+
+					&:before {
+						content: counter(li);
+						counter-increment: li;
+						font-size: 1.6em;
+						font-weight: bold;
+						left: 0;
+						position: absolute;
+						top: .2em;
+					}
+
+					img {
+						margin-left: 1.5em;
+						margin-right: .5em;
+					}
+
+					.author {
+						font-size: .8em;
+					}
+				}
+			}
+		}
+
+		.view-all {
+			.half-margin-top();
+			a {
+				font-size: .8em;
+			}
+		}
+	}
+
+	.country-selector {
+		.margin-top();
+
+		h3 {
+			display: inline-block;
+			margin-right: 1em;
+		}
+
+		span {
+			display: inline-block;
+			width: 20%;
+		}
+	}
+
+	.indicators {
+		&.calendar {
+			.margin-bottom();
+			.column {
+				min-height: 0;
+				border-left: none;
+			}
+		}
+	}
+}
+/* fin pagina home */
 
 /* pagina listado de indicadores */
 .indicators-list {
@@ -250,7 +428,6 @@ footer, .page-wrap:after {
 }
 
 /*Steps*/
-
 .steps {
 
 	line-height: 1.5em;
@@ -351,25 +528,196 @@ footer, .page-wrap:after {
 		}
 	}
 }
-
 /*fin Steps*/
+
+/* calendario */
+.calendar {
+	.month {
+		font: 3em 'Ropa Sans', sans-serif;
+		text-align: center;
+		color: #2c333b;
+	}
+
+	.week-selector {
+		text-align: center;
+		
+		a {
+			text-decoration: none;
+			color: white;
+			font-size: .6em;
+			font-weight: bold;
+			text-transform: uppercase;
+			background: #6694cc;
+			padding: .5em .8em;
+			position: relative;
+			margin: 0 2em;
+			border-radius: .6em;
+			border-bottom: 3px solid #3c6799;
+		}
+	}
+	
+	.columns {
+		width: 100%;
+		background: pink;
+		margin: 1em auto;
+		box-sizing: border-box;
+		
+		&:after {
+			display: block;
+			float: none;
+			clear: both;
+		}
+
+		.column {
+			width: 20%;
+			display: inline-block;
+			border-left: 1px solid #a6a8ab;
+			padding: 0;
+			box-sizing: border-box;
+			float: left;
+			min-height: 35em;
+
+			&:first-child {
+				margin-left: 0;
+				border-left: none;
+			}
+			
+			&.today {
+				.dayname {
+					background: #2c333b;
+					color: white;
+				}
+			}
+
+			.dayname {
+				text-align: center;
+				font: 1.5625em 'Ropa Sans';
+				padding: .5em 0 .5em;
+				color: #2c333b;
+				
+				
+				sup {
+					font-size: .55em;
+				}
+			}
+
+			.indicators {
+				.item {
+					background: #dedee3;
+					border: 1px solid #a6a8ab;
+					border-bottom: 3px solid #a6a8ab;
+					border-radius: .3em;
+					margin: .8em .4em;
+					padding: .2em .6em;
+					
+					.name {
+						color: #2c333b;
+						font-size: .8em;
+						font-weight: bold;
+						border-bottom: 1px solid #2c333b;
+						margin-bottom: .6em;
+					}
+
+					
+					.info {
+						color: #2c333b;
+						overflow: hidden;
+						margin: .6em 0;
+						
+						.hour {
+							float: left;
+							font-weight: bold;
+							
+							&:before {
+								content: '\e60b';
+								margin-right: .3em;
+								font-family: 'icomoon';
+								font-size: .9em;
+								font-weight: normal;
+							}
+						}
+
+						.status {
+							float: right;
+							font-size: .7em;
+							font-weight: bold;
+							padding: .2em .4em;
+							border-radius: .4em;
+							
+							&.forecasted {
+								color: white;
+								background: #99b570;
+							}
+
+							&.missed {
+								color: white;
+								background: #ef5a39;
+							}
+
+							&.pending {
+								color: black;
+								background: #edca3b;
+							}
+						}
+
+					}
+
+					.values {
+						font-size: .7em;
+						margin: .5em 0 .6em;
+						
+						table {
+							width: 100%;
+							border-collapse: collapse;
+							border-radius: 15px;
+
+							tbody {
+								tr {
+									td {
+										background: white;
+										padding: .2em .4em;
+										border: 1px solid #a6a8ab;
+										text-align: center;
+									}
+								}
+							}
+							thead {
+								tr {
+									th {
+										background: #cdcdcd;
+										padding: .2em .4em;
+										border: 1px solid #a6a8ab;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+	}
+}
+/* fin calendario */
+
+
 /* fin pagina registro de usuarios */
 
 /* --- FIN PAGINAS ---   */
 
 
- /* helpers */
- .margin-top {
- 	margin-top: @grid-gutter-width;
- }
+/* helpers */
+.margin-top {
+	margin-top: @grid-gutter-width;
+}
 
- .margin-bottom {
- 	margin-bottom: @grid-gutter-width;
- }
+.half-margin-top {
+	margin-top: (@grid-gutter-width / 2);
+}
 
- .margin-right{
- 	margin-right: @grid-gutter-width;
- }
+.margin-bottom {
+	margin-bottom: @grid-gutter-width;
+}
 /* no crear margin left ni right. Usar solo para separar rows */
 
 
