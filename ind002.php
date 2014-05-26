@@ -90,11 +90,39 @@
 					<img src="http://placehold.it/550x300"/>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-xs-12">
+				<h4>Latest Articles</h4>
+			</div>
+			</div>
 			<div class="row articles">
+				<div class="col-xs-4">
+					<img src="http://placehold.it/50x50"/>
+					<h5>ISM surpised on the upside</h5>
+					<p>by Hernan Kisluk</p>
+				</div>
+				<div class="col-xs-2">
+					<span class="icon icon-table"> </span>
+					<h6>Jun-14 3:55</h6>
+				</div>
+				<div class="col-xs-2">
+					<span class="icon icon-eye"> </span>
+					<h6>52</h6>
+				</div>
+				<div class="col-xs-1">
+					<span class="icon icon-bubble"> </span>
+					<h6>5</h6>
+				</div>
+				<div class="col-xs-2">
+					<span class="icon icon-tag"> </span>
+					<h6>US Activity</h6>
+				</div>
 				
 			</div>
+			<hr>
 			<div class="row data">
-				
+				<h4>Data description</h4>
+				<p>An index based on surveys of more than 300 manufacturing firms by the Institute of Supply Management. The ISM Manufacturing Index monitors employment, production inventories, new orders and supplier deliveries. A composite diffusion index is created that monitors conditions in national manufacturing based on the data from these surveys.  </p>
 			</div>
 		</section>
 	</div>
