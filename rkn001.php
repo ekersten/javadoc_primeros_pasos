@@ -10,7 +10,7 @@
 <body>
 	<div class="page-wrap">
 		<?php include('includes/header.php'); ?>
-		<section class="container-fluid">
+		<section class="container-fluid ranking">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>Ranking</h1>

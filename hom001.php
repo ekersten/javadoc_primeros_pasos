@@ -344,9 +344,43 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xs-8 faq"></div>
-				<div class="col-xs-4 alerts"></div>
+			<div class="row margin-top">
+				<div class="col-xs-8 faq">
+					<div class="well well-sm">
+						<h4>Frequently Asked Questions</h4>
+						<ul>
+							<li><a href="#">Question 1</a></li>
+							<li><a href="#">Question 2</a></li>
+							<li><a href="#">Question 3</a></li>
+							<li><a href="#">Question 4</a></li>
+							<li><a href="#">Question 5</a></li>
+							<li><a href="#">Question 6</a></li>
+							<li><a href="#">Question 7</a></li>
+							<li><a href="#">Question 8</a></li>
+						</ul>
+					</div>
+					<p class="text-right"><a href="#" class="view-more">View all FAQs</a></p>
+				</div>
+				<div class="col-xs-4 alerts">
+					<div class="well well-sm">
+						<h4 class="text-center">Receive alerts in your inbox</h4>
+						<p>Choose indicators to receive alerts upon releases.<br/>Follow analysts and get their comments in your email.</p>
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<label for="inputEmail3" class="col-xs-2 control-label">Email</label>
+								<div class="col-xs-10">
+									<input type="email" class="form-control input-sm" id="inputEmail3" placeholder="Email address">
+								</div>
+							</div>
+							<p class="hint">You don't have to suscribe to Macro Campus to receive this alerts.</p>
+							<div class="form-group no-margin">
+								<div class="col-xs-12 text-center">
+									<input type="submit" class="btn btn-primary" value="Go"/>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
 			</div>
 		</section>
 	</div>

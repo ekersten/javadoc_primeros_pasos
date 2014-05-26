@@ -350,6 +350,35 @@ footer, .page-wrap:after {
 			}
 		}
 	}
+
+	.alerts {
+		font-size: .8em;
+
+		h4 {
+			margin-top: 0;
+		}
+
+		p.hint {
+			font-size: .8em;
+		}
+
+		.col-xs-12.text-center {
+			.btn {
+				padding-left: 3em;
+				padding-right: 3em;
+			}
+		}
+	}
+
+	.faq {
+		font-size: .8em;
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+	}
 }
 /* fin pagina home */
 
@@ -370,6 +399,131 @@ footer, .page-wrap:after {
 	}
 }
 /* fin pagina listado de indicadores */
+
+/* pagina detalle del indicador */
+.indicator-details {
+	.breadcrumb {
+		.about {
+			font-size: .5em;
+			position: relative;
+			bottom: .2em;
+			margin-left: 1em;
+		}
+	}
+
+	.info {
+		.margin-top();
+
+		.well {
+			&.well-sm {
+				min-height: 8.5em;
+
+				h5 {
+					margin-top: 0;
+					.text-center();
+				}
+
+				&.period {
+					.big {
+						font-size: 2em;
+					}
+
+					padding-bottom: 0;
+
+					.view-all {
+						margin-top: .3em;
+					}
+				}
+
+				&.release {
+					.big {
+						font-size: 1.3em;
+					}
+				}
+
+				&.current {
+					.big {
+						font-size: 2.5em;
+					}
+				}
+
+				&.ranking {
+					font-size: 1em;
+
+					ul {
+						list-style: none;
+						margin: 0;
+						padding: 0;
+
+						li {
+							font-size: .8em;
+							margin-top: .2em;
+
+							&:first-child {
+								margin-top: 0;
+							}
+
+							sup {
+								margin-right: 1em;
+								display: inline-block;
+								width: 1.2em;
+							}
+						}
+					}
+
+					.view-all {
+						margin-top: .7em;
+					}
+				}
+
+				.big {
+					.text-center();
+					line-height: 1em;
+				}
+
+				.view-all {
+					font-size: .8em;
+					.text-center();
+				}
+			}
+		}
+
+		.mean {
+			h5 {
+				margin-bottom: 2em;
+			}
+			.big {
+				font-size: 3em;
+			}
+		}
+
+		.yours {
+			h5 {
+				margin-bottom: 2em;
+			}
+
+			.btn {
+				margin: 0 1em;
+
+				&:first-child {
+					margin-left: 0;
+				}
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+
+	.graphics {
+		.margin-top();
+		.col-xs-6 {
+			.text-center();
+		}
+	}
+}
+/* fin pagina detalle del indicador */
 
 /* pagina registro de usuarios */
 .user-registration {
@@ -750,6 +904,10 @@ footer, .page-wrap:after {
 .margin-bottom {
 	margin-bottom: @grid-gutter-width;
 }
+
+.no-margin {
+	margin: 0;
+}
 /* no crear margin left ni right. Usar solo para separar rows */
 
 
@@ -779,5 +937,18 @@ footer, .page-wrap:after {
 			text-transform: uppercase;
 			font-size: 1.4em;
 		}
+	}
+}
+
+.breadcrumb {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+	font-size: 1.2em;
+
+	ol {
+		margin: 0;
+		padding: 0;
 	}
 }

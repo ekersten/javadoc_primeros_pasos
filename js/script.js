@@ -5,7 +5,7 @@ $(function() {
 	});
 
 	/* fix temporal para subpixel render de webkit */
-	$.each($('.panel-body'), function(i, item) {
+	$.each($('.ranking .panel-body'), function(i, item) {
 		var $item = $(item);
 		$item.width($item.width());
 	});
