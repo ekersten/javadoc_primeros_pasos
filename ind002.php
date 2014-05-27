@@ -25,26 +25,26 @@
 			<div class="row info">
 				<div class="col-xs-6">
 					<div class="row">
-						<div class="col-xs-3">
+						<div class="col-xs-3 pl5 pr5">
 							<div class="well well-sm period">
 								<h5>Period</h5>
 								<div class="big">JAN<br/>2014</div>
 								<div class="view-all"><a href="#">View all</a></div>
 							</div>
 						</div>
-						<div class="col-xs-3">
+						<div class="col-xs-3 pl5 pr5">
 							<div class="well well-sm release">
 								<h5>Release Date</h5>
 								<div class="big">16/01/14<br/>08:30</div>
 							</div>
 						</div>
-						<div class="col-xs-3">
+						<div class="col-xs-3 pl5 pr5">
 							<div class="well well-sm current">
 								<h5>Current Value</h5>
 								<div class="big">52.1</div>
 							</div>
 						</div>
-						<div class="col-xs-3">
+						<div class="col-xs-3 pl5 pr5">
 							<div class="well well-sm ranking">
 								<h5>Ranking</h5>
 								<ul>
@@ -57,7 +57,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6">
+				<div class="col-xs-6 pl5">
 					<div class="well well-sm">
 						<div class="row">
 							<div class="col-xs-5 text-center mean">
@@ -90,39 +90,95 @@
 					<img src="http://placehold.it/550x300"/>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xs-12">
-				<h4>Latest Articles</h4>
-			</div>
+			<div class="row margin-top half-margin-bottom">
+				<div class="col-xs-6">
+					<h4>Latest Articles</h4>
+				</div>
+				<div class="col-xs-6 text-right">
+					<a href="#" class="btn btn-success btn-lg">Write one</a>
+				</div>
 			</div>
 			<div class="row articles">
-				<div class="col-xs-4">
-					<img src="http://placehold.it/50x50"/>
-					<h5>ISM surpised on the upside</h5>
-					<p>by Hernan Kisluk</p>
+				<div class="col-xs-12">
+					<!-- article start -->
+					<div class="row article">
+						<div class="col-xs-1">
+							<img src="http://placehold.it/68x68"/>
+						</div>
+						<div class="col-xs-5">
+							<h5>ISM surpised on the upside</h5>
+							<p>by Hernan Kisluk</p>
+						</div>
+						<div class="col-xs-2 text-center">
+							<span class="icon icon-table"></span> Jun-14 3:55
+						</div>
+						<div class="col-xs-1 text-right">
+							<span class="icon icon-eye"> </span> 52
+						</div>
+						<div class="col-xs-1 text-right">
+							<span class="icon icon-bubble"></span> 5
+						</div>
+						<div class="col-xs-2 text-right">
+							<span class="icon icon-tag"></span> US Activity
+						</div>
+					</div>
+					<!-- article end -->
+					<!-- article start -->
+					<div class="row article">
+						<div class="col-xs-1">
+							<img src="http://placehold.it/68x68"/>
+						</div>
+						<div class="col-xs-5">
+							<h5>ISM surpised on the upside</h5>
+							<p>by Hernan Kisluk</p>
+						</div>
+						<div class="col-xs-2 text-center">
+							<span class="icon icon-table"></span> Jun-14 3:55
+						</div>
+						<div class="col-xs-1 text-right">
+							<span class="icon icon-eye"> </span> 52
+						</div>
+						<div class="col-xs-1 text-right">
+							<span class="icon icon-bubble"></span> 5
+						</div>
+						<div class="col-xs-2 text-right">
+							<span class="icon icon-tag"></span> US Activity
+						</div>
+					</div>
+					<!-- article end -->
+					<!-- article start -->
+					<div class="row article">
+						<div class="col-xs-1">
+							<img src="http://placehold.it/68x68"/>
+						</div>
+						<div class="col-xs-5">
+							<h5>ISM surpised on the upside</h5>
+							<p>by Hernan Kisluk</p>
+						</div>
+						<div class="col-xs-2 text-center">
+							<span class="icon icon-table"></span> Jun-14 3:55
+						</div>
+						<div class="col-xs-1 text-right">
+							<span class="icon icon-eye"> </span> 52
+						</div>
+						<div class="col-xs-1 text-right">
+							<span class="icon icon-bubble"></span> 5
+						</div>
+						<div class="col-xs-2 text-right">
+							<span class="icon icon-tag"></span> US Activity
+						</div>
+					</div>
+					<!-- article end -->
 				</div>
-				<div class="col-xs-2">
-					<span class="icon icon-table"> </span>
-					<h6>Jun-14 3:55</h6>
-				</div>
-				<div class="col-xs-2">
-					<span class="icon icon-eye"> </span>
-					<h6>52</h6>
-				</div>
-				<div class="col-xs-1">
-					<span class="icon icon-bubble"> </span>
-					<h6>5</h6>
-				</div>
-				<div class="col-xs-2">
-					<span class="icon icon-tag"> </span>
-					<h6>US Activity</h6>
-				</div>
-				
 			</div>
-			<hr>
-			<div class="row data">
-				<h4>Data description</h4>
-				<p>An index based on surveys of more than 300 manufacturing firms by the Institute of Supply Management. The ISM Manufacturing Index monitors employment, production inventories, new orders and supplier deliveries. A composite diffusion index is created that monitors conditions in national manufacturing based on the data from these surveys.  </p>
+			<div class="row">
+				<div class="col-xs-12 view-all"><a href="#">Load More...</a></div>
+			</div>
+			<div class="row data margin-top">
+				<div class="col-xs-12">
+					<h4>Data description</h4>
+					<p>An index based on surveys of more than 300 manufacturing firms by the Institute of Supply Management. The ISM Manufacturing Index monitors employment, production inventories, new orders and supplier deliveries. A composite diffusion index is created that monitors conditions in national manufacturing based on the data from these surveys.  </p>
+				</div>
 			</div>
 		</section>
 	</div>

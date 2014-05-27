@@ -575,12 +575,16 @@ footer, .page-wrap:after {
 				&.release {
 					.big {
 						font-size: 1.3em;
+						position: relative;
+						top: 1em;
 					}
 				}
 
 				&.current {
 					.big {
 						font-size: 2.5em;
+						position: relative;
+						top: .5em;
 					}
 				}
 
@@ -660,9 +664,48 @@ footer, .page-wrap:after {
 		}
 	}
 
-	// .articles{
-		
-	// }
+	.articles{
+		.article {
+
+			border-top: 1px solid @medium_gray;
+			padding-top: 1em;
+			margin-bottom: 1em;
+
+			h5 {
+				margin-top: 0;
+				margin-bottom: .5em;
+			}
+
+			p {
+				font-size: .8em;
+			}
+
+			&:first-child {
+				border-top: none;
+			}
+
+			.col-xs-5 {
+				position: relative;
+				top: .7em;
+			}
+
+			.col-xs-2, .col-xs-1 {
+				line-height: 68px;
+				height: 68px;
+			}
+		}
+	}
+
+	.view-all {
+		.text-right();
+		font-size: .8em;
+	}
+
+	.data {
+		p {
+			font-size: .8em;
+		}
+	}
 }
 /* fin pagina detalle del indicador */
 
@@ -1046,8 +1089,20 @@ footer, .page-wrap:after {
 	margin-bottom: @grid-gutter-width;
 }
 
+.half-margin-bottom {
+	margin-bottom: (@grid-gutter-width / 2);
+}
+
 .no-margin {
 	margin: 0;
+}
+
+.pl5 {
+	padding-left: 5px;
+}
+
+.pr5 {
+	padding-right: 5px;
 }
 /* no crear margin left ni right. Usar solo para separar rows */
 

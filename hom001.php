@@ -19,7 +19,7 @@
 							<div id="slider_next"><span class="glyphicon glyphicon-chevron-right"></span></div>
 						</div>
 						<div class="slides cycle-slideshow composite-example" data-cycle-fx="scrollHorz" data-cycle-slides="> div"data-cycle-timeout="4000" data-cycle-prev="#slider_prev" data-cycle-next="#slider_next" data-cycle-pager=".pager">
-							<div class="slide left dark" data-cycle-pager-template="<a href=#>Slide 1</a>">
+							<div class="slide left dark" data-cycle-pager-template="<a href=#>Welcome</a>">
 								<div class="text">
 									<h3>Sample title 1</h3>
 									<p>Sample text</p>
@@ -29,7 +29,7 @@
 								</div>
 								<img src="http://placehold.it/1140x400"/>
 							</div>
-							<div class="slide right dark" data-cycle-pager-template="<a href=#>Slide 2</a>">
+							<div class="slide right dark" data-cycle-pager-template="<a href=#>Forecasting</a>">
 								<div class="text">
 									<h3>Sample title 2</h3>
 									<p>Sample text</p>
@@ -39,7 +39,7 @@
 								</div>
 								<img src="http://placehold.it/1140x400"/>
 							</div>
-							<div class="slide left light" data-cycle-pager-template="<a href=#>Slide 3</a>">
+							<div class="slide left light" data-cycle-pager-template="<a href=#>League</a>">
 								<div class="text">
 									<h3>Sample title 3</h3>
 									<p>Sample text</p>
@@ -49,7 +49,7 @@
 								</div>
 								<img src="http://placehold.it/1140x400"/>
 							</div>
-							<div class="slide right light" data-cycle-pager-template="<a href=#>Slide 4</a>">
+							<div class="slide right light" data-cycle-pager-template="<a href=#>Looking</a>">
 								<div class="text">
 									<h3>Sample title 4</h3>
 									<p>Sample text</p>
