@@ -21,27 +21,29 @@
 						<div class="slides cycle-slideshow composite-example" data-cycle-fx="scrollHorz" data-cycle-slides="> div"data-cycle-timeout="4000" data-cycle-prev="#slider_prev" data-cycle-next="#slider_next" data-cycle-pager=".pager">
 							<div class="slide left dark" data-cycle-pager-template="<a href=#>Welcome</a>">
 								<div class="text">
-									<h3>Sample title 1</h3>
-									<p>Sample text</p>
+									<h3>Rely on us for Macroeconomic Forecasts</h3>
+									<p>Collective Intelligence is a proven way to produce accurate forecasts.</br>
+										Follow more than 1000 analysts providing reliable estimates and insights about major economies</p>
 								</div>
 								<div class="media">
-									<img src="http://placehold.it/480x320/6492C8/ffffff&text=Video" />
+									<img src="http://placehold.it/480x320/dddddd/ffffff&text=Video" />
 								</div>
-								<img src="http://placehold.it/1140x400"/>
+								<!-- <img src="http://placehold.it/1140x400"/> -->
 							</div>
-							<div class="slide right dark" data-cycle-pager-template="<a href=#>Forecasting</a>">
+							<div class="slide left dark" data-cycle-pager-template="<a href=#>Forecasting</a>">
 								<div class="text">
-									<h3>Sample title 2</h3>
-									<p>Sample text</p>
+									<h3>Be part of it</h3>
+									<p>Start forecasting today. Show your skills and share your ideas</br>
+									Major market participants come to Macro Campus searching for talented people! </p>
 								</div>
-								<div class="media">
+								<!-- <div class="media">
 									<img src="http://placehold.it/480x320/6492C8/ffffff&text=Video" />
-								</div>
-								<img src="http://placehold.it/1140x400"/>
+								</div> -->
+								<img src="img/hom01.jpg"/>
 							</div>
-							<div class="slide left light" data-cycle-pager-template="<a href=#>League</a>">
+							<div class="slide right dark" data-cycle-pager-template="<a href=#>League</a>">
 								<div class="text">
-									<h3>Sample title 3</h3>
+									<h3>Are you an educator? Join us!</h3>
 									<p>Sample text</p>
 								</div>
 								<div class="media">
@@ -52,6 +54,16 @@
 							<div class="slide right light" data-cycle-pager-template="<a href=#>Looking</a>">
 								<div class="text">
 									<h3>Sample title 4</h3>
+									<p>Sample text</p>
+								</div>
+								<div class="media">
+									<img src="http://placehold.it/480x320/6492C8/ffffff&text=Video" />
+								</div>
+								<img src="http://placehold.it/1140x400"/>
+							</div>
+							<div class="slide left light" data-cycle-pager-template="<a href=#>opportunities</a>">
+								<div class="text">
+									<h3>Are you an educator? Join us!5</h3>
 									<p>Sample text</p>
 								</div>
 								<div class="media">
@@ -131,7 +143,7 @@
 							<div class="indicators">
 								<!-- item start -->
 								<div class="item">
-									<div class="name">IMS Manufacturing</div>
+									<div class="name">Industrial Production</div>
 									<div class="info">
 										<span class="hour">8:30</span>
 									</div>
@@ -165,7 +177,7 @@
 							<div class="indicators">
 								<!-- item start -->
 								<div class="item">
-									<div class="name">IMS Manufacturing</div>
+									<div class="name">Durable Goods</div>
 									<div class="info">
 										<span class="hour">8:30</span>
 									</div>
@@ -199,7 +211,7 @@
 							<div class="indicators">
 								<!-- item start -->
 								<div class="item">
-									<div class="name">IMS Manufacturing</div>
+									<div class="name">Factory Orders</div>
 									<div class="info">
 										<span class="hour">8:30</span>
 									</div>
@@ -233,7 +245,7 @@
 							<div class="indicators">
 								<!-- item start -->
 								<div class="item">
-									<div class="name">IMS Manufacturing</div>
+									<div class="name">Non Farm Payrolls</div>
 									<div class="info">
 										<span class="hour">8:30</span>
 									</div>
@@ -287,7 +299,7 @@
 					<div class="row article">
 						<div class="col-xs-1 author-image"><img src="http://placehold.it/30" alt=""></div>
 						<div class="col-xs-11 text">
-							<h5>ISM Surprised on the upside</h5>
+							<h5>GDP points to recovery</h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis metus porttitor, aliquam mi in, laoreet leo. Nam eleifend turpis tortor, eget facilisis nisl porta non. Phasellus rhoncus lorem nisi...</p>
 							<div class="row">
 								<div class="col-xs-6 author">by Hernan Kisluk</div>
@@ -302,7 +314,7 @@
 					<div class="row article">
 						<div class="col-xs-1 author-image"><img src="http://placehold.it/30" alt=""></div>
 						<div class="col-xs-11 text">
-							<h5>ISM Surprised on the upside</h5>
+							<h5>US economy gaining escape velocity</h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis metus porttitor, aliquam mi in, laoreet leo. Nam eleifend turpis tortor, eget facilisis nisl porta non. Phasellus rhoncus lorem nisi...</p>
 							<div class="row">
 								<div class="col-xs-6 author">by Hernan Kisluk</div>
@@ -326,50 +338,50 @@
 							<h6>Activity</h6>
 							<ol>
 								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="http://placehold.it/45" alt=""><span class="author">Sara</span></li>
+								<li><img src="http://placehold.it/45" alt=""><span class="author">John</span></li>
+							</ol>
+						</div>
+						<div class="col-xs-4 category">
+							<h6>Labour</h6>
+							<ol>
+								<li><img src="http://placehold.it/45" alt=""><span class="author">Steven</span></li>
 								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="http://placehold.it/45" alt=""><span class="author">Sara</span></li>
 							</ol>
 						</div>
 						<div class="col-xs-4 category">
 							<h6>Activity</h6>
 							<ol>
+								<li><img src="http://placehold.it/45" alt=""><span class="author">Eric</span></li>
 								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-							</ol>
-						</div>
-						<div class="col-xs-4 category">
-							<h6>Activity</h6>
-							<ol>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="http://placehold.it/45" alt=""><span class="author">Steven</span></li>
 							</ol>
 						</div>
 					</div>
 					<div class="row half-margin-top">
 						<div class="col-xs-4 category">
-							<h6>Activity</h6>
+							<h6>Consumer</h6>
 							<ol>
+								<li><img src="http://placehold.it/45" alt=""><span class="author">Sara</span></li>
 								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="http://placehold.it/45" alt=""><span class="author">John</span></li>
 							</ol>
 						</div>
 						<div class="col-xs-4 category">
 							<h6>Activity</h6>
 							<ol>
+								<li><img src="http://placehold.it/45" alt=""><span class="author">Eric</span></li>
 								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="http://placehold.it/45" alt=""><span class="author">John</span></li>
 							</ol>
 						</div>
 						<div class="col-xs-4 category">
 							<h6>Activity</h6>
 							<ol>
+								<li><img src="http://placehold.it/45" alt=""><span class="author">John</span></li>
 								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="http://placehold.it/45" alt=""><span class="author">Steven</span></li>
 							</ol>
 						</div>
 					</div>
@@ -386,13 +398,13 @@
 					<div class="well well-sm">
 						<h4>Frequently Asked Questions</h4>
 						<ul>
-							<li><a href="#">Question 1</a></li>
-							<li><a href="#">Question 2</a></li>
-							<li><a href="#">Question 3</a></li>
-							<li><a href="#">Question 4</a></li>
-							<li><a href="#">Question 5</a></li>
-							<li><a href="#">Question 6</a></li>
-							<li><a href="#">Question 7</a></li>
+							<li><a href="#">Who can make forecasts?</a></li>
+							<li><a href="#">Is it free?</a></li>
+							<li><a href="#">Can I remain anonymus?</a></li>
+							<li><a href="#">How is the scoring methodology?</a></li>
+							<li><a href="#">How is the ranking calculated?</a></li>
+							<li><a href="#">What are the Leagues?</a></li>
+							<li><a href="#">Who can create a League?</a></li>
 							<li><a href="#">Question 8</a></li>
 						</ul>
 					</div>

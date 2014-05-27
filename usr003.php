@@ -12,10 +12,10 @@
 		<?php include('includes/header.php'); ?>
 		<section class="container-fluid user-registration">
 			<div class="row">
-				<div class="col-xs-10">
+				<div class="col-xs-6">
 					<h1>Edit Profile</h1>
 				</div>
-				<div class="col-xs-2 margin-top text-right">
+				<div class="col-xs-6 margin-top text-right">
 					<button type="submit" class="btn btn-success btn-lg">Save Change</button>
 				</div>
 			</div>
