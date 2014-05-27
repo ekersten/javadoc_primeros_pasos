@@ -144,53 +144,42 @@
 			<!-- fila2 -->
 			<div class="row margin-top">
 				<div class="col-xs-12">
-				<div class="panel panel-primary no-padding">
-					<div class=" panel-body">
-							<table class="table table-striped table-bordered ranking">
-								<thead>
-									<tr>
-										<th>Nickname</th>
-										<th>Full Name</th>
-										<th>Country</th>
-										<th>Status</th>
-										<th>Frecasts</th>
-										<th>Articles</th>
-										<th>Leagues</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Hkisluk</td>
-										<td>Hernán Kisluk</td>
-										<td>Argentina</td>
-										<td>Portfolio Manager Techint</td>
-										<td>32</td>
-										<td>15</td>
-										<td>
-											<img src="http://placehold.it/20x20" width="25"alt="">
-											<img src="http://placehold.it/20x20" width="25"alt="">
-										</td>
-										
-									</tr>
-									<tr>
-										<td>fursino</td>
-										<td>Flavia Ursino</td>
-										<td>Italia</td>
-										<td>Economy Analyst at BuonGiorno</td>
-										<td>15</td>
-										<td>2</td>
-										<td><img src="http://placehold.it/25x25" width="25"alt="">
-										<img src="http://placehold.it/20x20" width="25"alt="">	
-
-										</td>
-									</tr>
-								
-																		
-									
-								</tbody>
-							</table>
-						</div>
-				</div>
+					<table class="table table-striped table-bordered ranking">
+						<thead>
+							<tr>
+								<th>Nickname</th>
+								<th>Full Name</th>
+								<th>Country</th>
+								<th>Status</th>
+								<th>Frecasts</th>
+								<th>Articles</th>
+								<th>Leagues</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Hkisluk</td>
+								<td>Hernán Kisluk</td>
+								<td>Argentina</td>
+								<td>Portfolio Manager Techint</td>
+								<td>32</td>
+								<td>15</td>
+								<td>
+									<img src="http://placehold.it/20x20" width="25"alt="">
+									<img src="http://placehold.it/20x20" width="25"alt="">
+								</td>
+							</tr>
+							<tr>
+								<td>fursino</td>
+								<td>Flavia Ursino</td>
+								<td>Italia</td>
+								<td>Economy Analyst at BuonGiorno</td>
+								<td>15</td>
+								<td>2</td>
+								<td><img src="http://placehold.it/25x25" width="25"alt=""> <img src="http://placehold.it/20x20" width="25"alt=""></td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 			<!-- fin fila2 -->

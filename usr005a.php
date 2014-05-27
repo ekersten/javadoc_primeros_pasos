@@ -19,122 +19,124 @@
 			<!-- fila2 -->
 			<div class="row margin-top">
 				<div class="col-xs-12">
-				<div class="panel panel-primary no-padding">
-					<div class=" panel-body">
-							<table class="table table-striped table-bordered ranking">
-								<thead>
-									<tr>
-										<th>General</th>
-										<th>#Estimates</th>
-										<th>Score</th>
-										<th>Ranking</th>
-										<th>Evolution</th>
-										<th>Forecasts</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>US</td>
-										<td>18</td>
-										<td>255</td>
-										<td>5<sup>th</sup></td>
-										<td>
-											<a href="#" class="icon icon-stats"></a>
-										</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td>Economic Activity</td>
-										<td>4</td>
-										<td>94</td>
-										<td>4<sup>th</sup></td>
-										<td>
-											<a href="#" class="icon icon-stats"></a>
-										</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td>ISM</td>
-										<td>4</td>
-										<td>94</td>
-										<td>4<sup>th</sup></td>
-										<td>
-											<a href="#" class="icon icon-stats"></a>
-										</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td>Economic Activity</td>
-										<td>4</td>
-										<td>94</td>
-										<td>4<sup>th</sup></td>
-										<td>
-											<a href="#" class="icon icon-stats"></a>
-										</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td>ISM</td>
-										<td>4</td>
-										<td>94</td>
-										<td>4<sup>th</sup></td>
-										<td>
-											<a href="#" class="icon icon-stats"></a>
-										</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td>ISM</td>
-										<td>4</td>
-										<td>94</td>
-										<td>4<sup>th</sup></td>
-										<td>
-											<a href="#" class="icon icon-stats"></a>
-										</td>
-										<td></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-				</div>
+					<table class="table table-striped table-bordered ranking">
+						<thead>
+							<tr>
+								<th>General</th>
+								<th class="text-center">#Estimates</th>
+								<th class="text-center">Score</th>
+								<th class="text-center">Ranking</th>
+								<th class="text-center">Evolution</th>
+								<th class="text-center">Forecasts</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="first-level"><span class="icon-caret-down"></span> US</td>
+								<td class="text-center">18</td>
+								<td class="text-center">255</td>
+								<td class="text-center">5<sup>th</sup></td>
+								<td class="text-center">
+									<a href="#" class="icon icon-stats"></a>
+								</td>
+								<td class="text-center"></td>
+							</tr>
+							<tr>
+								<td class="second-level"><span class="icon-caret-down"></span> Economic Activity</td>
+								<td class="text-center">4</td>
+								<td class="text-center">94</td>
+								<td class="text-center">4<sup>th</sup></td>
+								<td class="text-center">
+									<a href="#" class="icon icon-stats"></a>
+								</td>
+								<td class="text-center"></td>
+							</tr>
+							<tr>
+								<td class="third-level"><span>ISM</span></td>
+								<td class="text-center">4</td>
+								<td class="text-center">94</td>
+								<td class="text-center">4<sup>th</sup></td>
+								<td class="text-center">
+									<a href="#" class="icon icon-stats"></a>
+								</td>
+								<td class="text-center"></td>
+							</tr>
+							<tr>
+								<td class="second-level"><span class="icon-caret-right"></span> Construction</td>
+								<td class="text-center">4</td>
+								<td class="text-center">94</td>
+								<td class="text-center">4<sup>th</sup></td>
+								<td class="text-center">
+									<a href="#" class="icon icon-stats"></a>
+								</td>
+								<td class="text-center"></td>
+							</tr>
+							<tr>
+								<td class="first-level"><span class="icon-caret-right"></span> England</td>
+								<td class="text-center">4</td>
+								<td class="text-center">94</td>
+								<td class="text-center">4<sup>th</sup></td>
+								<td class="text-center">
+									<a href="#" class="icon icon-stats"></a>
+								</td>
+								<td class="text-center"></td>
+							</tr>
+							<tr>
+								<td class="first-level"><span class="icon-caret-right"></span> Italy</td>
+								<td class="text-center">4</td>
+								<td class="text-center">94</td>
+								<td class="text-center">4<sup>th</sup></td>
+								<td class="text-center">
+									<a href="#" class="icon icon-stats"></a>
+								</td>
+								<td class="text-center"></td>
+							</tr>
+							<tr>
+								<td class="first-level"><span class="icon-caret-right"></span> Germany</td>
+								<td class="text-center">4</td>
+								<td class="text-center">94</td>
+								<td class="text-center">4<sup>th</sup></td>
+								<td class="text-center">
+									<a href="#" class="icon icon-stats"></a>
+								</td>
+								<td class="text-center"></td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 			<!-- fin fila2 -->
 			<!-- fila3 -->
 			<div class="row margin-top">
 				<div class="col-xs-12">
-				<div class="panel panel-primary no-padding">
-					<div class=" panel-body">
-							<table class="table table-striped table-bordered ranking">
-								<thead>
-									<tr>
-										<th>League</th>
-										<th>#Estimates</th>
-										<th>Score</th>
-										<th>Evolution</th>
-										<th>Forecasts</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td><img src="http://placehold.it/20x20" width="25"alt=""> Harvard - US Macro Forecasting</td>
-										<td>18</td>
-										<td>198</td>
-										<td><a href="#" class="icon icon-stats"></a></td>
-										<td></td>
-									</tr>
-									<tr>
-										<td><img src="http://placehold.it/20x20" width="25"alt=""> Gold Sachas - Talent Scouting</td>
-										<td>18</td>
-										<td>198</td>
-										<td><a href="#" class="icon icon-stats"></a></td>
-										<td></td>
-									</tr>
+					<table class="table table-striped table-bordered ranking">
+						<thead>
+							<tr>
+								<th>League</th>
+								<th class="text-center">#Estimates</th>
+								<th class="text-center">Score</th>
+								<th class="text-center">Evolution</th>
+								<th class="text-center">Forecasts</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><img src="http://placehold.it/20x20" width="25"alt=""> Harvard - US Macro Forecasting</td>
+								<td class="text-center">18</td>
+								<td class="text-center">198</td>
+								<td class="text-center"><a href="#" class="icon icon-stats"></a></td>
+								<td class="text-center"></td>
+							</tr>
+							<tr>
+								<td><img src="http://placehold.it/20x20" width="25"alt=""> Gold Sachas - Talent Scouting</td>
+								<td class="text-center">18</td>
+								<td class="text-center">198</td>
+								<td class="text-center"><a href="#" class="icon icon-stats"></a></td>
+								<td class="text-center"></td>
+							</tr>
 
-								</tbody>
-							</table>
-						</div>
-				</div>
+						</tbody>
+					</table>
 				</div>
 			</div>
 			<!-- fin fila3 -->

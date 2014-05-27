@@ -1,0 +1,212 @@
+/* pagina registro de usuarios */
+section.user-registration {
+	
+	.well.well-sm.terms {
+		overflow-y: auto;
+		max-height: 350px;
+		font-size: .8em;
+	}
+
+	form.user-registration-form {
+
+		label {
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.day-select, .month-select, .year-select {
+			padding-left: 0;
+			padding-right: 0;
+			float: left;
+		}
+
+		.day-select {
+			width: 20%;
+		}
+
+		.month-select {
+			width: 50%;
+			margin-left: 2%;
+		}
+
+		.year-select {
+			width: 26%;
+			margin-left: 2%;
+		}
+
+		.checkbox {
+			label {
+				font-size: .9em;
+			}
+		}
+	}
+
+	.btn-upload {
+		margin-top: 1.4em;
+	}
+
+	.social-icons {
+		.icon {
+			font-size: 1.5em;
+			position: relative;
+			bottom: .12em;
+		}
+	}
+
+	.leagues {
+		.league {
+			img {
+				float: left;
+				margin-right: (@grid-gutter-width / 2);
+			}
+
+			h5 {
+				font-weight: bold;
+				margin-top: 0;
+			}
+
+			p {
+				font-size: .8em;
+				margin: .5em 0;
+			}
+
+			button {
+				position: relative;
+				top: 2em;
+
+				&.btn-success {
+					&:before {
+						content: "\e605";
+						font-family: 'icomoon';
+						margin-right: .4em;
+					}
+				}
+			}
+		}
+	}
+
+	.table.ranking {
+		a.icon {
+			font-size: 1.5em;
+			color: @text-color;
+		}
+
+		.first-level {}
+		.second-level {
+			span {
+				margin-left: 1.5em;
+				margin-right: .4em;
+			}
+		}
+		.third-level {
+			span {
+				margin-left: 3.5em;
+				margin-right: .4em;
+			}
+		}
+	}
+
+
+	/*Steps*/
+	.steps {
+
+		line-height: 1.5em;
+
+		.step {
+			display: inline-block;
+			background: @stepBaseColor;
+			padding: 1em .5em 1em .5em;
+			position: relative;
+			margin-left: 2em;
+			min-width: 12em;
+			
+			.name {
+				font-size: 1.8em;
+				font-family: 'Ropa Sans';
+				text-transform: uppercase;
+			}
+
+			.name, .info {
+				opacity: 0.5;
+			}
+
+			&:first-child {
+				padding-left: 1.5em;
+				margin-left: 0;
+
+				&:before {
+					display: none;
+				}
+			}
+			
+			&:before {
+				content: '';
+				display: block;
+				width: 0;
+				height: 0;
+				border-top: 2.5em solid @stepBaseColor;
+				border-left: 1em solid transparent;
+				border-right: 1em solid @stepBaseColor;
+				border-bottom: 2.5em solid @stepBaseColor;
+				position: absolute;
+				top: 0;
+				left: -2em;
+			}
+		 
+			&:after {
+				content: '';
+				display: block;
+				width: 0;
+				height: 0;
+				border-top: 2.5em solid transparent;
+				border-left: 1em solid @stepBaseColor;
+				border-right: 1em solid transparent;
+				border-bottom: 2.5em solid transparent;
+				position: absolute;
+				top: 0;
+				right: -2em;
+			}
+
+			&.past {
+				background: @stepPastColor;
+				color: white;
+				
+				&:before {
+					border-top-color: @stepPastColor;
+					border-left-color: transparent;
+					border-right-color: @stepPastColor;
+					border-bottom-color: @stepPastColor;
+				}
+				&:after {
+					border-top-color: transparent;
+					border-left-color: @stepPastColor;
+					border-right-color: transparent;
+					border-bottom-color: transparent;
+				}
+			}
+
+			&.current {
+				background: @stepCurrentColor;
+				color: white;
+
+				.name, .info {
+					opacity: 1;
+				}
+
+				&:before {
+					border-top-color: @stepCurrentColor;
+					border-left-color: transparent;
+					border-right-color: @stepCurrentColor;
+					border-bottom-color: @stepCurrentColor;
+				}
+				&:after {
+					border-top-color: transparent;
+					border-left-color: @stepCurrentColor;
+					border-right-color: transparent;
+					border-bottom-color: transparent;
+				}
+			}
+		}
+	}
+	/*fin Steps*/
+}

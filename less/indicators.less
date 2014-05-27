@@ -1,0 +1,187 @@
+section.indicators-list {
+	
+	h3 {
+		margin-top: 0;
+	}
+
+	hr {
+		margin-top: .5em;
+		margin-bottom: .5em;
+	}
+
+	.list-group.indicators {
+		font-size: .8em;
+	}
+}
+/* fin pagina listado de indicadores */
+
+/* pagina detalle del indicador */
+section.indicator-details {
+	.breadcrumb {
+		.about {
+			font-size: .5em;
+			position: relative;
+			bottom: .2em;
+			margin-left: 1em;
+		}
+	}
+
+	.info {
+		.margin-top();
+
+		.well {
+			&.well-sm {
+				min-height: 8.5em;
+
+				h5 {
+					margin-top: 0;
+					.text-center();
+				}
+
+				&.period {
+					.big {
+						font-size: 2em;
+					}
+
+					padding-bottom: 0;
+
+					.view-all {
+						margin-top: .3em;
+					}
+				}
+
+				&.release {
+					.big {
+						font-size: 1.3em;
+						position: relative;
+						top: 1em;
+					}
+				}
+
+				&.current {
+					.big {
+						font-size: 2.5em;
+						position: relative;
+						top: .5em;
+					}
+				}
+
+				&.ranking {
+					font-size: 1em;
+
+					ul {
+						list-style: none;
+						margin: 0;
+						padding: 0;
+
+						li {
+							font-size: .8em;
+							margin-top: .2em;
+
+							&:first-child {
+								margin-top: 0;
+							}
+
+							sup {
+								margin-right: 1em;
+								display: inline-block;
+								width: 1.2em;
+							}
+						}
+					}
+
+					.view-all {
+						margin-top: .7em;
+					}
+				}
+
+				.big {
+					.text-center();
+					line-height: 1em;
+				}
+
+				.view-all {
+					font-size: .8em;
+					.text-center();
+				}
+			}
+		}
+
+		.mean {
+			h5 {
+				margin-bottom: 2em;
+			}
+			.big {
+				font-size: 3em;
+			}
+		}
+
+		.yours {
+			h5 {
+				margin-bottom: 2em;
+			}
+
+			.btn {
+				margin: 0 1em;
+
+				&:first-child {
+					margin-left: 0;
+				}
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+
+	.graphics {
+		.margin-top();
+		.col-xs-6 {
+			.text-center();
+		}
+	}
+
+	.articles{
+		.article {
+
+			border-top: 1px solid @medium_gray;
+			padding-top: 1em;
+			margin-bottom: 1em;
+
+			h5 {
+				margin-top: 0;
+				margin-bottom: .5em;
+			}
+
+			p {
+				font-size: .8em;
+			}
+
+			&:first-child {
+				border-top: none;
+			}
+
+			.col-xs-5 {
+				position: relative;
+				top: .7em;
+			}
+
+			.col-xs-2, .col-xs-1 {
+				line-height: 68px;
+				height: 68px;
+			}
+		}
+	}
+
+	.view-all {
+		.text-right();
+		font-size: .8em;
+	}
+
+	.data {
+		p {
+			font-size: .8em;
+		}
+	}
+}
