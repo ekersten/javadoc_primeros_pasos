@@ -34,7 +34,7 @@
 						<div class="tab-pane fade active in" id="home">
 						<div class="row">
 							<div class="col-xs-12">
-								<h4>Personal Information</h4>
+								<h3>Personal Information</h3>
 							</div>
 						</div>
 						<form class="form-horizontal user-registration-form" role="form">
@@ -166,7 +166,7 @@
 					<div class="tab-pane fade" id="privancy">
 					<div class="row">
 							<div class="col-xs-12">
-								<h4>Privacy Options</h4>
+								<h3>Privacy Options</h3>
 							</div>
 						</div>
 						<form class="form-horizontal user-registration-form" role="form">
@@ -219,7 +219,7 @@
 					<div class="tab-pane fade" id="alerts">
 					<div class="row">
 							<div class="col-xs-12">
-								<h4>Alerts</h4>
+								<h3>Alerts</h3>
 							</div>
 						</div>
 						<form class="form-horizontal user-registration-form" role="form">

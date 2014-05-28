@@ -19,21 +19,21 @@
 							<div id="slider_next"><span class="glyphicon glyphicon-chevron-right"></span></div>
 						</div>
 						<div class="slides cycle-slideshow composite-example" data-cycle-fx="scrollHorz" data-cycle-slides="> div"data-cycle-timeout="4000" data-cycle-prev="#slider_prev" data-cycle-next="#slider_next" data-cycle-pager=".pager">
-							<div class="slide left dark" data-cycle-pager-template="<a href=#>Welcome</a>">
+							<div class="slide left light" data-cycle-pager-template="<a href=#>Welcome</a>">
 								<div class="text">
 									<h3>Rely on us for Macroeconomic Forecasts</h3>
 									<p>Collective Intelligence is a proven way to produce accurate forecasts.</br>
 										Follow more than 1000 analysts providing reliable estimates and insights about major economies</p>
 								</div>
-								<div class="media">
+								<!-- <div class="media">
 									<img src="http://placehold.it/480x320/dddddd/ffffff&text=Video" />
-								</div>
-								<!-- <img src="http://placehold.it/1140x400"/> -->
+								</div> -->
+								<img src="img/hom02.jpg"/>
 							</div>
 							<div class="slide left dark" data-cycle-pager-template="<a href=#>Forecasting</a>">
 								<div class="text">
 									<h3>Be part of it</h3>
-									<p>Start forecasting today. Show your skills and share your ideas</br>
+									<p>Start forecasting today. Show your skills and share your ideas.</br>
 									Major market participants come to Macro Campus searching for talented people! </p>
 								</div>
 								<!-- <div class="media">

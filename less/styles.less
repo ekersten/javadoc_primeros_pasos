@@ -308,15 +308,59 @@ footer, .page-wrap:after {
 
 	}
 }
-/* fin calendario */
+// modulo articles
+.articles{
+	.article {
 
+		border-top: 1px solid @medium_gray;
+		padding-top: 1em;
+		margin-bottom: 1em;
 
-/* fin pagina registro de usuarios */
+		h5 {
+			margin-top: 0;
+			margin-bottom: .5em;
+		}
 
-/* --- FIN PAGINAS ---   */
+		p {
+			font-size: .8em;
+		}
 
+		&:first-child {
+			border-top: none;
+		}
+
+		.col-xs-5 {
+			position: relative;
+			top: .7em;
+		}
+
+		.col-xs-2, .col-xs-1 {
+			line-height: 68px;
+			height: 68px;
+		}
+	}
+}
 
 /* BOOTSTRAP OVERRIDES */
+h1 {
+	font-family: 'Ropa Sans';
+	font-size: 50px;
+	letter-spacing: -.04em;
+}
+
+h3 {
+	font-size: 30px;
+	font-family: 'Ropa Sans';
+	letter-spacing: -.02em;
+}
+
+h4 {
+	font-size: 22px;
+	font-family: 'Ropa Sans';
+	letter-spacing: -.02em;
+}
+
+
 .container-fluid {
 	max-width: 1170px;
 }

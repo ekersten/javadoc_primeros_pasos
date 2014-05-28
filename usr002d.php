@@ -71,7 +71,72 @@
 				</div>
 			</div>
 			<hr>
-						
+			<div class="row leagues">
+				<div class="col-xs-6 league">
+					<div class="row">
+						<div class="col-xs-10">
+							<img src="http://placehold.it/100x100" width="80"/>
+							<h5>Harvard - Us Macro Forescasting</h5>
+							<p>Sponsored by Harvard University - School of Economics<br/>
+							From 01/04/2014 to 31/10/2014<br/>
+							Prize: 50 credits</p>
+						</div>
+						<div class="col-xs-2">
+							<button type="submit" class="btn btn-default">Suscribe</button>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-xs-6 league">
+					<div class="row">
+						<div class="col-xs-10">
+							<img src="http://placehold.it/100x100" width="80"/>
+							<h5>Harvard - Us Macro Forescasting</h5>
+							<p>Sponsored by Harvard University - School of Economics<br/>
+							From 01/04/2014 to 31/10/2014<br/>
+							Prize: 50 credits</p>
+						</div>
+						<div class="col-xs-2">
+							<button type="submit" class="btn btn-default">Suscribed</button>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<hr>
+			<div class="row leagues">
+				<div class="col-xs-6 league">
+					<div class="row">
+						<div class="col-xs-10">
+							<img src="http://placehold.it/100x100" width="80"/>
+							<h5>Harvard - Us Macro Forescasting</h5>
+							<p>Sponsored by Harvard University - School of Economics<br/>
+							From 01/04/2014 to 31/10/2014<br/>
+							Prize: 50 credits</p>
+						</div>
+						<div class="col-xs-2">
+							<button type="submit" class="btn btn-default">Suscribe</button>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-xs-6 league">
+					<div class="row">
+						<div class="col-xs-10">
+							<img src="http://placehold.it/100x100" width="80"/>
+							<h5>Harvard - Us Macro Forescasting</h5>
+							<p>Sponsored by Harvard University - School of Economics<br/>
+							From 01/04/2014 to 31/10/2014<br/>
+							Prize: 50 credits</p>
+						</div>
+						<div class="col-xs-2">
+							<button type="submit" class="btn btn-default">Suscribed</button>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<hr>
 			<!-- fila 4 -->
 			<div class="row margin-top">
 				<div class="col-xs-12 text-center">

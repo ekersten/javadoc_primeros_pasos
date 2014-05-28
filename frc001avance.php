@@ -135,7 +135,7 @@
 						</div>
 					</div>
 					<div class="row"> 
-						<div class="col-xs-6"><button type="button" class="btn btn-link">Back to simple search</button></div>
+						<div class="col-xs-6 text-right"><a class="view-more">Back to simple search</a></div>
 						<div class="col-xs-6"><button type="button" class="btn btn-primary btn-sm">Search</button></div>
 					</div>
 				</div>
