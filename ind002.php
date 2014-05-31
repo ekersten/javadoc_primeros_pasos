@@ -75,19 +75,19 @@
 			<div class="row graphics">
 				<div class="col-xs-6">
 					<h4>Mean Evolution</h4>
-					<img src="http://placehold.it/550x300"/>
+					<img src="img/grafico01.jpg" width="550"/>
 				</div>
 				<div class="col-xs-6">
 					<h4>Distribution for this forecast</h4>
-					<img src="http://placehold.it/550x300"/>
+					<img src="img/grafico02.jpg" width="550"/>
 				</div>
 				<div class="col-xs-6">
 					<h4>Surprise</h4>
-					<img src="http://placehold.it/550x300"/>
+					<img src="img/grafico03.jpg" width="550"/>
 				</div>
 				<div class="col-xs-6">
 					<h4>ISM - Actual vs. Forecast</h4>
-					<img src="http://placehold.it/550x300"/>
+					<img src="img/grafico04.jpg" width="550"/>
 				</div>
 			</div>
 			<div class="row margin-top half-margin-bottom">
@@ -103,7 +103,7 @@
 					<!-- article start -->
 					<div class="row article">
 						<div class="col-xs-1">
-							<img src="http://placehold.it/68x68"/>
+							<img src="img/cara03.jpg" width="68" alt="">
 						</div>
 						<div class="col-xs-5">
 							<h5>ISM surpised on the upside</h5>
@@ -126,11 +126,11 @@
 					<!-- article start -->
 					<div class="row article">
 						<div class="col-xs-1">
-							<img src="http://placehold.it/68x68"/>
+							<img src="img/cara04.jpg" width="68" alt="">
 						</div>
 						<div class="col-xs-5">
 							<h5>ISM surpised on the upside</h5>
-							<p>by Hernan Kisluk</p>
+							<p>by Carolina Perez</p>
 						</div>
 						<div class="col-xs-2 text-center">
 							<span class="icon icon-table"></span> Jun-14 3:55
@@ -149,7 +149,7 @@
 					<!-- article start -->
 					<div class="row article">
 						<div class="col-xs-1">
-							<img src="http://placehold.it/68x68"/>
+							<img src="img/cara01.jpg" width="68" alt="">
 						</div>
 						<div class="col-xs-5">
 							<h5>ISM surpised on the upside</h5>

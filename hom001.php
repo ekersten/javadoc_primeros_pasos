@@ -80,11 +80,11 @@
 				<div class="col-xs-12 leagues">
 					<h3>Sponsored Forecasting Leagues</h3>
 					<ul>
-						<li class="new"><img src="http://placehold.it/60" alt=""></li>
-						<li><img src="http://placehold.it/60" alt=""></li>
-						<li><img src="http://placehold.it/60" alt=""></li>
-						<li><img src="http://placehold.it/60" alt=""></li>
-						<li><img src="http://placehold.it/60" alt=""></li>
+						<li class="new"><img src="img/liga01.jpg" width="60" alt=""></li>
+						<li><img src="img/liga05.jpg" width="60" alt=""></li>
+						<li><img src="img/liga02.jpg" width="60" alt=""></li>
+						<li><img src="img/liga03.jpg" width="60" alt=""></li>
+						<li><img src="img/liga04.jpg" width="60" alt=""></li>
 					</ul>
 					<a class="view-all" href="#">View all leagues</a>
 				</div>
@@ -282,7 +282,7 @@
 					<h4>Most Read Articles</h4>
 					<!-- article start -->
 					<div class="row article">
-						<div class="col-xs-1 author-image"><img src="http://placehold.it/30" alt=""></div>
+						<div class="col-xs-1 author-image"><img src="img/cara03.jpg" width="30" alt=""></div>
 						<div class="col-xs-11 text">
 							<h5>ISM Surprised on the upside</h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis metus porttitor, aliquam mi in, laoreet leo. Nam eleifend turpis tortor, eget facilisis nisl porta non. Phasellus rhoncus lorem nisi...</p>
@@ -297,7 +297,7 @@
 					<!-- article end -->
 					<!-- article start -->
 					<div class="row article">
-						<div class="col-xs-1 author-image"><img src="http://placehold.it/30" alt=""></div>
+						<div class="col-xs-1 author-image"><img src="img/cara02.jpg" width="30" alt=""></div>
 						<div class="col-xs-11 text">
 							<h5>GDP points to recovery</h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis metus porttitor, aliquam mi in, laoreet leo. Nam eleifend turpis tortor, eget facilisis nisl porta non. Phasellus rhoncus lorem nisi...</p>
@@ -312,7 +312,7 @@
 					<!-- article end -->
 					<!-- article start -->
 					<div class="row article">
-						<div class="col-xs-1 author-image"><img src="http://placehold.it/30" alt=""></div>
+						<div class="col-xs-1 author-image"><img src="img/cara01.jpg" width="30" alt=""></div>
 						<div class="col-xs-11 text">
 							<h5>US economy gaining escape velocity</h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis metus porttitor, aliquam mi in, laoreet leo. Nam eleifend turpis tortor, eget facilisis nisl porta non. Phasellus rhoncus lorem nisi...</p>
@@ -337,25 +337,25 @@
 						<div class="col-xs-4 category">
 							<h6>Activity</h6>
 							<ol>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Sara</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">John</span></li>
+								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Sara</span></li>
+								<li><img src="img/cara01.jpg" width="45" alt=""><span class="author">John</span></li>
 							</ol>
 						</div>
 						<div class="col-xs-4 category">
 							<h6>Labour</h6>
 							<ol>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Steven</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Sara</span></li>
+								<li><img src="img/cara02.jpg" width="45" alt=""><span class="author">Steven</span></li>
+								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="img/cara04.jpg" width="45" alt=""><span class="author">Sara</span></li>
 							</ol>
 						</div>
 						<div class="col-xs-4 category">
 							<h6>Activity</h6>
 							<ol>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Eric</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Steven</span></li>
+								<li><img src="img/cara03.jpg" width="45" alt="">Eric</span></li>
+								<li><img src="img/cara04.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="img/cara01.jpg" width="45" alt=""><span class="author">Steven</span></li>
 							</ol>
 						</div>
 					</div>
@@ -363,25 +363,25 @@
 						<div class="col-xs-4 category">
 							<h6>Consumer</h6>
 							<ol>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Sara</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">John</span></li>
+								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
+								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
 							</ol>
 						</div>
 						<div class="col-xs-4 category">
 							<h6>Activity</h6>
 							<ol>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Eric</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">John</span></li>
+								<li><img src="img/cara01.jpg" width="45" alt=""><span class="author">Eric</span></li>
+								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="img/cara02.jpg" width="45" alt=""><span class="author">John</span></li>
 							</ol>
 						</div>
 						<div class="col-xs-4 category">
 							<h6>Activity</h6>
 							<ol>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">John</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="http://placehold.it/45" alt=""><span class="author">Steven</span></li>
+								<li><img src="img/cara02.jpg" width="45" alt=""><span class="author">John</span></li>
+								<li><img src="img/cara04.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">Steven</span></li>
 							</ol>
 						</div>
 					</div>

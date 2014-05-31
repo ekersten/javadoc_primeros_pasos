@@ -42,7 +42,7 @@
 				<div class="col-xs-6 league">
 					<div class="row">
 						<div class="col-xs-10">
-							<img src="http://placehold.it/100x100" width="80"/>
+							<img src="img/liga01.jpg" width="80" alt="">
 							<h5>Harvard - Us Macro Forescasting</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
@@ -57,7 +57,7 @@
 				<div class="col-xs-6 league">
 					<div class="row">
 						<div class="col-xs-10">
-							<img src="http://placehold.it/100x100" width="80"/>
+							<img src="img/liga02.jpg" width="80" alt="">
 							<h5>Harvard - Us Macro Forescasting</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
@@ -75,7 +75,7 @@
 				<div class="col-xs-6 league">
 					<div class="row">
 						<div class="col-xs-10">
-							<img src="http://placehold.it/100x100" width="80"/>
+							<img src="img/liga03.jpg" width="80" alt="">
 							<h5>Harvard - Us Macro Forescasting</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
@@ -90,7 +90,7 @@
 				<div class="col-xs-6 league">
 					<div class="row">
 						<div class="col-xs-10">
-							<img src="http://placehold.it/100x100" width="80"/>
+							<img src="img/liga04.jpg" width="80" alt="">
 							<h5>Harvard - Us Macro Forescasting</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
@@ -108,7 +108,7 @@
 				<div class="col-xs-6 league">
 					<div class="row">
 						<div class="col-xs-10">
-							<img src="http://placehold.it/100x100" width="80"/>
+							<img src="img/liga05.jpg" width="80" alt="">
 							<h5>Harvard - Us Macro Forescasting</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
@@ -123,7 +123,7 @@
 				<div class="col-xs-6 league">
 					<div class="row">
 						<div class="col-xs-10">
-							<img src="http://placehold.it/100x100" width="80"/>
+							<img src="img/liga06.jpg" width="80" alt="">
 							<h5>Harvard - Us Macro Forescasting</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
