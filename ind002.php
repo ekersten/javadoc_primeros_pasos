@@ -19,32 +19,46 @@
 					</ol>
 				</div>
 				<div class="col-xs-6 text-right">
-					<a href="#" class="btn btn-default">&lt; Back to indicators</a>
+					<a href="#" class="btn btn-primary">&lt; Back to list</a>
 				</div>
 			</div>
 			<div class="row info">
-				<div class="col-xs-6">
+				<div class="col-xs-12">
 					<div class="row">
-						<div class="col-xs-3 pl5 pr5">
+						<div class="col-xs-2 special pl5 pr5">
 							<div class="well well-sm period">
 								<h5>Period</h5>
 								<div class="big">JAN<br/>2014</div>
 								<div class="view-all"><a href="#">View all</a></div>
 							</div>
 						</div>
-						<div class="col-xs-3 pl5 pr5">
+						<div class="col-xs-2 special pl5 pr5">
 							<div class="well well-sm release">
 								<h5>Release Date</h5>
 								<div class="big">16/01/14<br/>08:30</div>
 							</div>
 						</div>
-						<div class="col-xs-3 pl5 pr5">
+						<div class="col-xs-2 special pl5 pr5">
+							<div class="well well-sm">
+								<div class="row">
+									<div class="col-xs-5 text-center mean">
+										<h5>Mean</h5>
+										<div class="big">55.3</div>
+									</div>
+									<div class="col-xs-7 text-center yours">
+										<h5>Yours</h5>
+										<a href="" class="btn btn-default btn-sm">View Prev.</a><a href="" class="btn btn-default btn-sm">Make Yours</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-2 special pl5 pr5">
 							<div class="well well-sm current">
 								<h5>Current Value</h5>
 								<div class="big">52.1</div>
 							</div>
 						</div>
-						<div class="col-xs-3 pl5 pr5">
+						<div class="col-xs-2 special pl5 pr5">
 							<div class="well well-sm ranking">
 								<h5>Ranking</h5>
 								<ul>
@@ -57,20 +71,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 pl5">
-					<div class="well well-sm">
-						<div class="row">
-							<div class="col-xs-5 text-center mean">
-								<h5>Mean</h5>
-								<div class="big">55.3</div>
-							</div>
-							<div class="col-xs-7 text-center yours">
-								<h5>Yours</h5>
-								<a href="" class="btn btn-default btn-lg">View Prev.</a><a href="" class="btn btn-default btn-lg">Make Yours</a>
-							</div>
-						</div>
-					</div>
-				</div>
+				
+				
+				
 			</div>
 			<div class="row graphics">
 				<div class="col-xs-6">

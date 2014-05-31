@@ -10,7 +10,7 @@
 <body>
 	<div class="page-wrap">
 		<?php include('includes/header.php'); ?>
-		<section class="container-fluid user-registration">
+		<section class="container-fluid forecasters">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>Search Forecasters</h1>
@@ -151,9 +151,9 @@
 								<th>Full Name</th>
 								<th>Country</th>
 								<th>Status</th>
-								<th>Frecasts</th>
-								<th>Articles</th>
-								<th>Leagues</th>
+								<th class="text-center">Forecasts</th>
+								<th class="text-center">Articles</th>
+								<th class="text-center">Leagues</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -162,11 +162,11 @@
 								<td>Hernán Kisluk</td>
 								<td>Argentina</td>
 								<td>Portfolio Manager Techint</td>
-								<td>32</td>
-								<td>15</td>
-								<td>
-									<img src="http://placehold.it/20x20" width="25"alt="">
-									<img src="http://placehold.it/20x20" width="25"alt="">
+								<td class="text-center">32</td>
+								<td class="text-center">15</td>
+								<td class="text-center">
+									<img src="img/liga01.jpg" width="25"alt="">
+									<img src="img/liga02.jpg" width="25"alt="">
 								</td>
 							</tr>
 							<tr>
@@ -174,9 +174,12 @@
 								<td>Flavia Ursino</td>
 								<td>Italia</td>
 								<td>Economy Analyst at BuonGiorno</td>
-								<td>15</td>
-								<td>2</td>
-								<td><img src="http://placehold.it/25x25" width="25"alt=""> <img src="http://placehold.it/20x20" width="25"alt=""></td>
+								<td class="text-center">15</td>
+								<td class="text-center">2</td>
+								<td class="text-center">
+									<img src="img/liga03.jpg" width="25"alt="">
+									<img src="img/liga04.jpg" width="25"alt="">
+								</td>
 							</tr>
 						</tbody>
 					</table>

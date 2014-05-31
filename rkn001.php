@@ -39,7 +39,7 @@
 									</tr>
 								</thead>
 								<tbody>
-									<tr>
+									<tr class="info">
 										<td>YOU</td>
 										<td>170</td>
 										<td>17<sup>th</sup></td>

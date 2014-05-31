@@ -122,7 +122,7 @@
 					<!-- article start -->
 					<div class="row article">
 						<div class="col-xs-1">
-							<img src="http://placehold.it/68x68"/>
+							<img src="img/cara06.jpg" width="68"/>
 						</div>
 						<div class="col-xs-5">
 							<h5>ISM surpised on the upside</h5>
@@ -145,7 +145,7 @@
 					<!-- article start -->
 					<div class="row article">
 						<div class="col-xs-1">
-							<img src="http://placehold.it/68x68"/>
+							<img src="img/cara03.jpg" width="68"/>
 						</div>
 						<div class="col-xs-5">
 							<h5>ISM surpised on the upside</h5>
@@ -168,7 +168,7 @@
 					<!-- article start -->
 					<div class="row article">
 						<div class="col-xs-1">
-							<img src="http://placehold.it/68x68"/>
+							<img src="img/cara02.jpg" width="68"/>
 						</div>
 						<div class="col-xs-5">
 							<h5>ISM surpised on the upside</h5>
@@ -191,7 +191,7 @@
 					<!-- article start -->
 					<div class="row article">
 						<div class="col-xs-1">
-							<img src="http://placehold.it/68x68"/>
+							<img src="img/cara04.jpg" width="68"/>
 						</div>
 						<div class="col-xs-5">
 							<h5>ISM surpised on the upside</h5>
@@ -214,7 +214,7 @@
 					<!-- article start -->
 					<div class="row article">
 						<div class="col-xs-1">
-							<img src="http://placehold.it/68x68"/>
+							<img src="img/cara01.jpg" width="68"/>
 						</div>
 						<div class="col-xs-5">
 							<h5>ISM surpised on the upside</h5>
