@@ -81,9 +81,9 @@
 					<h3>Sponsored Forecasting Leagues</h3>
 					<ul>
 						<li class="new"><img src="img/liga01.jpg" width="60" alt=""></li>
-						<li><img src="img/liga05.jpg" width="60" alt=""></li>
 						<li><img src="img/liga02.jpg" width="60" alt=""></li>
 						<li><img src="img/liga03.jpg" width="60" alt=""></li>
+						<li><img src="img/liga05.jpg" width="60" alt=""></li>
 						<li><img src="img/liga04.jpg" width="60" alt=""></li>
 					</ul>
 					<a class="view-all" href="#">View all leagues</a>
@@ -278,7 +278,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-6 articles">
+				<div class="col-xs-6 articles-list">
 					<h4>Most Read Articles</h4>
 					<!-- article start -->
 					<div class="row article">
@@ -289,7 +289,7 @@
 							<div class="row">
 								<div class="col-xs-6 author">by Hernan Kisluk</div>
 								<div class="col-xs-6 text-right read-more">
-									<a href="#" class="btn btn-default btn-sm">Read More</a>
+									<a href="#" class="btn btn-primary btn-sm">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -304,7 +304,7 @@
 							<div class="row">
 								<div class="col-xs-6 author">by Hernan Kisluk</div>
 								<div class="col-xs-6 text-right read-more">
-									<a href="#" class="btn btn-default btn-sm">Read More</a>
+									<a href="#" class="btn btn-primary btn-sm">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -319,7 +319,7 @@
 							<div class="row">
 								<div class="col-xs-6 author">by Hernan Kisluk</div>
 								<div class="col-xs-6 text-right read-more">
-									<a href="#" class="btn btn-default btn-sm">Read More</a>
+									<a href="#" class="btn btn-primary btn-sm">Read More</a>
 								</div>
 							</div>
 						</div>
