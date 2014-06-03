@@ -123,14 +123,14 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><img src="http://placehold.it/20x20" width="25"alt=""> Harvard - US Macro Forecasting</td>
+								<td><img src="img/liga02.jpg" width="25" alt=""> Harvard - US Macro Forecasting</td>
 								<td class="text-center">18</td>
 								<td class="text-center">198</td>
 								<td class="text-center"><a href="#" class="icon icon-stats"></a></td>
 								<td class="text-center"></td>
 							</tr>
 							<tr>
-								<td><img src="http://placehold.it/20x20" width="25"alt=""> Gold Sachas - Talent Scouting</td>
+								<td><img src="img/liga05.jpg" width="25" alt=""> Gold Sachas - Talent Scouting</td>
 								<td class="text-center">18</td>
 								<td class="text-center">198</td>
 								<td class="text-center"><a href="#" class="icon icon-stats"></a></td>
