@@ -41,8 +41,10 @@
 			<div class="row leagues">
 				<div class="col-xs-6 league">
 					<div class="row">
-						<div class="col-xs-10">
-							<img src="img/liga01.jpg" width="80" alt="">
+						<div class="col-xs-2">
+							<img src="img/liga02.jpg" width="80" alt="">
+						</div>
+						<div class="col-xs-8">
 							<h5>AEA Macro Challenge </h5>
 							<p>American Economic Association<br/>
 							From 1/8/2013 to 15/11/2013<br/>
@@ -58,8 +60,10 @@
 				</div>
 				<div class="col-xs-6 league">
 					<div class="row">
-						<div class="col-xs-10">
+						<div class="col-xs-2">
 							<img src="img/liga02.jpg" width="80" alt="">
+						</div>
+						<div class="col-xs-8">
 							<h5>Harvard - Course Econ 401 - Macro Forecasting</h5>
 							<p>Harvard University<br/>
 							From 1/8/2013 to 15/11/2013<br/>
@@ -76,8 +80,10 @@
 			<div class="row leagues">
 				<div class="col-xs-6 league">
 					<div class="row">
-						<div class="col-xs-10">
-							<img src="img/liga03.jpg" width="80" alt="">
+						<div class="col-xs-2">
+							<img src="img/liga02.jpg" width="80" alt="">
+						</div>
+						<div class="col-xs-8">
 							<h5>Forecast Brasil - Fundacao Getulio Vargas</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
@@ -91,8 +97,10 @@
 				</div>
 				<div class="col-xs-6 league">
 					<div class="row">
-						<div class="col-xs-10">
-							<img src="img/liga04.jpg" width="80" alt="">
+						<div class="col-xs-2">
+							<img src="img/liga02.jpg" width="80" alt="">
+						</div>
+						<div class="col-xs-8">
 							<h5>NYU - Econometrics 110</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
@@ -109,8 +117,10 @@
 			<div class="row leagues">
 				<div class="col-xs-6 league">
 					<div class="row">
-						<div class="col-xs-10">
-							<img src="img/liga05.jpg" width="80" alt="">
+						<div class="col-xs-2">
+							<img src="img/liga02.jpg" width="80" alt="">
+						</div>
+						<div class="col-xs-8">
 							<h5>Talent Scouting- Goldman Sachs</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
@@ -124,8 +134,10 @@
 				</div>
 				<div class="col-xs-6 league">
 					<div class="row">
-						<div class="col-xs-10">
-							<img src="img/liga06.jpg" width="80" alt="">
+						<div class="col-xs-2">
+							<img src="img/liga02.jpg" width="80" alt="">
+						</div>
+						<div class="col-xs-8">
 							<h5>CFA - Macro Challenge</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
