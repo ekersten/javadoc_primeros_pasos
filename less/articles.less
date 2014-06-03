@@ -3,3 +3,41 @@ section.articles {
 		font-size: .8em;
 	}
 }
+
+section.article {
+	.title {
+		h5 {
+			margin: 0 0 .2em 0;
+			
+			&+p {
+				font-size: .8em;
+			}
+		}
+	}
+
+	.body {
+		img {
+			margin: 1.2em auto;
+			display: block;
+		}
+
+		p {
+			text-align: justify;
+		}
+	}
+
+	.comment {
+		font-size: .8em;
+		margin-bottom: 1em;
+		padding-bottom: .8em;
+		border-bottom: 1px solid @light_gray;
+
+		h5 {
+			margin-top: 0;
+		}
+	}
+
+	.view-more {
+		font-size: .8em;
+	}
+}
