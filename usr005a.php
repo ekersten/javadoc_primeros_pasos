@@ -59,7 +59,9 @@
 								<td class="text-center">
 									<a href="#" class="icon icon-stats"></a>
 								</td>
-								<td class="text-center"></td>
+								<td class="text-center">
+									<a href="#" class="icon icon-table"></a>
+								</td>
 							</tr>
 							<tr>
 								<td class="second-level"><span class="icon-caret-right"></span> Construction</td>
