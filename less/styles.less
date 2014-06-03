@@ -145,12 +145,35 @@ footer, .page-wrap:after {
 	.month {
 		font: 3em 'Ropa Sans', sans-serif;
 		text-align: center;
-		color: #2c333b;
+		color: @color_nav_bg;
+		.half-margin-bottom();
+
+		.glyphicon {
+			font-size: .6em;
+			color: @medium_gray;
+			cursor: pointer;
+			color: @color_nav_bg;
+			text-decoration: none;
+
+			&:hover {
+				opacity: .7;
+			}
+
+			&.prev {
+				margin-right: .4em;
+			}
+			
+			&.next {
+				margin-left: .4em;
+			}
+
+		}
 	}
 
 	.week-selector {
 		text-align: center;
-		
+		.margin-bottom();
+
 		a {
 			text-decoration: none;
 			color: white;

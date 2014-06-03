@@ -19,7 +19,7 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="calendar">
-						<div class="month">March 2014</div>
+						<div class="month"><a class="prev glyphicon glyphicon-chevron-left"></a>March 2014<a class="next glyphicon glyphicon-chevron-right"></a></div>
 						<div class="week-selector">
 							<a href="#" class="prev">&laquo; Prev week</a>
 							<a href="#" class="next">Next Week &raquo;</a>
