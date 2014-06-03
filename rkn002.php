@@ -14,31 +14,102 @@
 			<h1>Ranking</h1>
 			<div class="row">
 				<div class="col-xs-3">
-					<ul class="list-group">
-						<li class="list-group-item">
-							<span class="badge">14</span>
-							Cras justo odio
-						</li>
-							<li class="list-group-item">
-							<span class="badge">2</span>
-							Dapibus ac facilisis in
-						</li>
-							<li class="list-group-item">
-							<span class="badge">1</span>
-							Morbi leo risus
-						</li>
-					</ul>
+					<div class="list-group">
+						<a class="list-group-item active">US<span class="badge">14</span></a>
+						<a class="list-group-item">Eurozone<span class="badge">2</span></a>
+						<a class="list-group-item">Germany<span class="badge">1</span></a>
+					</div>
+				</div>
+				<div class="col-xs-9">
+					<div class="row">
+						<div class="col-xs-12 text-center">
+							<h3>US General Ranking</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 text-center">
+							<img src="img/cara03.jpg" width="80" alt="">
+							<h4>Juan Gomez</h4>
+							<span>1<sup>st</sup></span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-6 text-center">
+							<img src="img/cara01.jpg" width="80" alt="">
+							<h4>Juan Gomez</h4>
+							<span>1<sup>st</sup></span>
+						</div>
+						<div class="col-xs-6 text-center">
+							<img src="img/cara02.jpg" width="80" alt="">
+							<h4>Juan Gomez</h4>
+							<span>1<sup>st</sup></span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 text-center">
+							<ol>
+								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
+								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
+							</ol>
+						</div>
+						<div class="col-xs-3 text-center">
+							<ol>
+								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
+								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
+							</ol>
+						</div>
+						<div class="col-xs-3 text-center">
+							<ol>
+								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
+								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
+							</ol>
+						</div>
+						<div class="col-xs-3 text-center">
+							<ol>
+								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
+								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
+							</ol>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3 text-center">
+							<ol>
+								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
+								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
+							</ol>
+						</div>
+						<div class="col-xs-3 text-center">
+							<ol>
+								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
+								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
+							</ol>
+						</div>
+						<div class="col-xs-3 text-center">
+							<ol>
+								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
+								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
+							</ol>
+						</div>
+						<div class="col-xs-3 text-center">
+							<ol>
+								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
+								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
+							</ol>
+						</div>
+					</div>
+
 
 				</div>
-				<div class="col-xs-3">
-					columna1
-
-				</div>
-				<div class="col-xs-3">
-					columna2
-						
-				</div>
-				<div class="col-xs-3">coolumna3 </div>
+			
+			</div>
 		</section>
 	</div>
 	<?php include('includes/footer.php'); ?>

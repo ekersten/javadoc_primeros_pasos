@@ -43,10 +43,12 @@
 					<div class="row">
 						<div class="col-xs-10">
 							<img src="img/liga01.jpg" width="80" alt="">
-							<h5>Harvard - Us Macro Forescasting</h5>
-							<p>Sponsored by Harvard University - School of Economics<br/>
-							From 01/04/2014 to 31/10/2014<br/>
-							Prize: 50 credits</p>
+							<h5>AEA Macro Challenge </h5>
+							<p>American Economic Association<br/>
+							From 1/8/2013 to 15/11/2013<br/>
+							Enrolled participants: 24<br/>
+							Prize: US$ 1000 on grants
+						</p>
 						</div>
 						<div class="col-xs-2">
 							<button type="submit" class="btn btn-default">Suscribe</button>
@@ -58,10 +60,10 @@
 					<div class="row">
 						<div class="col-xs-10">
 							<img src="img/liga02.jpg" width="80" alt="">
-							<h5>Harvard - Us Macro Forescasting</h5>
-							<p>Sponsored by Harvard University - School of Economics<br/>
-							From 01/04/2014 to 31/10/2014<br/>
-							Prize: 50 credits</p>
+							<h5>Harvard - Course Econ 401 - Macro Forecasting</h5>
+							<p>Harvard University<br/>
+							From 1/8/2013 to 15/11/2013<br/>
+							Professor John Smith</p>
 						</div>
 						<div class="col-xs-2">
 							<button type="submit" class="btn btn-success">Suscribed</button>
@@ -76,7 +78,7 @@
 					<div class="row">
 						<div class="col-xs-10">
 							<img src="img/liga03.jpg" width="80" alt="">
-							<h5>Harvard - Us Macro Forescasting</h5>
+							<h5>Forecast Brasil - Fundacao Getulio Vargas</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
 							Prize: 50 credits</p>
@@ -91,7 +93,7 @@
 					<div class="row">
 						<div class="col-xs-10">
 							<img src="img/liga04.jpg" width="80" alt="">
-							<h5>Harvard - Us Macro Forescasting</h5>
+							<h5>NYU - Econometrics 110</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
 							Prize: 50 credits</p>
@@ -109,7 +111,7 @@
 					<div class="row">
 						<div class="col-xs-10">
 							<img src="img/liga05.jpg" width="80" alt="">
-							<h5>Harvard - Us Macro Forescasting</h5>
+							<h5>Talent Scouting- Goldman Sachs</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
 							Prize: 50 credits</p>
@@ -124,7 +126,7 @@
 					<div class="row">
 						<div class="col-xs-10">
 							<img src="img/liga06.jpg" width="80" alt="">
-							<h5>Harvard - Us Macro Forescasting</h5>
+							<h5>CFA - Macro Challenge</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
 							Prize: 50 credits</p>
