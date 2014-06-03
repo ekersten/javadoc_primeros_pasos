@@ -358,9 +358,18 @@ footer, .page-wrap:after {
 			top: .7em;
 		}
 
-		.col-xs-2, .col-xs-1 {
+		.col-xs-2, .col-xs-1, .col-xs-6 {
 			line-height: 68px;
 			height: 68px;
+		}
+	}
+
+	&.mine {
+		.article {
+			.col-xs-2, .col-xs-1, .col-xs-6 {
+				line-height: 34px;
+				height: 34px;
+			}
 		}
 	}
 }
@@ -407,6 +416,39 @@ footer, .page-wrap:after {
 				font-size: .8em;
 			}
 		}
+	}
+}
+
+// tabla ranking
+.table.ranking {
+	th {
+		background: @brand-primary;
+		color: white;
+	}
+
+	a.icon {
+		font-size: 1.5em;
+		color: @text-color;
+		text-decoration: none;
+		color: @brand-success;
+	}
+
+	.first-level {}
+	.second-level {
+		span {
+			margin-left: 1.5em;
+			margin-right: .4em;
+		}
+	}
+	.third-level {
+		span {
+			margin-left: 3.5em;
+			margin-right: .4em;
+		}
+	}
+
+	img.logo {
+		margin-right: .5em;
 	}
 }
 
