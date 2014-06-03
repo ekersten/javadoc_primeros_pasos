@@ -19,25 +19,20 @@
 					<button type="submit" class="btn btn-success btn-lg">Write One</button>
 				</div>
 			</div>
-			
-			<form class="form-horizontal user-registration-form" role="form">
 			<!-- fila1 -->
 			<div class="row">
-				<div class="form-group">
-						<div class="col-xs-4">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+				<div class="col-xs-12">
+					<form class="form-inline basic-search" role="form">
+						<div class="form-group">
+							<input class="form-control input-sm" type="text"/>
+							<button type="button" class="btn btn-primary btn-sm">Search</button>
+							<a class="view-more">Advanced Search</a>
 						</div>
-						<div class="col-xs-4">
-						<button type="button" class="btn btn-primary btn-sm">Search</button>
-						</div>
-						
-						<div class="col-xs-4 "><a class="view-more">Advanced Search</a></div>
-						
-					</div>
-				
-				
+					</form>
+					
+				</div>
 			</div>
-		</form>
+		
 			<!-- fin fila1 -->
 			<!-- fila2 -->
 			<div class="row articles margin-top">
