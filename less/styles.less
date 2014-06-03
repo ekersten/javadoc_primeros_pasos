@@ -342,6 +342,51 @@ footer, .page-wrap:after {
 	}
 }
 
+// modulo top3
+.widget-top3 {
+
+	h6 {
+		padding-bottom: .6em;
+		border-bottom: 1px solid @light_gray;
+		margin-bottom: .9em;
+	}
+
+	ol {
+		counter-reset: li;
+		margin: 0;
+		padding: 0;
+
+		li {
+			position: relative;
+			list-style: none;
+			margin-top: 1em;
+
+			&:first-child {
+				margin-top: 0;
+			}
+
+			&:before {
+				content: counter(li);
+				counter-increment: li;
+				font-size: 1.6em;
+				font-weight: bold;
+				left: 0;
+				position: absolute;
+				top: .2em;
+			}
+
+			img {
+				margin-left: 1.5em;
+				margin-right: .5em;
+			}
+
+			.author {
+				font-size: .8em;
+			}
+		}
+	}
+}
+
 /* BOOTSTRAP OVERRIDES */
 h1 {
 	font-family: 'Ropa Sans';

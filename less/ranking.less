@@ -59,3 +59,34 @@ section.ranking {
 		}
 	}
 }
+
+section.podium {
+	h3 {
+		margin-top: 0;
+	}
+
+	.person {
+		display: inline-block;
+		border-bottom: 4px solid @medium_gray;
+		padding: .6em .4em;
+		border-radius: .5em;
+		background: @light_gray;
+
+		h4 {
+			margin: 0 0 .2em;
+		}
+
+		img {
+			border: 1px solid @medium_gray;
+		}
+
+		span {
+			color: black;
+		}
+
+		&.first {
+			background: @brand-success;
+			border-bottom-color: darken(@brand-success, 15%);
+		}
+	}
+}

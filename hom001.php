@@ -334,7 +334,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-xs-4 category">
+						<div class="col-xs-4 widget-top3">
 							<h6>Activity</h6>
 							<ol>
 								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Flavia</span></li>
@@ -342,7 +342,7 @@
 								<li><img src="img/cara01.jpg" width="45" alt=""><span class="author">John</span></li>
 							</ol>
 						</div>
-						<div class="col-xs-4 category">
+						<div class="col-xs-4 widget-top3">
 							<h6>Labour</h6>
 							<ol>
 								<li><img src="img/cara02.jpg" width="45" alt=""><span class="author">Steven</span></li>
@@ -350,7 +350,7 @@
 								<li><img src="img/cara04.jpg" width="45" alt=""><span class="author">Sara</span></li>
 							</ol>
 						</div>
-						<div class="col-xs-4 category">
+						<div class="col-xs-4 widget-top3">
 							<h6>Activity</h6>
 							<ol>
 								<li><img src="img/cara03.jpg" width="45" alt="">Eric</span></li>
@@ -360,7 +360,7 @@
 						</div>
 					</div>
 					<div class="row half-margin-top">
-						<div class="col-xs-4 category">
+						<div class="col-xs-4 widget-top3">
 							<h6>Consumer</h6>
 							<ol>
 								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
@@ -368,7 +368,7 @@
 								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
 							</ol>
 						</div>
-						<div class="col-xs-4 category">
+						<div class="col-xs-4 widget-top3">
 							<h6>Activity</h6>
 							<ol>
 								<li><img src="img/cara01.jpg" width="45" alt=""><span class="author">Eric</span></li>
@@ -376,7 +376,7 @@
 								<li><img src="img/cara02.jpg" width="45" alt=""><span class="author">John</span></li>
 							</ol>
 						</div>
-						<div class="col-xs-4 category">
+						<div class="col-xs-4 widget-top3">
 							<h6>Activity</h6>
 							<ol>
 								<li><img src="img/cara02.jpg" width="45" alt=""><span class="author">John</span></li>

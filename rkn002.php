@@ -10,7 +10,7 @@
 <body>
 	<div class="page-wrap">
 		<?php include('includes/header.php'); ?>
-		<section class="container-fluid">
+		<section class="container-fluid podium">
 			<h1>Ranking</h1>
 			<div class="row">
 				<div class="col-xs-3">
@@ -26,48 +26,70 @@
 							<h3>US General Ranking</h3>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row margin-top">
 						<div class="col-xs-12 text-center">
-							<img src="img/cara03.jpg" width="80" alt="">
-							<h4>Juan Gomez</h4>
-							<span>1<sup>st</sup></span>
+							<div class="person row first">
+								<div class="col-xs-4 pr5">
+									<img src="img/cara01.jpg" width="80" alt="" class="responsive">
+								</div>
+								<div class="col-xs-8 pl5">
+									<h4>Juan Gomez</h4>
+									<span>1<sup>st</sup></span>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row margin-top">
 						<div class="col-xs-6 text-center">
-							<img src="img/cara01.jpg" width="80" alt="">
-							<h4>Juan Gomez</h4>
-							<span>1<sup>st</sup></span>
+							<div class="person row">
+								<div class="col-xs-4 pr5">
+									<img src="img/cara03.jpg" width="80" alt="" class="responsive">
+								</div>
+								<div class="col-xs-8 pl5">
+									<h4>Juan Gomez</h4>
+									<span>2<sup>nd</sup></span>
+								</div>
+							</div>
 						</div>
 						<div class="col-xs-6 text-center">
-							<img src="img/cara02.jpg" width="80" alt="">
-							<h4>Juan Gomez</h4>
-							<span>1<sup>st</sup></span>
+							<div class="person row">
+								<div class="col-xs-4 pr5">
+									<img src="img/cara02.jpg" width="80" alt="" class="responsive">
+								</div>
+								<div class="col-xs-8 pl5">
+									<h4>Juan Gomez</h4>
+									<span>3<sup>rd</sup></span>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-xs-3 text-center">
+					<div class="row margin-top">
+						<div class="col-xs-3 widget-top3">
+							<h6>Activity</h6>
 							<ol>
 								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
 								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
 								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
 							</ol>
 						</div>
-						<div class="col-xs-3 text-center">
+						<div class="col-xs-3 widget-top3">
+							<h6>Activity</h6>
 							<ol>
 								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
 								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
 								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
 							</ol>
 						</div>
-						<div class="col-xs-3 text-center">
+						<div class="col-xs-3 widget-top3">
+							<h6>Activity</h6>
 							<ol>
 								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
 								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
 								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
 							</ol>
 						</div>
-						<div class="col-xs-3 text-center">
+						<div class="col-xs-3 widget-top3">
+							<h6>Activity</h6>
 							<ol>
 								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
 								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
@@ -75,29 +97,33 @@
 							</ol>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-xs-3 text-center">
+					<div class="row margin-top">
+						<div class="col-xs-3 widget-top3">
+							<h6>Activity</h6>
 							<ol>
 								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
 								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
 								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
 							</ol>
 						</div>
-						<div class="col-xs-3 text-center">
+						<div class="col-xs-3 widget-top3">
+							<h6>Activity</h6>
 							<ol>
 								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
 								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
 								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
 							</ol>
 						</div>
-						<div class="col-xs-3 text-center">
+						<div class="col-xs-3 widget-top3">
+							<h6>Activity</h6>
 							<ol>
 								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
 								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
 								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">John</span></li>
 							</ol>
 						</div>
-						<div class="col-xs-3 text-center">
+						<div class="col-xs-3 widget-top3">
+							<h6>Activity</h6>
 							<ol>
 								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Sara</span></li>
 								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Flavia</span></li>
