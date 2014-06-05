@@ -20,6 +20,7 @@ section.article {
 	.title {
 		h5 {
 			margin: 0 0 .2em 0;
+			font-weight: bold;
 			
 			&+p {
 				font-size: .8em;
@@ -50,26 +51,45 @@ section.article {
 		}
 	}
 
-	.relates-articles{
-		font-size: .8em;
-		margin-bottom: .5em;
-
-		padding-bottom: .8em;
-		// border-bottom: 1px solid @light_gray;
-
-		h5 {
-			margin-top: 0;
-			margin-bottom: 0;
-		}
-
+	aside {
 		h4 {
 			border-bottom: 1px solid @light_gray;
-
+			padding-bottom: .2em;
+			margin: 0;
 		}
 
+		.related {
+
+			.row {
+				&.article {
+					margin-top: 1.3em;
+				}
+			}
+
+			.col-xs-2 {
+				.npr();
+				width: 14%;
+			}
+
+			.col-xs-10 {
+				.pl5();
+			}
+
+			h5 {
+				margin: 0 0 .1em;
+				font-size: .9em;
+			}
+
+			p {
+				font-size: .7em;
+				margin: 0;
+			}
+		}
+
+		.forecasters {
+			.margin-top();
+		}
 	}
-
-
 
 	.view-more {
 		font-size: .8em;

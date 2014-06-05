@@ -96,71 +96,72 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-4  relates-articles">
+			<aside class="col-xs-4">
 				<div class="row">
 					<div class="col-xs-12">
-						<h4>Relates Articles</h4>
+						<h4>Related Articles</h4>
 					</div>
 				</div>
-				<!-- start -->
-				<div class="row">
-					<div class="col-xs-1">
-						<img src="img/cara01.jpg" width="30" alt="">
+				<div class="related">
+					<!-- start -->
+					<div class="row article">
+						<div class="col-xs-2">
+							<img src="img/cara01.jpg" width="30" alt="">
+						</div>
+						<div class="col-xs-10">
+							<h5>ISM manufacturing: ‘employment’</h5>
+							<p>By Francis U.</p>
+						</div>
 					</div>
-					<div class="col-xs-11">
-						<h5>ISM manufacturing: ‘employment’</h5>
-						<p>By Eric K.</p>
+					<!-- end -->
+					<!-- start -->
+					<div class="row article">
+						<div class="col-xs-2">
+							<img src="img/cara03.jpg" width="30" alt="">
+						</div>
+						<div class="col-xs-10">
+							<h5>ISM manufacturing: ‘employment’</h5>
+							<p>By John S.</p>
+						</div>
 					</div>
+					<!-- end -->
+					<!-- start -->
+					<div class="row article">
+						<div class="col-xs-2">
+							<img src="img/cara05.jpg" width="30" alt="">
+						</div>
+						<div class="col-xs-10">
+							<h5>Prices: ‘employment’</h5>
+							<p>By Martha T.</p>
+						</div>
+					</div>
+					<!-- end -->
 				</div>
-				<!-- end -->
-				<!-- start -->
-				<div class="row">
-					<div class="col-xs-1">
-						<img src="img/cara03.jpg" width="30" alt="">
-					</div>
-					<div class="col-xs-11">
-						<h5>ISM manufacturing: ‘employment’</h5>
-						<p>By Eric K.</p>
-					</div>
-				</div>
-				<!-- end -->
-				<!-- start -->
-				<div class="row">
-					<div class="col-xs-1">
-						<img src="img/cara05.jpg" width="30" alt="">
-					</div>
-					<div class="col-xs-11">
-						<h5>Prices: ‘employment’</h5>
-						<p>By Eric K.</p>
-					</div>
-				</div>
-				<!-- end -->
-			</div>
-			<div class="col-xs-4 relates-articles">
-				<div class="row">
+			
+				<div class="row forecasters">
 					<div class="col-xs-12">
 						<h4>Top Forecasters</h4>
 					</div>
 				</div>
 				<div class="col-xs-6 widget-top3">
-							<h6>Activity</h6>
-							<ol>
-								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Sara</span></li>
-								<li><img src="img/cara01.jpg" width="45" alt=""><span class="author">John</span></li>
-							</ol>
+					<h6>Activity</h6>
+					<ol>
+						<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Flavia</span></li>
+						<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Sarah</span></li>
+						<li><img src="img/cara01.jpg" width="45" alt=""><span class="author">John</span></li>
+					</ol>
 				</div>
 				<div class="col-xs-6 widget-top3">
-							<h6>Activity</h6>
-							<ol>
-								<li><img src="img/cara05.jpg" width="45" alt=""><span class="author">Flavia</span></li>
-								<li><img src="img/cara06.jpg" width="45" alt=""><span class="author">Sara</span></li>
-								<li><img src="img/cara01.jpg" width="45" alt=""><span class="author">John</span></li>
-							</ol>
+					<h6>Consumer</h6>
+					<ol>
+						<li><img src="img/cara02.jpg" width="45" alt=""><span class="author">Steve</span></li>
+						<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">Mike</span></li>
+						<li><img src="img/cara04.jpg" width="45" alt=""><span class="author">Carol</span></li>
+					</ol>
 				</div>
 
 
-			</div>
+			</aside>
 
 
 
