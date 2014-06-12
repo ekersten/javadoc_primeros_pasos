@@ -55,25 +55,25 @@
 			<div class="row">
 				<div class="col-xs-6">
 					<div class="form-group">
-						<label class="control-label col-xs-3" for="inputSmall">Title</label>
-						<div class="col-xs-9">
+						<label class="control-label col-xs-4" for="inputSmall">Title</label>
+						<div class="col-xs-8">
 							<input class="form-control input-sm" type="text" id="inputSmall">
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="control-label col-xs-3" for="inputSmall">Institution</label>
-						<div class="col-xs-9">
+						<label class="control-label col-xs-4" for="inputSmall">Institution</label>
+						<div class="col-xs-8">
 							<input class="form-control input-sm" type="text" id="inputSmall">
 						</div>
 					</div>
 				</div>
 				<div class="col-xs-6">
 					<div class="form-group">
-						<div class="col-xs-3">
+						<div class="col-xs-4">
 							<!-- <img src="http://placehold.it/80x80" width="80"/> -->
 							<img src="img/escudo.png" width="80"/>
 						</div>
-						<div class="col-xs-9">
+						<div class="col-xs-8">
 							<button type="button" class="btn btn-default btn-lg btn-upload">Upload Image</button>
 						</div>
 					</div>
@@ -103,8 +103,8 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="control-label col-xs-3" for="inputSmall">Brief Description</label>
-						<div class="col-xs-9">
+						<label class="control-label col-xs-4" for="inputSmall">Brief Description</label>
+						<div class="col-xs-8">
 							<textarea class="form-control input-sm" type="text" id="inputSmall"></textarea>
 						</div>
 					</div>
@@ -132,14 +132,18 @@
 			<div class="row">
 				<div class="col-xs-6">
 					<div class="form-group">
-						<label class="control-label col-xs-3" for="inputSmall">Company / Institution</label>
-						<div class="col-xs-9">
+						<div class="col-xs-4">
+							<label class="control-label col-xs-3" for="inputSmall">Company&nbsp;/&nbsp;Institution</label>
+						</div>
+						<div class="col-xs-8">
 							<input class="form-control input-sm" type="text" id="inputSmall">
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="control-label col-xs-3" for="inputSmall">Website</label>
-						<div class="col-xs-9">
+						<div class="col-xs-4">
+							<label class="control-label col-xs-3" for="inputSmall">Website</label>
+						</div>
+						<div class="col-xs-8">
 							<input class="form-control input-sm" type="text" id="inputSmall">
 						</div>
 					</div>

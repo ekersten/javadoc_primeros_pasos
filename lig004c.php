@@ -54,8 +54,8 @@
 			<!-- fila1 -->
 			<div class="row">
 				<div class="col-xs-12">
-					<span>League begins on</span> <b>no se como armarlo</b>
-					<span>League begins on</span> <b>no se como armarlo</b>
+					<p>Here you can add assignments in addition to the forecasts you have just required to your students.</p>
+					<p>Assignments added here will be easily tracked in the league monitor.</p>
 				</div>
 			</div>
 			<!-- fin fila 1 -->
@@ -65,60 +65,86 @@
 					<h4>Select Indicators to be forecasted</h4>
 				</div>
 			</div>
-			
+			<!-- fin fila 2 -->
+			<!-- fila3 -->
 			<div class="row">
-				<div class="col-xs-4">
-					<div class="panel panel-primary no-padding">
-						<div class="panel-heading">
-							<h3 class="panel-title">Available Indicators</h3>
-						</div>
-						<div class="panel-body">
-							<div class="list-group">
-								<a class="list-group-item first-level"><span class="icon-caret-down"></span>US</a>
-								<a class="list-group-item second-level"><span class="icon-caret-down"></span>Activity</a>
-								<a class="list-group-item third-level"><span></span>ISM</a>
-								<a class="list-group-item second-level"><span class="icon-caret-right"></span>Construction</a>
-								<a class="list-group-item first-level"><span class="icon-caret-right"></span>Japan</a>
-								<a class="list-group-item first-level"><span class="icon-caret-right"></span>China</a>
-							</div>
+				<div class="col-xs-6">
+					<div class="form-group">
+						<label class="control-label col-xs-4" for="inputSmall">Due Date</label>
+						<div class="col-xs-8">
+							<input class="form-control input-sm" type="text" id="inputSmall">
 						</div>
 					</div>
-				</div>
-				<div class="col-xs-2 col-xs-offset-1 text-center">
-					<p><button class="btn btn-default btn-block">&lt;&lt;</button></p>
-					<p><button class="btn btn-default btn-block">&gt;&gt;</button></p>
-				</div>
-				<div class="col-xs-4 col-xs-offset-1">
-					<div class="panel panel-primary no-padding">
-						<div class="panel-heading">
-							<h3 class="panel-title">My Items</h3>
+					<div class="form-group">
+						<label class="control-label col-xs-4" for="inputSmall">Brief Description</label>
+						<div class="col-xs-8">
+							<textarea class="form-control input-sm" type="text" id="inputSmall"></textarea>
 						</div>
-						<div class="panel-body">
-							<div class="list-group">
-								<a class="list-group-item">None</a>
-								<a class="list-group-item">&nbsp;</a>
-								<a class="list-group-item">&nbsp;</a>
-								<a class="list-group-item">&nbsp;</a>
-								<a class="list-group-item">&nbsp;</a>
-								<a class="list-group-item">&nbsp;</a>
-							</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-xs-4" for="inputSmall">Due Date</label>
+						<div class="col-xs-4">
+							<input class="form-control input-sm" type="text" id="inputSmall">
+						</div>
+						<div class="col-xs-4">
+							<span class="icon icon-calendar2"></span>
+						</div>
+					</div>
+					<p>(remember your League begins on xx/xx/xxxx and ends on xx/xx/xxxx)</p>
+				</div>
+				
+
+				<div class="col-xs-6">
+					<div class="form-group">
+						<div class="col-xs-3">
+							<!-- <img src="http://placehold.it/80x80" width="80"/> -->
+							<img src="img/escudo.png" width="80"/>
+						</div>
+						<div class="col-xs-9">
+							<button type="button" class="btn btn-default btn-lg btn-upload">Upload Image</button>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- fin fila2 -->
-	
-			
-			
-			
-			<!-- fila 4 -->
+			<!-- fin fila3 -->
+			<!-- fila4 -->
+			<div class="row">
+					<div class="col-xs-12 text-center"><a class="btn btn-success">Add</a></div>
+			</div>
+			<!-- fin fila 4 -->
+			<!-- fila5 -->
 			<div class="row margin-top">
-				<div class="col-xs-12 text-center">
-					<button type="submit" class="btn btn-primary">< Previus </button>
-					<button type="submit" class="btn btn-primary">Next ></button>
+				<div class="col-xs-12">
+					<table class="table table-striped table-bordered ranking">
+						<thead>
+							<tr>
+								<th>Title</th>
+								<th>Description</th>
+								<th>File</th>
+								<th>Due Date</th>
+								<th></th>
+								
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>aaa</td>
+								<td>1st assignment</td>
+								<td class="text-center">
+									<img src="img/pdf.png" width="25"alt="">
+								</td>
+								<td>11/07/2014</td>
+								<td>
+									<span class="icon icon-pencil"></span>
+									<span class="icon icon-remove"></span>
+								</td>
+							</tr>
+							
+						</tbody>
+					</table>
 				</div>
 			</div>
-			<!-- fin fila4 -->
+			<!-- fin fila5 -->
 			</form>
 		</section>
 	</div>
