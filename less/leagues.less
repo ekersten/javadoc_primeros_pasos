@@ -1,0 +1,152 @@
+section.leagues {
+	
+		h5 {
+			margin: 0 0 .2em 0;
+			font-weight: bold;
+			
+			&+p {
+				font-size: .8em;
+			}
+		}
+
+		.promobox {
+			.well {
+				min-height: 21em;
+			}
+
+			h3 {
+				margin-top: 0;
+			}
+
+			img {
+				display: inline-block;
+				margin: .5em 0 1em;
+			}
+
+			ul {
+				font-size: .8em;
+			}
+
+			&.selected {
+				.well {
+					background: @brand-primary;
+					color: white;
+
+					h3 {
+						color: white;
+					}
+				}
+			}
+		}
+
+		.leagues-list {
+			.margin-top();
+
+			.league{
+				padding: 1.5em 0;
+				border-top: 1px solid @light_gray;
+				
+				.date {
+					span,p {
+						font-size: .8em;
+					}
+				}
+
+				.participants {
+					p {
+						margin-top: .5em;
+						font-size: 2em;
+					}
+				}
+
+				.type {
+
+					p {
+						margin-top: 1.4em;
+
+						span {
+							font-size: 2em;
+							
+						}
+
+						span + a {
+							margin-left: 1em;
+							position: relative;
+							top: -.7em;
+						}
+
+					}
+					
+					.icon {
+						border-radius: 50%;
+						background: @brand-primary;
+						padding: .3em;
+
+
+						&:before {
+							position: relative;
+							left: .2em;
+							color: white;
+						}
+					}
+
+					.icon.icon-unlocked {
+						background-color: @brand-success;
+						font-size: 1.8em;
+						padding: .45em;
+
+						&:before {
+							left: .1em;
+						}
+					}
+
+					.icon.icon-lock {
+						background-color: @brand-danger;
+					}
+				}
+
+				.monitor {
+					p {
+						font-size: 1.5em;
+						margin-top: .8em;
+						color:white;
+
+						.icon {
+							border-radius: 50%;
+							background: @medium_gray;
+							padding: .4em;
+
+							&:before {
+								position: relative;
+								color: white;
+								font-size: .9em;
+							}
+						}
+					}
+				}
+
+
+				&:first-child {
+					border-top: none;
+				}
+			}
+		}
+
+
+		/* overrides */
+		.steps {
+			.step {
+				min-width: 0;
+				padding: 1em 1em 1em .5em;
+
+				.name {
+					font-size: 1.4em;
+				}
+
+				.info {
+					font-size: .8em;
+				}
+			}
+		}
+
+}

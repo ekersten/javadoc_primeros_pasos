@@ -332,6 +332,128 @@ footer, .page-wrap:after {
 
 	}
 }
+
+/*Steps*/
+.steps {
+
+	line-height: 1.5em;
+
+	.step {
+		display: inline-block;
+		background: @stepBaseColor;
+		padding: 1em .5em 1em .5em;
+		position: relative;
+		margin-left: 2em;
+		min-width: 12em;
+		
+		.name {
+			font-size: 1.8em;
+			font-family: 'Ropa Sans';
+			text-transform: uppercase;
+		}
+
+		.name, .info {
+			opacity: 0.5;
+		}
+
+		&:first-child {
+			padding-left: 1.5em;
+			margin-left: 0;
+
+			&:before {
+				display: none;
+			}
+		}
+		
+		&:before {
+			content: '';
+			display: block;
+			width: 0;
+			height: 0;
+			border-top: 2.5em solid @stepBaseColor;
+			border-left: 1em solid transparent;
+			border-right: 1em solid @stepBaseColor;
+			border-bottom: 2.5em solid @stepBaseColor;
+			position: absolute;
+			top: 0;
+			left: -2em;
+		}
+	 
+		&:after {
+			content: '';
+			display: block;
+			width: 0;
+			height: 0;
+			border-top: 2.5em solid transparent;
+			border-left: 1em solid @stepBaseColor;
+			border-right: 1em solid transparent;
+			border-bottom: 2.5em solid transparent;
+			position: absolute;
+			top: 0;
+			right: -2em;
+		}
+
+		&.past {
+			background: @stepPastColor;
+			color: white;
+			
+			&:before {
+				border-top-color: @stepPastColor;
+				border-left-color: transparent;
+				border-right-color: @stepPastColor;
+				border-bottom-color: @stepPastColor;
+			}
+			&:after {
+				border-top-color: transparent;
+				border-left-color: @stepPastColor;
+				border-right-color: transparent;
+				border-bottom-color: transparent;
+			}
+		}
+
+		&.current {
+			background: @stepCurrentColor;
+			color: white;
+
+			.name, .info {
+				opacity: 1;
+			}
+
+			&:before {
+				border-top-color: @stepCurrentColor;
+				border-left-color: transparent;
+				border-right-color: @stepCurrentColor;
+				border-bottom-color: @stepCurrentColor;
+			}
+			&:after {
+				border-top-color: transparent;
+				border-left-color: @stepCurrentColor;
+				border-right-color: transparent;
+				border-bottom-color: transparent;
+			}
+		}
+	}
+}
+
+.panel.no-padding {
+	.list-group {
+		margin: 0;
+		.list-group-item:first-child {
+			border-radius: 0;
+		}
+		.list-group-item:last-child {
+			border-radius: 0;
+		}
+
+		span {
+			margin-right: .4em;
+		}
+	}
+}
+/*fin Steps*/
+
+
+
 // modulo articles
 .articles{
 	.article {
