@@ -57,7 +57,7 @@
 								<td class="text-center">94</td>
 								<td class="text-center">4<sup>th</sup></td>
 								<td class="text-center">
-									<a href="#" class="icon icon-stats"></a>
+									<a href="#" class="icon icon-stats" data-toggle="modal" data-target=".bs-example-modal-sm"></a>
 								</td>
 								<td class="text-center">
 									<a href="#" class="icon icon-table"></a>
@@ -152,6 +152,18 @@
 		</section>
 	</div>
 	<?php include('includes/footer.php'); ?>
+	<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Evolution</h4>
+				</div>
+				<div class="modal-body">
+					<img src="img/grafico01.jpg" alt="">
+				</div>
+			</div><!-- /.modal-content -->
+	</div>
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
