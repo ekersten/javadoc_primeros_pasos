@@ -50,7 +50,7 @@
 					<h1>League Information</h1>
 				</div>
 			</div>
-			<form class="form-horizontal user-registration-form" role="form">
+			<form class="form-horizontal form" role="form">
 			<!-- fila1 -->
 			<div class="row">
 				<div class="col-xs-6">
@@ -67,13 +67,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6">
+				<div class="col-xs-6 right-col">
 					<div class="form-group">
-						<div class="col-xs-4">
+						<div class="col-xs-2 pr5">
 							<!-- <img src="http://placehold.it/80x80" width="80"/> -->
-							<img src="img/escudo.png" width="80"/>
+							<img src="img/escudo.png" width="80" class="responsive"/>
 						</div>
-						<div class="col-xs-8">
+						<div class="col-xs-10 pl5">
 							<button type="button" class="btn btn-default btn-lg btn-upload">Upload Image</button>
 						</div>
 					</div>
@@ -109,17 +109,17 @@
 						</div>
 					</div>
 			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-6 right-col">
 					<div class="form-group">
-						<div class="col-xs-3">
+						<div class="col-xs-2 pr5">
 							<!-- <img src="http://placehold.it/80x80" width="80"/> -->
-							<img src="img/pdf.png" width="80"/>
+							<img src="img/pdf.png" width="80" class="responsive"/>
 						</div>
-						<div class="col-xs-9">
+						<div class="col-xs-10 pl5">
 							<button type="button" class="btn btn-default btn-lg btn-upload">Upload Introduction File</button>
 						</div>
 					</div>
-					</div>
+			</div>
 			</div>
 			<!-- fin fila2 -->
 			<hr/>
@@ -149,12 +149,12 @@
 					</div>
 				</div>
 				
-				<div class="col-xs-6">
+				<div class="col-xs-6 right-col">
 					<div class="form-group">
-						<div class="col-xs-3">
-							<img src="img/escudo.png" width="80"/>
+						<div class="col-xs-2 pr5">
+							<img src="img/escudo.png" width="80" class="responsive"/>
 						</div>
-						<div class="col-xs-9">
+						<div class="col-xs-10 pl5">
 							<button type="button" class="btn btn-default btn-lg btn-upload">Upload Image</button>
 						</div>
 					</div>

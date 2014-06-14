@@ -50,10 +50,10 @@
 					<h1>Add Assignments</h1>
 				</div>
 			</div>
-			<form class="form-horizontal user-registration-form" role="form">
+			<form class="form-horizontal form" role="form">
 			<!-- fila1 -->
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 description">
 					<p>Here you can add assignments in addition to the forecasts you have just required to your students.</p>
 					<p>Assignments added here will be easily tracked in the league monitor.</p>
 				</div>
@@ -68,9 +68,9 @@
 			<!-- fin fila 2 -->
 			<!-- fila3 -->
 			<div class="row">
-				<div class="col-xs-6">
+				<div class="col-xs-8">
 					<div class="form-group">
-						<label class="control-label col-xs-4" for="inputSmall">Due Date</label>
+						<label class="control-label col-xs-4" for="inputSmall">Title</label>
 						<div class="col-xs-8">
 							<input class="form-control input-sm" type="text" id="inputSmall">
 						</div>
@@ -78,44 +78,36 @@
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Brief Description</label>
 						<div class="col-xs-8">
-							<textarea class="form-control input-sm" type="text" id="inputSmall"></textarea>
+							<textarea class="form-control input-sm" type="text" id="inputSmall" rows="5"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-xs-4" for="inputSmall">File</label>
+						<div class="col-xs-8 pr5">
+							<img src="img/pdf.png" width="60" class="responsive"/>
+							<button type="button" class="btn btn-default btn-lg btn-upload">Upload Description</button>
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Due Date</label>
-						<div class="col-xs-4">
-							<input class="form-control input-sm" type="text" id="inputSmall">
-						</div>
-						<div class="col-xs-4">
-							<span class="icon icon-calendar2"></span>
+						<div class="col-xs-3">
+							<div class="input-group">
+								<input class="form-control input-sm" type="text" id="inputSmall">
+								<span class="input-group-addon"><span class="icon icon-calendar"></span></span>
+							</div>
 						</div>
 					</div>
-					<p>(remember your League begins on xx/xx/xxxx and ends on xx/xx/xxxx)</p>
+					<div class="col-xs-8 col-xs-offset-4"><p class="info">(remember your League begins on 10/01/2014 and ends on 10/31/2014)</p></div>
 				</div>
 				
-
-				<div class="col-xs-6">
-					<div class="form-group">
-						<div class="col-xs-3">
-							<!-- <img src="http://placehold.it/80x80" width="80"/> -->
-							<img src="img/escudo.png" width="80"/>
-						</div>
-						<div class="col-xs-9">
-							<button type="button" class="btn btn-default btn-lg btn-upload">Upload Image</button>
-						</div>
-					</div>
-				</div>
 			</div>
 			<!-- fin fila3 -->
 			<!-- fila4 -->
-			<div class="row">
-					<div class="col-xs-12 text-center"><a class="btn btn-success">Add</a></div>
-			</div>
 			<!-- fin fila 4 -->
 			<!-- fila5 -->
 			<div class="row margin-top">
-				<div class="col-xs-12">
-					<table class="table table-striped table-bordered ranking">
+				<div class="col-xs-8">
+					<table class="table table-striped table-bordered blue-header">
 						<thead>
 							<tr>
 								<th>Title</th>
@@ -134,14 +126,18 @@
 									<img src="img/pdf.png" width="25"alt="">
 								</td>
 								<td>11/07/2014</td>
-								<td>
-									<span class="icon icon-pencil"></span>
-									<span class="icon icon-remove"></span>
+								<td class="actions">
+									<a class="btn btn-warning icon icon-pencil"></a> <a class="btn btn-danger icon icon-remove"></a>
 								</td>
 							</tr>
 							
 						</tbody>
 					</table>
+				</div>
+				<div class="col-xs-4">
+					<div class="row">
+							<div class="col-xs-12"><a class="btn btn-success">Add New</a></div>
+					</div>
 				</div>
 			</div>
 			<!-- fin fila5 -->

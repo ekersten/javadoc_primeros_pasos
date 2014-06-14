@@ -60,7 +60,7 @@
 									<a href="#" class="icon icon-stats" data-toggle="modal" data-target=".bs-example-modal-sm"></a>
 								</td>
 								<td class="text-center">
-									<a href="#" class="icon icon-table"></a>
+									<a href="#" class="icon icon-calendar"></a>
 								</td>
 							</tr>
 							<tr>

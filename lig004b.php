@@ -50,12 +50,24 @@
 					<h1>Indicators and Dates</h1>
 				</div>
 			</div>
-			<form class="form-horizontal user-registration-form" role="form">
+			<form class="form" role="form">
 			<!-- fila1 -->
-			<div class="row">
+			<div class="row margin-bottom">
 				<div class="col-xs-12">
-					<span>League begins on</span> <b>no se como armarlo</b>
-					<span>League begins on</span> <b>no se como armarlo</b>
+					<span>League begins on</span>
+					
+						<span class="input-group datepicker">
+							<input class="form-control input-sm" type="text" id="inputSmall">
+							<span class="input-group-addon"><span class="icon icon-calendar"></span></span>
+						</span>
+					
+					<span>and ends on</span>
+					
+						<span class="input-group datepicker">
+							<input class="form-control input-sm" type="text" id="inputSmall">
+							<span class="input-group-addon"><span class="icon icon-calendar"></span></span>
+						</span>
+					
 				</div>
 			</div>
 			<!-- fin fila 1 -->
