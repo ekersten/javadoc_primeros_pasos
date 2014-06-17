@@ -22,11 +22,11 @@
 							<div class="name">Step 2</div>
 							<div class="info">Indicators and Dates</div>
 						</div>
-						<div class="step current">
+						<div class="step past">
 							<div class="name">Step 3</div>
 							<div class="info">Add Assignments</div>
 						</div>
-						<div class="step">
+						<div class="step current">
 							<div class="name">Step 4</div>
 							<div class="info">Participants</div>
 						</div>
@@ -47,105 +47,64 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>Add Assignments</h1>
+					<h1>Invite participants</h1>
 				</div>
 			</div>
 			<form class="form-horizontal form" role="form">
 			<!-- fila1 -->
 			<div class="row">
 				<div class="col-xs-12">
-					<p>Here you can add assignments in addition to the forecasts you have just required to your students.</p>
-					<p>Assignments added here will be easily tracked in the league monitor.</p>
+					<p>Upload a list of emails and we will tell them it's time to suscribe.</p>
+					<p>We can handle text and excel files. Just one email per row and no empty lines in between. <a>Read more</a></p>
 				</div>
 			</div>
 			<!-- fin fila 1 -->
 			<!-- fila 2 -->
-			<div class="row">
-				<div class="col-xs-12">
-					<h4>Select Indicators to be forecasted</h4>
+			<div class="col-xs-4">
+				<div class="row">
+						<div class="col-xs-12 text-center"><a class="btn btn-default">Upload</a></div>
+						<p class="description">15 emails found on list<br/>
+						0 errors found</p>
 				</div>
 			</div>
 			<!-- fin fila 2 -->
 			<!-- fila3 -->
 			<div class="row">
 				<div class="col-xs-8">
+				<p>Or copy this link and send it to your participants. You will also have to send them the passcode</p>
+				</div>
+				<div class="col-xs-8">
 					<div class="form-group">
-						<label class="control-label col-xs-4" for="inputSmall">Title</label>
+						<label class="control-label col-xs-4" for="inputSmall">Link</label>
+						<div class="col-xs-8">
+							<input class="form-control input-sm" type="text" id="inputSmall">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="control-label col-xs-4" for="inputSmall">Passcode</label>
 						<div class="col-xs-8">
 							<input class="form-control input-sm" type="text" id="inputSmall">
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="control-label col-xs-4" for="inputSmall">Brief Description</label>
+						<label class="control-label col-xs-4" for="inputSmall">Proposed message</label>
 						<div class="col-xs-8">
 							<textarea class="form-control input-sm" type="text" id="inputSmall" rows="5"></textarea>
 						</div>
 					</div>
-					<div class="form-group">
-						<label class="control-label col-xs-4" for="inputSmall">File</label>
-						<div class="col-xs-8 pr5">
-							<img src="img/pdf.png" width="60" class="responsive"/>
-							<button type="button" class="btn btn-default btn-lg btn-upload">Upload Description</button>
-						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-xs-4" for="inputSmall">Due Date</label>
-						<div class="col-xs-3">
-							<div class="input-group">
-								<input class="form-control input-sm" type="text" id="inputSmall">
-								<span class="input-group-addon"><span class="icon icon-calendar"></span></span>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-8 col-xs-offset-4"><p class="info">(remember your League begins on 10/01/2014 and ends on 10/31/2014)</p></div>
 				</div>
-				
 			</div>
 			<!-- fin fila3 -->
 			<!-- fila4 -->
-			<!-- fin fila 4 -->
-			<!-- fila5 -->
-			<div class="row margin-top">
-				<div class="col-xs-8">
-					<table class="table table-striped table-bordered blue-header">
-						<thead>
-							<tr>
-								<th>Title</th>
-								<th>Description</th>
-								<th>File</th>
-								<th>Due Date</th>
-								<th></th>
-								
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>aaa</td>
-								<td>1st assignment</td>
-								<td class="text-center">
-									<img src="img/pdf.png" width="25"alt="">
-								</td>
-								<td>11/07/2014</td>
-								<td class="actions">
-									<a class="btn btn-warning icon icon-pencil"></a> <a class="btn btn-danger icon icon-remove"></a>
-								</td>
-							</tr>
-							
-						</tbody>
-					</table>
-				</div>
-				<div class="col-xs-4">
-					<div class="row">
-							<div class="col-xs-12"><a class="btn btn-success">Add New</a></div>
-					</div>
-				</div>
-			</div>
 			<div class="row margin-top">
 				<div class="col-xs-12 text-center">
 					<button type="submit" class="btn btn-primary">< Previus </button>
 					<button type="submit" class="btn btn-primary">Next ></button>
 				</div>
 			</div>
+			<!-- fin fila 4 -->
+			<!-- fila5 -->
 			<!-- fin fila5 -->
 			</form>
 		</section>

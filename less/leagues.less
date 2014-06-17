@@ -134,13 +134,13 @@ section.leagues {
 
 
 		.form {
-			.description {
-				p {
-					font-size: .8em;
-					margin: 0;
-				}
+			// .description {
+			// 	p {
+			// 		font-size: .8em;
+			// 		margin: 0;
+			// 	}
 				
-			}
+			// }
 
 			p.info {
 				font-size: .7em;
@@ -185,7 +185,55 @@ section.leagues {
 			}
 
 		}
+		
 
+		.monitor-header {
+			
+			h2 {
+				margin: 0;
+			}
+
+			.col-xs-6 {
+				padding-bottom: @grid-gutter-width
+			}
+		}
+
+		table.basic-info {
+			font-size: .8em;
+
+			th {
+				.text-right();
+			}
+
+			th,td {
+				padding: .4em .4em;
+			}
+
+		}
+
+		.info-table {
+			h5 {
+				background: @brand-primary;
+				color: white;
+				padding: .2em .5em;
+				margin: 0 0 .5em 0;
+				font-weight: normal;
+			}
+
+			.info {
+				font-size: .8em;
+				margin: .5em 0;
+			}
+
+			.view-more {
+				.text-right();
+				font-size: .8em;
+			}
+
+			.extra {
+				font-size: .8em;
+			}
+		}
 
 		/* overrides */
 		.steps {

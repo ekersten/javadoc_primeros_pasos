@@ -54,8 +54,7 @@
 			<!-- fila1 -->
 			<div class="row margin-bottom">
 				<div class="col-xs-12">
-					<span>League begins on</span>
-					
+					<p><span>League begins on</span>
 						<span class="input-group datepicker">
 							<input class="form-control input-sm" type="text" id="inputSmall">
 							<span class="input-group-addon"><span class="icon icon-calendar"></span></span>
@@ -67,7 +66,8 @@
 							<input class="form-control input-sm" type="text" id="inputSmall">
 							<span class="input-group-addon"><span class="icon icon-calendar"></span></span>
 						</span>
-					
+					</p>
+					<p>Releases will be included on a release date basis, not reference period basis. </p>
 				</div>
 			</div>
 			<!-- fin fila 1 -->
@@ -82,7 +82,7 @@
 				<div class="col-xs-4">
 					<div class="panel panel-primary no-padding">
 						<div class="panel-heading">
-							<h3 class="panel-title">Available Indicators</h3>
+							<h3 class="panel-title">Available</h3>
 						</div>
 						<div class="panel-body">
 							<div class="list-group">
@@ -96,6 +96,7 @@
 						</div>
 					</div>
 				</div>
+
 				<div class="col-xs-2 col-xs-offset-1 text-center">
 					<p><button class="btn btn-default btn-block">&lt;&lt;</button></p>
 					<p><button class="btn btn-default btn-block">&gt;&gt;</button></p>
@@ -103,16 +104,16 @@
 				<div class="col-xs-4 col-xs-offset-1">
 					<div class="panel panel-primary no-padding">
 						<div class="panel-heading">
-							<h3 class="panel-title">My Items</h3>
+							<h3 class="panel-title">Selected (15)</h3>
 						</div>
 						<div class="panel-body">
 							<div class="list-group">
-								<a class="list-group-item">None</a>
-								<a class="list-group-item">&nbsp;</a>
-								<a class="list-group-item">&nbsp;</a>
-								<a class="list-group-item">&nbsp;</a>
-								<a class="list-group-item">&nbsp;</a>
-								<a class="list-group-item">&nbsp;</a>
+								<a class="list-group-item first-level"><span class="icon-caret-down"></span>US</a>
+								<a class="list-group-item second-level"><span class="icon-caret-right"></span>Activity</a>
+								<a class="list-group-item second-level"><span class="icon-caret-right"></span>Labor</a>
+								<a class="list-group-item second-level"><span class="icon-caret-right"></span>housing</a>
+								<a class="list-group-item second-level"><span class="icon-caret-right"></span>Prices</a>
+								<a class="list-group-item second-level"><span class="icon-caret-right"></span>Rates</a>
 							</div>
 						</div>
 					</div>
@@ -120,7 +121,9 @@
 			</div>
 			<!-- fin fila2 -->
 	
-			
+			<div class="row">
+				<div class="col-xs-12 text-center"><a href="" class="btn btn-lg btn-default"><span class="icon icon-calendar"></span> View calendar of selected indicators</a></div>
+			</div>
 			
 			
 			<!-- fila 4 -->
