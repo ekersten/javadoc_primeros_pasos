@@ -271,7 +271,12 @@ section.leagues {
 				.header-cell {
 					&>div {
 						.text-right();
+						font-weight: bold;
 					}
+				}
+
+				.name-cell {
+					.text-right();
 				}
 			}
 			.grid-scroll {
@@ -345,6 +350,53 @@ section.leagues {
 			.names .name-cell, .grid-container .grid-cell {
 				height: 40px;
 				line-height: 40px;
+			}
+		}
+
+		form.activity-filter {
+			select {
+				min-width: 150px;
+				margin-right: 1.5em;
+			}
+
+			label {
+				font-size: .8em;
+			}
+		}
+
+		table.activity-table {
+			thead {
+				th {
+					.text-center();
+				}
+			}
+
+			tbody {
+				tr {
+					&.assignment {
+						background: @brand-info;
+
+						td {
+							height: 4em;
+							vertical-align: middle;
+						}
+					}
+				}
+				td {
+					.text-center();
+					font-size: .8em;
+
+					&.student {
+						.text-left();
+						font-weight: bold;
+						border-top: 3px solid @medium_gray;
+						background: lighten(@light_gray, 7%);
+					}
+				}
+			}
+
+			.observations {
+				.text-left();
 			}
 		}
 

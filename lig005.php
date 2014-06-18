@@ -11,11 +11,6 @@
 	<div class="page-wrap">
 		<?php include('includes/header.php'); ?>
 		<section class="container-fluid leagues">
-			<div class="row">
-				<div class="col-xs-12">
-					<h1>Monitor Setup</h1>
-				</div>
-			</div>
 			<!-- fil2 -->
 			<div class="row margin-top">
 				<div class="form-group">
