@@ -399,7 +399,42 @@ section.leagues {
 				.text-left();
 			}
 		}
+		
+		table.calendar {
+			thead th {
+				.text-center();
+			}
 
+			thead th, tbody td {
+				width: 14.28%;
+				box-sizing: border-box;
+				padding: 1em;
+			}
+
+			tbody td {
+				border: 1px solid @light_gray;
+				position: relative;
+				height: 7em;
+				font-size: .8em;
+
+				.number {
+					font-size: .7em;
+					position: absolute;
+					left: .5em;
+					top: .5em;
+					color: @medium_gray;
+				}
+				
+				&.assignment {
+					background: @brand-info;
+				}
+
+				&.indicator {
+					background: lighten(@light_gray, 10%);
+				}
+
+			}
+		}
 
 		/* overrides */
 		.steps {
