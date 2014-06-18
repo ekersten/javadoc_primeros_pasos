@@ -234,6 +234,120 @@ section.leagues {
 				font-size: .8em;
 			}
 		}
+		.legend {
+			.margin-top();
+			font-size: .8em;
+
+			.legend-items {
+				list-style: none;
+				display: inline;
+				margin: 0;
+				padding: 0;
+
+				.legend-item {
+					display: inline-block;
+					margin-left: 1em;
+					border-left: 1px solid @light_gray;
+					padding: .4em 0 .4em 1em;
+
+					&:first-child {
+						margin-left: 0;
+						border-left: none;
+					}
+
+					.icon {
+						margin-right: .4em;
+					}
+				}
+			}
+		}
+
+		.grid {
+			.margin-top();
+
+			font-size: .8em;
+
+			.names {
+				.header-cell {
+					&>div {
+						.text-right();
+					}
+				}
+			}
+			.grid-scroll {
+				overflow-x: scroll;
+
+				.grid-container {
+					width: 1440px;
+
+					.column {
+						width: 120px;
+						display: inline-block;
+						float: left;
+
+						.header-cell {
+							.text-center();
+							background: @light_gray;
+
+						}
+
+						.grid-cell {
+							.text-center();
+							border: 1px solid @light_gray;
+							border-bottom-color: transparent;
+							border-left-color: transparent;
+							font-size: 1.2em;
+
+							&:last-child {
+								border-bottom-color: @light_gray;
+							}
+
+							.icon {
+								margin: 0 .4em;
+							}
+						}
+
+						&:first-child {
+							.grid-cell {
+								border-left-color: @light_gray;
+							}
+						}
+
+						&.assignment {
+							.header-cell {
+								background: @brand-primary;
+								color: white;
+							}
+						}
+					}
+				}
+			}
+
+			.names .header-cell, .grid-container .header-cell {
+				height: 60px;
+				position: relative;
+
+				&>div {
+					line-height: 1em;
+					position: absolute;
+					width: 100%;
+
+					&:first-child {
+						top: 5px;
+					}
+
+					&:last-child {
+						bottom: 5px;
+					}
+				}
+			}
+
+			.names .name-cell, .grid-container .grid-cell {
+				height: 40px;
+				line-height: 40px;
+			}
+		}
+
 
 		/* overrides */
 		.steps {
