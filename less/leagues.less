@@ -399,8 +399,16 @@ section.leagues {
 				.text-left();
 			}
 		}
-		
+
+		select.month-selector {
+			display: inline;
+			width: auto;
+			margin-left: 1em;
+		}
+
 		table.calendar {
+			width: 100%;
+
 			thead th {
 				.text-center();
 			}
@@ -431,6 +439,10 @@ section.leagues {
 
 				&.indicator {
 					background: lighten(@light_gray, 10%);
+				}
+
+				&.saturday, &.sunday {
+					background: lighten(@light_gray, 5%);
 				}
 
 			}

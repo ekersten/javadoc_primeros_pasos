@@ -42,6 +42,19 @@
 				</div>
 			</div>
 			<div class="row margin-top">
+				<div class="col-xs-12 text-center">Select month: 
+					<select class="form-control input-sm month-selector">
+						<option>April 2014</option>
+						<option selected="selected">May 2014</option>
+						<option>June 2014</option>
+						<option>July 2014</option>
+						<option>August 2014</option>
+						<option>September 2014</option>
+						<option>October 2014</option>
+					</select>
+				</div>
+			</div>
+			<div class="row margin-top">
 				<div class="col-xs-12">
 					<table class="calendar">
 						<thead>
@@ -98,8 +111,8 @@
 								<td class="tuesday"><span class="number">27</span></td>
 								<td class="wednesday"><span class="number">28</span></td>
 								<td class="thursday"><span class="number">29</span></td>
-								<td class="friday"><span class="number">30</span></td>
-								<td class="saturday assignment"><span class="number">31</span>Assignment #1<br/><strong>Write Like a Pro</strong></td>
+								<td class="friday assignment"><span class="number">30</span>Assignment #1<br/><strong>Write Like a Pro</strong></td>
+								<td class="saturday"><span class="number">31</span></td>
 							</tr>
 						</tbody>
 					</table>
