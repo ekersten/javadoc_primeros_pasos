@@ -33,8 +33,8 @@
 					<ul class="nav nav-tabs">
 						<li><a href="#">League Setup</a></li>
 						<li><a href="#">Grid Monitor</a></li>
-						<li><a href="#">Track Activity</a></li>
-						<li class="active"><a href="#">Ranking</a></li>
+						<li class="active"><a href="#">Track Activity</a></li>
+						<li><a href="#">Ranking</a></li>
 						<li><a href="#">Calendar</a></li>
 					</ul>
 				</div>
