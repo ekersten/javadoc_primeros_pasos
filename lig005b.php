@@ -45,7 +45,7 @@
 					<strong>Legend:</strong>
 					<ul class="legend-items">
 						<li class="legend-item"><span class="icon icon-checkmark green"></span> Completed</li>
-						<li class="legend-item"><span class="icon icon-close red"></span> Completed</li>
+						<li class="legend-item"><span class="icon icon-close red"></span> Missing</li>
 						<li class="legend-item"><span class="icon icon-pencil green"></span> Graded</li>
 						<li class="legend-item"><span class="icon icon-pencil red"></span> Not Graded</li>
 					</ul>
@@ -153,7 +153,7 @@
 							<div class="grid-cell"><span class="icon icon-checkmark green"></span></div>
 						</div><div class="column assignment">
 							<div class="header-cell">
-								<div>Assig #1 Write like a pro</div>
+								<div>Assig #2 Tell us how</div>
 								<div>20-may-14</div>
 							</div>
 							<div class="grid-cell"><span class="icon icon-file-pdf"></span><span class="icon icon-pencil green"></span></div>
@@ -201,7 +201,7 @@
 							<div class="grid-cell"><span class="icon icon-checkmark green"></span></div>
 						</div><div class="column assignment">
 							<div class="header-cell">
-								<div>Assig #1 Write like a pro</div>
+								<div>Assig #3 Write like a pro</div>
 								<div>20-may-14</div>
 							</div>
 							<div class="grid-cell"><span class="icon icon-file-pdf"></span><span class="icon icon-pencil green"></span></div>

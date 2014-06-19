@@ -59,7 +59,7 @@
 						</div>
 						<div class="col-xs-2 text-center pl5">
 							<p>Sponsor</p>
-							<p><img src="img/liga03.jpg" class="responsive" width="80"/></p>
+							<p><img src="img/sponsor01.jpg" class="responsive" width="80"/></p>
 						</div>
 						<div class="col-xs-8">
 							<table class="basic-info">
@@ -117,7 +117,7 @@
 							<tr>
 								<td>US</td>
 								<td>Activity</td>
-								<td>GDP</td>
+								<td>ISM</td>
 								<td class="text-center">2</td>
 							</tr>
 						</tbody>
@@ -182,20 +182,20 @@
 								<td class="text-center"><input type="checkbox"/></td>
 							</tr>
 							<tr>
-								<td>John Smith</td>
-								<td>johnsmith@harvard.com</td>
+								<td>Ana Garcia</td>
+								<td>anagarcia@yahoo.com</td>
 								<td class="text-center"><span class="icon icon-close"></span></td>
 								<td class="text-center"><input type="checkbox" checked="checked"/></td>
 							</tr>
 							<tr>
-								<td>John Smith</td>
-								<td>johnsmith@harvard.com</td>
+								<td>Ken Mattel</td>
+								<td>kenmattel@webmail.com</td>
 								<td class="text-center"><span class="icon icon-checkmark"></span></td>
 								<td class="text-center"><input type="checkbox" checked="checked"/></td>
 							</tr>
 							<tr>
-								<td>John Smith</td>
-								<td>johnsmith@harvard.com</td>
+								<td>Michael Spencer</td>
+								<td>michaelspencer@harvard.com</td>
 								<td class="text-center"><span class="icon icon-checkmark"></span></td>
 								<td class="text-center"><input type="checkbox"/></td>
 							</tr>

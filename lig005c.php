@@ -153,7 +153,7 @@
 								<td>05/05/2014</td>
 								<td>US</td>
 								<td>ISM Apr'14</td>
-								<td><span class="icon icon-checkmark green"></span></td>
+								<td><span class="icon icon-busy"></span></td>
 								<td>44.0</td>
 								<td>45.0</td>
 								<td>15</td>
