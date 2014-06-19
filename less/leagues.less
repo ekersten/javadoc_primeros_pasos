@@ -399,6 +399,35 @@ section.leagues {
 				.text-left();
 			}
 		}
+		
+		ul.league-info {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			font-size: .8em;
+
+			>li {
+				border-top: 1px solid @light_gray;
+				padding: .8em;
+
+				&:first-child {
+					padding-top: 0;
+					border-top: none;
+				}
+
+				&:nth-child(even) {
+					background: lighten(@light_gray, 10%);
+				}
+
+				dl {
+					ul {
+						list-style-type: disc;
+						margin: 0;
+						padding-left: 2em;
+					}
+				}
+			}
+		}
 
 		select.month-selector {
 			display: inline;

@@ -54,8 +54,7 @@
 			<!-- fila1 -->
 			<div class="row">
 				<div class="col-xs-12">
-					<p>Congratulations!</p>
-					<p>You have succesfully set up your League. Please provide the payment method</p>
+					<p>Please provide the payment method</p>
 				</div>
 			</div>
 			<!-- fin fila 1 -->
