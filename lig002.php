@@ -10,60 +10,51 @@
 <body>
 	<div class="page-wrap">
 		<?php include('includes/header.php'); ?>
-		<section class="container-fluid leagues">
+		<section class="container-fluid leagues enroll">
 			<!-- fila1 -->
-					<div class="row">
-						<div class="col-xs-12">
-							<h2>Leagues - ENROLL</h2>
-						</div>
-					</div>
-					<div class="row league">
-						<div class="col-xs-2 text-center pr5">
-							<p>Institution</p>
-							<p><img src="img/liga02.jpg" class="responsive" width="80"/></p>
-						</div>
-						<div class="col-xs-2 text-center pl5">
-							<p>Sponsor</p>
-							<p><img src="img/sponsor01.jpg" class="responsive" width="80"/></p>
-						</div>
+			<div class="row league">
+				<div class="col-xs-2 text-center pr5">
+					<p><strong>Institution</strong></p>
+					<p><img src="img/liga02.jpg" class="responsive" width="80"/></p>
+				</div>
+				<div class="col-xs-2 text-center pl5">
+					<p><strong>Sponsor</strong></p>
+					<p><img src="img/sponsor01.jpg" class="responsive" width="80"/></p>
+				</div>
 
-						<div class="col-xs-4">
-							<h5>Harvard - US Macro Forecasting</h5>
-							<p>Sponsored by Harvard University - School of Economics<br/>
-							Closed to Invited participants<br/>
-							From 01/04/2014 to 31/10/2014<br/>	
-							</p>
-						</div>
-						<div class="col-xs-2 text-center date">
-							<h5>Suscription Due Date</h5>
-							<span>31/03/2014</span>
-							<p>3 days remaining!</p>
-						</div>
-						<div class="col-xs-2 text-center participants">
-							<h5>Participants</h5>
-							<p>24</p>
-							<p>forecasters already enrolled</p>
-						</div>
-					</div>
+				<div class="col-xs-4 margin-top">
+					<h4>Harvard - US Macro Forecasting</h4>
+					<p>Sponsored by Harvard University - School of Economics<br/>
+					Closed to Invited participants<br/>
+					From 01/04/2014 to 31/10/2014<br/>	
+					</p>
+				</div>
+				<div class="col-xs-2 text-center date margin-top">
+					<h4>Suscription Due Date</h4>
+					<span>31/03/2014</span>
+					<p>3 days remaining!</p>
+				</div>
+				<div class="col-xs-2 text-center participants margin-top">
+					<h4>Participants</h4>
+					<p><strong>24</strong><br/>forecasters already enrolled</p>
+				</div>
+			</div>
 				<div class="row">
-			<div class="col-xs-4">BORRAR</div>
-			<div class="col-xs-8">
+			<div class="col-xs-8 col-xs-offset-4 margin-top">
 				<p>Prize:  xxxxxx</p>
-				<p>Indicators included:</br>
-					US: GDP - ISM - CPI - House Prices</br>		
-	Eurozone: Unemployment - CPI</p>
+				<h5>Indicators included:</h5><p><strong>US:</strong> GDP - ISM - CPI - House Prices<br/><strong>Eurozone:</strong> Unemployment - CPI</p>
 
 			<p class="margin-top">
-				This League is available only to participants invited by the organizer. </br>
+				This League is available only to participants invited by the organizer. <br/>
 				If you have received an invitation email, please enter the passcode
 			</p>
-				<form class="form-horizontal form" role="form">
-					<label class="control-label" for="inputSmall">Passcode</label>
-						<div class="col-xs-5 nopadding">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+				<form class="form-horizontal" role="form">
+					<label class="control-label col-xs-2" for="inputSmall">Passcode</label>
+						<div class="col-xs-5">
+							<input class="form-control input-sm" type="password" id="inputSmall">
 						</div>
 					<div class="form-group">
-						<div class="col-sm-offset-2 col-sm-10">
+						<div class="col-xs-offset-2 col-xs-10">
 							<div class="checkbox">
 							<label>
 								<input type="checkbox"> I have and accepted the Leagues Terms & Conditions
@@ -72,7 +63,7 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<div class="col-sm-offset-2 col-sm-10">
+						<div class="col-xs-6 text-center">
 							<button type="submit" class="btn btn-primary">Enroll</button>
 						</div>
 					</div>
