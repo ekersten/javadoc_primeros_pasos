@@ -78,7 +78,7 @@
 
 			<div class="row margin-top">
 				<div class="col-xs-12">
-					<table class="table activity-table">
+					<table class="table activity-table blue-header">
 						<thead>
 							<tr>
 								<th>Due Date</th>

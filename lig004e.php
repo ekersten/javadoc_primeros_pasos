@@ -53,33 +53,35 @@
 			<form class="form-horizontal form" role="form">
 			<!-- fila1 -->
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 description">
 					<p>Would you like to receive alerts on your Inbox?</p>
 					<p>Alerts will keep you up to date on events developing in your league.</p>
 				</div>
 			</div>
 			<!-- fin fila 1 -->
 			<!-- fila 2 -->
-			<div class="col-xs-8">
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" value="">Alert me 1 week before the release of data for selected indicators.
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" value="">Alert me after the release of data for selected indicators.
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" value="">Alert me on an assignment due date.
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" value="">Alert me when a student uploads an assignment.
-					</label>
+			<div class="row margin-top">
+				<div class="col-xs-8">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value="">Alert me 1 week before the release of data for selected indicators.
+						</label>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value="">Alert me after the release of data for selected indicators.
+						</label>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value="">Alert me on an assignment due date.
+						</label>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value="">Alert me when a student uploads an assignment.
+						</label>
+					</div>
 				</div>
 			</div>
 			<div class="row margin-top">

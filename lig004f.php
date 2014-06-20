@@ -64,17 +64,14 @@
 					<label>
 						<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
 						Paid by the participants (credit card needed)
-						</label>
-						</div>
-						<div class="radio">
-						<label>
+					</label>
+				</div>
+				<div class="radio">
+					<label>
 						<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
 						Paid by the Institution (send me the invoice)
 					</label>
 				</div>
-
-
-
 			</div>
 			<div class="row margin-top">
 				<div class="col-xs-12 text-center">

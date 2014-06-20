@@ -53,7 +53,7 @@
 			<form class="form-horizontal form" role="form">
 			<!-- fila1 -->
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 description">
 					<p>Here you can add assignments in addition to the forecasts you have just required to your students.</p>
 					<p>Assignments added here will be easily tracked in the league monitor.</p>
 				</div>

@@ -134,13 +134,12 @@ section.leagues {
 
 
 		.form {
-			// .description {
-			// 	p {
-			// 		font-size: .8em;
-			// 		margin: 0;
-			// 	}
-				
-			// }
+			.description {
+				p {
+					font-size: .8em;
+					margin: 0;
+				}
+			}
 
 			p.info {
 				font-size: .7em;
@@ -182,6 +181,10 @@ section.leagues {
 				margin: 0 .6em;
 				position: relative;
 				top: .6em;
+			}
+
+			.radio {
+				font-size: .8em;
 			}
 
 		}
@@ -459,15 +462,16 @@ section.leagues {
 					position: absolute;
 					left: .5em;
 					top: .5em;
-					color: @medium_gray;
+					color: @brand-primary;
 				}
 				
 				&.assignment {
-					background: @brand-info;
+					background: @brand-primary;
+					color: white;
 				}
 
 				&.indicator {
-					background: lighten(@light_gray, 10%);
+					background: lighten(@light_gray, 8%);
 				}
 
 				&.saturday, &.sunday {
@@ -476,6 +480,8 @@ section.leagues {
 
 			}
 		}
+
+
 
 		&.enroll {
 			font-size: .8em;
