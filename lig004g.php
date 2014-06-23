@@ -57,6 +57,8 @@
 				<div class="col-xs-12">
 					<ul class="league-info">
 						<li><strong>League type:</strong> Academic</li>
+						<li><strong>Course:</strong> Econ 401</li>
+						<li><strong>Season:</strong> Spring 2013</li>
 						<li><strong>Active from:</strong> 04/01/2014 <strong>to</strong> 10/31/2014</li>
 						<li><strong>Selected Indicators:</strong> <br/>
 							<dl>

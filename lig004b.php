@@ -56,14 +56,14 @@
 				<div class="col-xs-12">
 					<p><span>League begins on</span>
 						<span class="input-group datepicker">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+							<input class="form-control input-sm" type="text" id="inputSmall" value="dd/mm/yy">
 							<span class="input-group-addon"><span class="icon icon-calendar"></span></span>
 						</span>
 					
 					<span>and ends on</span>
 					
 						<span class="input-group datepicker">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+							<input class="form-control input-sm" type="text" id="inputSmall" value="dd/mm/yy">
 							<span class="input-group-addon"><span class="icon icon-calendar"></span></span>
 						</span>
 					</p>
@@ -129,7 +129,7 @@
 			<!-- fila 4 -->
 			<div class="row margin-top">
 				<div class="col-xs-12 text-center">
-					<button type="submit" class="btn btn-primary">< Previus </button>
+					<button type="submit" class="btn btn-primary">< Previous </button>
 					<button type="submit" class="btn btn-primary">Next ></button>
 				</div>
 			</div>

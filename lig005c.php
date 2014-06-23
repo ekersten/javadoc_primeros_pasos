@@ -45,7 +45,7 @@
 					<strong>Legend:</strong>
 					<ul class="legend-items">
 						<li class="legend-item"><span class="icon icon-checkmark green"></span> Completed</li>
-						<li class="legend-item"><span class="icon icon-close red"></span> Completed</li>
+						<li class="legend-item"><span class="icon icon-close red"></span> Missed</li>
 						<li class="legend-item"><span class="icon icon-busy"></span> Pending</li>
 						<li class="legend-item"><span class="icon icon-pencil red"></span> Not Graded</li>
 					</ul>
@@ -56,17 +56,17 @@
 					<form action="" class="form-inline activity-filter">
 						<label for="tabulate_by">Tabulate by:</label>
 						<select name="tabulate_by" id="tabulate_by" class="form-control input-sm">
-							<option value="">Student</option>
+							<option value="">First students, then tasks</option>
 							<option value="">Task</option>
 						</select>
 						<label for="student">Student:</label>
 						<select name="student" id="student" class="form-control input-sm">
-							<option value="">Student</option>
+							<option value="">All</option>
 							<option value="">Task</option>
 						</select>
 						<label for="task">Task:</label>
 						<select name="task" id="task" class="form-control input-sm">
-							<option value=""></option>
+							<option value="">All</option>
 						</select>
 						<label for="grading">Grading:</label>
 						<select name="grading" id="grading" class="form-control input-sm">
@@ -124,7 +124,7 @@
 							<tr>
 								<td>05/05/2014</td>
 								<td>US</td>
-								<td>Unenmployment RAte Apr'14</td>
+								<td>Unemployment Rate Apr'14</td>
 								<td><span class="icon icon-checkmark green"></span></td>
 								<td>6.7%</td>
 								<td>6.9%</td>
@@ -176,7 +176,7 @@
 							<tr>
 								<td>05/05/2014</td>
 								<td>US</td>
-								<td>Unenmployment RAte Apr'14</td>
+								<td>Unemployment Rate Apr'14</td>
 								<td><span class="icon icon-checkmark green"></span></td>
 								<td>6.7%</td>
 								<td>6.9%</td>

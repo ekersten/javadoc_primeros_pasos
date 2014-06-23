@@ -53,7 +53,7 @@
 			<form class="form-horizontal form" role="form">
 			<!-- fila1 -->
 			<div class="row">
-				<div class="col-xs-12 description">
+				<div class="col-xs-12">
 					<p>Upload a list of emails and we will tell them it's time to suscribe.</p>
 					<p>We can handle text and excel files. Just one email per row and no empty lines in between. <a>Read more</a></p>
 				</div>
@@ -78,20 +78,21 @@
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Link</label>
 						<div class="col-xs-8">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+							<input class="form-control input-sm" type="text" id="inputSmall" value="http://www.macrocampus.com/HarvardEcon401Spring2014.php">
 						</div>
 					</div>
 
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Passcode</label>
 						<div class="col-xs-8">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+							<input class="form-control input-sm" type="text" id="inputSmall" value="wsGH#434look">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Proposed message</label>
 						<div class="col-xs-8">
-							<textarea class="form-control input-sm" type="text" id="inputSmall" rows="5"></textarea>
+							<textarea class="form-control input-sm" type="text" id="inputSmall" rows="5">Dear student, You've been invited to participate in the Harvard Forecasting League. …
+							</textarea>
 						</div>
 					</div>
 				</div>
@@ -100,7 +101,7 @@
 			<!-- fila4 -->
 			<div class="row margin-top">
 				<div class="col-xs-12 text-center">
-					<button type="submit" class="btn btn-primary">< Previus </button>
+					<button type="submit" class="btn btn-primary">< Previous </button>
 					<button type="submit" class="btn btn-primary">Next ></button>
 				</div>
 			</div>

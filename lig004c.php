@@ -60,14 +60,14 @@
 			</div>
 			<!-- fin fila 1 -->
 			<!-- fila 2 -->
-			<div class="row">
+<!-- 			<div class="row">
 				<div class="col-xs-12">
 					<h4>Select Indicators to be forecasted</h4>
 				</div>
-			</div>
+			</div> -->
 			<!-- fin fila 2 -->
 			<!-- fila3 -->
-			<div class="row">
+			<div class="row margin-top">
 				<div class="col-xs-8">
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Title</label>
@@ -100,6 +100,9 @@
 					<div class="col-xs-8 col-xs-offset-4"><p class="info">(remember your League begins on 10/01/2014 and ends on 10/31/2014)</p></div>
 				</div>
 				
+			</div>
+			<div class="row text-center">
+				<div class="col-xs-12"><a class="btn btn-success">Add New</a></div>
 			</div>
 			<!-- fin fila3 -->
 			<!-- fila4 -->
@@ -134,15 +137,13 @@
 						</tbody>
 					</table>
 				</div>
-				<div class="col-xs-4">
-					<div class="row">
-							<div class="col-xs-12"><a class="btn btn-success">Add New</a></div>
-					</div>
-				</div>
+<!-- 				<div class="col-xs-4"> -->
+					
+<!-- 				</div> -->
 			</div>
 			<div class="row margin-top">
 				<div class="col-xs-12 text-center">
-					<button type="submit" class="btn btn-primary">< Previus </button>
+					<button type="submit" class="btn btn-primary">< Previous </button>
 					<button type="submit" class="btn btn-primary">Next ></button>
 				</div>
 			</div>

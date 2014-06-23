@@ -72,6 +72,14 @@
 									<td>Harvard - US Macro Forecasting</td>
 								</tr>
 								<tr>
+									<th>Course</th>
+									<td>Econ 401</td>
+								</tr>
+								<tr>
+									<th>Season</th>
+									<td>Spring 2013</td>
+								</tr>
+								<tr>
 									<th>Dates</th>
 									<td>Begins on 01/04/2014 and end on 31/10/2014 (4 weeks)</td>
 								</tr>
@@ -80,7 +88,7 @@
 									<td>Part of the Macroeconomics I Course. Students must enroll and participate in the forecasting challenge</td>
 								</tr>
 								<tr>
-									<th>Introductoty File</th>
+									<th>Introductory file</th>
 									<td><img src="img/pdf.png" width="50" class="pdf responsive"/> Download</td>
 								</tr>
 							</table>
@@ -93,7 +101,7 @@
 			<!-- fila 5 -->
 			<div class="row">
 				<div class="col-xs-6 info-table">
-					<h5>Indicators</h5>
+					<h4>Indicators</h4>
 					<div class="row info">
 						<div class="col-xs-6 text-left">Total indicators in basket: 4</div>
 						<div class="col-xs-6 text-right">Releases to be forecasted: 20</div>
@@ -125,7 +133,7 @@
 					<p class="view-more"><a class="" href="#" class="view-more">View on the Calendar</a></p>
 				</div>
 				<div class="col-xs-6 info-table">
-					<h5>Assignments</h5>
+					<h4>Assignments</h4>
 					<div class="row info">
 						<div class="col-xs-6 text-left">
 							Total Assignments:2
@@ -160,7 +168,7 @@
 			</div>
 			<div class="row margin-top">
 				<div class="col-xs-6 info-table">
-					<h5>Students</h5>
+					<h4>Students</h4>
 					<!-- <div class="row info">
 						<div class="col-xs-6 text-left">Total indicators in basket: 4</div>
 						<div class="col-xs-6 text-right">Releases to be forecasted: 20</div>
@@ -171,7 +179,6 @@
 								<th>Name</th>
 								<th>Email</th>
 								<th class="text-center">Enrolled</th>
-								<th class="text-center">Admitted</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -179,25 +186,21 @@
 								<td>John Smith</td>
 								<td>johnsmith@harvard.com</td>
 								<td class="text-center"><span class="icon icon-close"></span></td>
-								<td class="text-center"><input type="checkbox"/></td>
 							</tr>
 							<tr>
 								<td>Ana Garcia</td>
 								<td>anagarcia@yahoo.com</td>
 								<td class="text-center"><span class="icon icon-close"></span></td>
-								<td class="text-center"><input type="checkbox" checked="checked"/></td>
 							</tr>
 							<tr>
 								<td>Ken Mattel</td>
 								<td>kenmattel@webmail.com</td>
 								<td class="text-center"><span class="icon icon-checkmark"></span></td>
-								<td class="text-center"><input type="checkbox" checked="checked"/></td>
 							</tr>
 							<tr>
 								<td>Michael Spencer</td>
 								<td>michaelspencer@harvard.com</td>
 								<td class="text-center"><span class="icon icon-checkmark"></span></td>
-								<td class="text-center"><input type="checkbox"/></td>
 							</tr>
 						</tbody>
 					</table>

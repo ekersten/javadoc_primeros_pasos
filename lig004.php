@@ -57,13 +57,13 @@
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Title</label>
 						<div class="col-xs-8">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+							<input class="form-control input-sm" type="text" id="inputSmall" value="Harvard - US Macro Forecasting">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Institution</label>
 						<div class="col-xs-8">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+							<input class="form-control input-sm" type="text" id="inputSmall" value="Harvard University - School of Economics">
 						</div>
 					</div>
 				</div>
@@ -87,25 +87,25 @@
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Course</label>
 						<div class="col-xs-8">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+							<input class="form-control input-sm" type="text" id="inputSmall" value="Econ 401">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Season</label>
 						<div class="col-xs-8">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+							<input class="form-control input-sm" type="text" id="inputSmall" value="Spring 2013">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Professor or Tutor</label>
 						<div class="col-xs-8">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+							<input class="form-control input-sm" type="text" id="inputSmall" value="Ken Brown">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Brief Description</label>
 						<div class="col-xs-8">
-							<textarea class="form-control input-sm" type="text" id="inputSmall"></textarea>
+							<textarea class="form-control input-sm" type="text" rows="3" id="inputSmall">Part of the Macroeconomics I Course. Students must enroll and participate in the forecasting challenge</textarea>
 						</div>
 					</div>
 			</div>
@@ -136,7 +136,7 @@
 							<label class="control-label col-xs-3" for="inputSmall">Company&nbsp;/&nbsp;Institution</label>
 						</div>
 						<div class="col-xs-8">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+							<input class="form-control input-sm" type="text" id="inputSmall" value="Charles Schwabb">
 						</div>
 					</div>
 					<div class="form-group">
@@ -144,7 +144,7 @@
 							<label class="control-label col-xs-3" for="inputSmall">Website</label>
 						</div>
 						<div class="col-xs-8">
-							<input class="form-control input-sm" type="text" id="inputSmall">
+							<input class="form-control input-sm" type="text" id="inputSmall" value="www.charlesschwab.com">
 						</div>
 					</div>
 				</div>
@@ -165,7 +165,6 @@
 			<!-- fila 4 -->
 			<div class="row margin-top">
 				<div class="col-xs-12 text-center">
-					<button type="submit" class="btn btn-primary">< Previus </button>
 					<button type="submit" class="btn btn-primary">Next ></button>
 				</div>
 			</div>

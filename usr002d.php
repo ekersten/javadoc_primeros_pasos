@@ -154,7 +154,7 @@
 			<!-- fila 4 -->
 			<div class="row margin-top">
 				<div class="col-xs-12 text-center">
-					<button type="submit" class="btn btn-primary">< Previus </button>
+					<button type="submit" class="btn btn-primary">< Previous </button>
 					<button type="submit" class="btn btn-primary">Next ></button>
 				</div>
 			</div>

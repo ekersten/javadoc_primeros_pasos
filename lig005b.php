@@ -45,7 +45,8 @@
 					<strong>Legend:</strong>
 					<ul class="legend-items">
 						<li class="legend-item"><span class="icon icon-checkmark green"></span> Completed</li>
-						<li class="legend-item"><span class="icon icon-close red"></span> Missing</li>
+						<li class="legend-item"><span class="icon icon-close red"></span> Missed</li>
+						<li class="legend-item"><span class="icon icon-busy"></span> Pending</li>
 						<li class="legend-item"><span class="icon icon-pencil green"></span> Graded</li>
 						<li class="legend-item"><span class="icon icon-pencil red"></span> Not Graded</li>
 					</ul>
@@ -117,8 +118,8 @@
 							<div class="grid-cell"><span class="icon icon-file-pdf"></span><span class="icon icon-pencil red"></span></div>
 						</div><div class="column">
 							<div class="header-cell">
-								<div>ISM Apr'14</div>
-								<div>05-may-14</div>
+								<div>GDP Q1 2014</div>
+								<div>31-may-14</div>
 							</div>
 							<div class="grid-cell"><span class="icon icon-checkmark green"></span></div>
 							<div class="grid-cell"><span class="icon icon-close red"></span></div>
@@ -129,8 +130,8 @@
 							<div class="grid-cell"><span class="icon icon-checkmark green"></span></div>
 						</div><div class="column">
 							<div class="header-cell">
-								<div>CPI Apr'14</div>
-								<div>12-may-14</div>
+								<div>ISM May'14</div>
+								<div>05-jun-14</div>
 							</div>
 							<div class="grid-cell"><span class="icon icon-checkmark green"></span></div>
 							<div class="grid-cell"><span class="icon icon-checkmark green"></span></div>
@@ -141,8 +142,8 @@
 							<div class="grid-cell"><span class="icon icon-checkmark green"></span></div>
 						</div><div class="column">
 							<div class="header-cell">
-								<div>Unemployment Rate Apr'14</div>
-								<div>18-may-14</div>
+								<div>CPI May'14</div>
+								<div>12-jun-14</div>
 							</div>
 							<div class="grid-cell"><span class="icon icon-checkmark green"></span></div>
 							<div class="grid-cell"><span class="icon icon-checkmark green"></span></div>

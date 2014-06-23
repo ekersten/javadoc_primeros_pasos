@@ -25,12 +25,12 @@
 							<img src="img/birrete.png"  width="100" alt="">
 						</div>
 						<ul>
-							<li>Upload an introductory file telling your students what to do</li>
-							<li>Add indicators to be forecasted</li>
-							<li>Optionally, add assignments and then grade them</li>
-							<li>Keep track of your students activity</li>
-							<li>Define who will pay for it (students or the institution)</li>
-							<li>Reuse a previously created League</li>
+							<li>Upload an introductory file telling your students what to do.</li>
+							<li>Add indicators to be forecasted.</li>
+							<li>Optionally, add assignments and then grade them.</li>
+							<li>Keep track of your students activity.</li>
+							<li>Define who will pay for it (students or the institution).</li>
+							<li>Reuse a previously created League.</li>
 						</ul>
 					</div>
 				</div>
@@ -41,10 +41,11 @@
 							<img src="img/megafono.png"  width="100" alt="">
 						</div>	
 						<ul>
-							<li>Reach a large audience of economists and market practitioners</li>
-							<li>Select the suscription mode (open to everybody, open with admission, by invitation)</li>
-							<li>Engage them in your League by offering a prize</li>
-							<li>Be prominently displayed in our homepage for the duration of the League</li>
+							<li>Reach a large audience of economists and market practitioners.</li>
+							<li>Select the subscription mode (open to everybody or by invitation).</li>
+							<li>Optionally, set a limit to the number of participants.</li>
+							<li>Engage them in your League by offering a prize.</li>
+							<li>Be prominently displayed in our homepage for the duration of the League.</li>
 						</ul>
 
 					</div>
