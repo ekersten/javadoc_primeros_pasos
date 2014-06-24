@@ -110,7 +110,7 @@
 			<!-- fila5 -->
 			<div class="row margin-top">
 				<div class="col-xs-8">
-					<table class="table table-striped table-bordered blue-header">
+					<table class="table table-striped table-bordered blue-header assignments">
 						<thead>
 							<tr>
 								<th>Title</th>

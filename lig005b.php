@@ -29,7 +29,7 @@
 			<!-- fin fila 2 -->
 			<!-- fila3 -->
 			<div class="row margin-top">
-				<div class="col-xs-12">
+				<div class="col-xs-10">
 					<ul class="nav nav-tabs">
 						<li><a href="#">League Setup</a></li>
 						<li class="active"><a href="#">Grid Monitor</a></li>
@@ -38,6 +38,8 @@
 						<li><a href="#">Calendar</a></li>
 					</ul>
 				</div>
+				<div class="col-xs-1"><img src="img/liga01.jpg"/></div>
+				<div class="col-xs-1"><img src="img/"/></div>
 			</div>
 			<!-- fin fila3 -->
 			<div class="row legend">

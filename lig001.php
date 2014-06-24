@@ -21,12 +21,9 @@
 				<div class="col-xs-12">
 					<!-- article start -->
 					<div class="row league">
-						<div class="col-xs-1">
-							<img src="img/liga02.jpg" class="responsive" width="80"/>
-						</div>
-						<div class="col-xs-1">
-							<p style="font-size:10px;">Sponsored by</p>
-							<p><img src="img/sponsor01.jpg" class="responsive" width="80"/></p>
+						<div class="col-xs-1 text-center">
+							<p><img src="img/liga02.jpg" class="responsive" width="80"/></p>
+							<p style="font-size:10px;">Sponsored by<br/><img src="img/sponsor01.jpg" class="responsive" width="80"/></p>
 						</div>
 						<div class="col-xs-4">
 							<h5>Harvard - US Macro Forecasting</h5>
@@ -40,7 +37,7 @@
 							<span>31/03/2014</span>
 							<p>3 days remaining!</p>
 						</div>
-						<div class="col-xs-1 text-center participants">
+						<div class="col-xs-2 text-center participants">
 							<h5>Participants</h5>
 							<p>24</p>
 						</div>
