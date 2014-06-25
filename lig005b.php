@@ -11,6 +11,16 @@
 	<div class="page-wrap">
 		<?php include('includes/header.php'); ?>
 		<section class="container-fluid leagues">
+			<div class="logos">
+				<div class="row">
+					<div class="col-xs-6">
+						<p>&nbsp;<br/><img src="img/liga02.jpg"/></p>
+					</div>
+					<div class="col-xs-6">
+						<p>Sponsored by:<br/><img src="img/sponsor01.jpg"/></p>
+					</div>
+				</div>
+			</div>
 			<!-- fil2 -->
 			<div class="row margin-top">
 				<div class="form-group">
@@ -29,7 +39,7 @@
 			<!-- fin fila 2 -->
 			<!-- fila3 -->
 			<div class="row margin-top">
-				<div class="col-xs-10">
+				<div class="col-xs-12">
 					<ul class="nav nav-tabs">
 						<li><a href="#">League Setup</a></li>
 						<li class="active"><a href="#">Grid Monitor</a></li>
@@ -38,8 +48,6 @@
 						<li><a href="#">Calendar</a></li>
 					</ul>
 				</div>
-				<div class="col-xs-1"><img src="img/liga01.jpg"/></div>
-				<div class="col-xs-1"><img src="img/"/></div>
 			</div>
 			<!-- fin fila3 -->
 			<div class="row legend">
@@ -60,13 +68,13 @@
 						<div>Task</div>
 						<div>Due Date</div>
 					</div>
-					<div class="name-cell">John Smith</div>
-					<div class="name-cell">Ana Garcia</div>
-					<div class="name-cell">Ken Mattel</div>
-					<div class="name-cell">Michael Spencer</div>
-					<div class="name-cell">Wang Ming</div>
-					<div class="name-cell">Rajam Gupta</div>
-					<div class="name-cell">Ivar Stafuza</div>
+					<div class="name-cell">John Smith <img src="img/cara01.jpg" width="25"/></div>
+					<div class="name-cell">Ana Garcia <img src="img/cara04.jpg" width="25"/></div>
+					<div class="name-cell">Ken Mattel <img src="img/cara02.jpg" width="25"/></div>
+					<div class="name-cell">Michael Spencer <img src="img/cara03.jpg" width="25"/></div>
+					<div class="name-cell">Wang Ming <img src="img/cara05.jpg" width="25"/></div>
+					<div class="name-cell">Rajam Gupta <img src="img/cara01.jpg" width="25"/></div>
+					<div class="name-cell">Ivar Stafuza <img src="img/cara02.jpg" width="25"/></div>
 				</div>
 				<div class="col-xs-10 grid-scroll">
 					<div class="grid-container">

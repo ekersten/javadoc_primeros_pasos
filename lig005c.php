@@ -11,6 +11,16 @@
 	<div class="page-wrap">
 		<?php include('includes/header.php'); ?>
 		<section class="container-fluid leagues">
+			<div class="logos">
+				<div class="row">
+					<div class="col-xs-6">
+						<p>&nbsp;<br/><img src="img/liga02.jpg"/></p>
+					</div>
+					<div class="col-xs-6">
+						<p>Sponsored by:<br/><img src="img/sponsor01.jpg"/></p>
+					</div>
+				</div>
+			</div>
 			<!-- fil2 -->
 			<div class="row margin-top">
 				<div class="form-group">
@@ -95,7 +105,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td colspan="10" class="student">John Smith (johnsmith@harvard.edu). Total Score: 72 . League Ranking: 3</td>
+								<td colspan="10" class="student"><img src="img/cara01.jpg" width="25"/> John Smith (johnsmith@harvard.edu). Total Score: 72 . League Ranking: 3</td>
 							</tr>
 							<tr>
 								<td>05/05/2014</td>
@@ -147,7 +157,7 @@
 							</tr>
 							<!-- student -->
 							<tr>
-								<td colspan="10" class="student">John Smith (johnsmith@harvard.edu). Total Score: 72 . League Ranking: 3</td>
+								<td colspan="10" class="student"><img src="img/cara04.jpg" width="25"/> Ana Garcia (anagarcia@harvard.edu). Total Score: 72 . League Ranking: 3</td>
 							</tr>
 							<tr>
 								<td>05/05/2014</td>

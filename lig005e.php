@@ -11,6 +11,16 @@
 	<div class="page-wrap">
 		<?php include('includes/header.php'); ?>
 		<section class="container-fluid leagues">
+			<div class="logos">
+				<div class="row">
+					<div class="col-xs-6">
+						<p>&nbsp;<br/><img src="img/liga02.jpg"/></p>
+					</div>
+					<div class="col-xs-6">
+						<p>Sponsored by:<br/><img src="img/sponsor01.jpg"/></p>
+					</div>
+				</div>
+			</div>
 			<!-- fil2 -->
 			<div class="row margin-top">
 				<div class="col-xs-12">
@@ -42,16 +52,8 @@
 				</div>
 			</div>
 			<div class="row margin-top">
-				<div class="col-xs-12 text-center">Select month: 
-					<select class="form-control input-sm month-selector">
-						<option>April 2014</option>
-						<option selected="selected">May 2014</option>
-						<option>June 2014</option>
-						<option>July 2014</option>
-						<option>August 2014</option>
-						<option>September 2014</option>
-						<option>October 2014</option>
-					</select>
+				<div class="col-xs-12 text-center">
+					<div class="month-selector"><a class="prev glyphicon glyphicon-chevron-left"></a><span class="other-month">April 2014</span> March 2014 <span class="other-month">June 2014</span><a class="next glyphicon glyphicon-chevron-right"></a></div>
 				</div>
 			</div>
 			<div class="row margin-top">
@@ -111,7 +113,7 @@
 								<td class="tuesday"><span class="number">27</span></td>
 								<td class="wednesday"><span class="number">28</span></td>
 								<td class="thursday"><span class="number">29</span></td>
-								<td class="friday assignment"><span class="number">30</span>Assignment #1<br/><strong>Write Like a Pro</strong></td>
+								<td class="friday assignment"><span class="number">30</span><strong>Assignment #1</strong><br/>Write Like a Pro</td>
 								<td class="saturday"><span class="number">31</span></td>
 							</tr>
 						</tbody>

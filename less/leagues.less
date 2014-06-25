@@ -1,5 +1,16 @@
 section.leagues {
-	
+		position: relative;
+		.logos {
+			position: absolute;
+			top: 2em;
+			right: .5em;
+			font-size: .6em;
+
+			p {
+				.text-center();
+			}
+		}
+
 		h5 {
 			margin: 0 0 .2em 0;
 			font-weight: bold;
@@ -280,6 +291,13 @@ section.leagues {
 
 				.name-cell {
 					.text-right();
+
+					img {
+						position: relative;
+						border: 1px solid @medium_gray;
+						bottom: .2em;
+						margin-left: .4em;
+					}
 				}
 			}
 			.grid-scroll {
@@ -394,6 +412,12 @@ section.leagues {
 						font-weight: bold;
 						border-top: 3px solid @medium_gray;
 						background: lighten(@light_gray, 7%);
+						vertical-align: middle;
+
+						img {
+							border: 1px solid @medium_gray;
+							margin-right: .5em;
+						}
 					}
 				}
 			}
@@ -432,10 +456,41 @@ section.leagues {
 			}
 		}
 
-		select.month-selector {
-			display: inline;
-			width: auto;
-			margin-left: 1em;
+		.month-selector {
+			font: 2.5em 'Ropa Sans', sans-serif;
+			text-align: center;
+			color: @color_nav_bg;
+			letter-spacing: -.05em;
+			.half-margin-bottom();
+
+			.glyphicon {
+				font-size: .6em;
+				color: @medium_gray;
+				cursor: pointer;
+				color: @color_nav_bg;
+				text-decoration: none;
+
+				&:hover {
+					opacity: .7;
+				}
+
+				&.prev {
+					margin-right: .4em;
+				}
+				
+				&.next {
+					margin-left: .4em;
+				}
+
+			}
+
+			.other-month {
+				font-size: .6em;
+				opacity: 0.4;
+				position: relative;
+				bottom: .15em;
+				margin: 0 1em;
+			}
 		}
 
 		table.calendar {
@@ -443,6 +498,13 @@ section.leagues {
 
 			thead th {
 				.text-center();
+				background: @color_nav_bg;
+				color: white;
+				font-family: 'Ropa Sans';
+				text-transform: uppercase;
+				font-size: 1.1em;
+				font-weight: normal;
+				font-style: normal;
 			}
 
 			thead th, tbody td {
@@ -462,16 +524,24 @@ section.leagues {
 					position: absolute;
 					left: .5em;
 					top: .5em;
-					color: @brand-primary;
 				}
 				
 				&.assignment {
 					background: @brand-primary;
 					color: white;
+
+					.number {
+						color: white;
+					}
 				}
 
 				&.indicator {
-					background: lighten(@light_gray, 8%);
+					background: @brand-primary;
+					color: white;
+
+					.number {
+						color: white;
+					}
 				}
 
 				&.saturday, &.sunday {
@@ -525,6 +595,33 @@ section.leagues {
 
 				.info {
 					font-size: .8em;
+				}
+			}
+		}
+
+		ul.nav-tabs {
+			border-bottom-color: @color_nav_bg;
+			li {
+				margin-bottom: 0;
+				
+				&.active {
+					a {
+						background: @color_nav_bg;
+						color: white;
+					}
+				}
+
+				a {
+					background: @color_nav_bg;
+					color: white;
+					
+					font-family: 'Ropa Sans';
+
+
+
+					&:hover {
+						
+					}
 				}
 			}
 		}
