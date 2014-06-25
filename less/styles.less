@@ -190,23 +190,16 @@ footer, .page-wrap:after {
 		.margin-bottom();
 
 		a {
-			text-decoration: none;
-			color: white;
-			font-size: .6em;
-			font-weight: bold;
-			text-transform: uppercase;
-			background: #6694cc;
-			padding: .5em .8em;
 			position: relative;
 			margin: 0 2em;
-			border-radius: .6em;
-			border-bottom: 3px solid #3c6799;
+			&.btn {
+				border-radius: 4px;
+			}
 		}
 	}
 	
 	.columns {
 		width: 100%;
-		background: pink;
 		margin: 1em auto;
 		box-sizing: border-box;
 		
@@ -232,7 +225,7 @@ footer, .page-wrap:after {
 			
 			&.today {
 				.dayname {
-					background: #2c333b;
+					background: @color_nav_bg;
 					color: white;
 				}
 			}
@@ -241,7 +234,7 @@ footer, .page-wrap:after {
 				text-align: center;
 				font: 1.5625em 'Ropa Sans';
 				padding: .5em 0 .5em;
-				color: #2c333b;
+				color: @color_nav_bg;
 				
 				
 				sup {
@@ -251,24 +244,24 @@ footer, .page-wrap:after {
 
 			.indicators {
 				.item {
-					background: #dedee3;
-					border: 1px solid #a6a8ab;
-					border-bottom: 3px solid #a6a8ab;
+					background: @light_gray;
+					border: 1px solid @medium_gray;
+					border-bottom: 3px solid @medium_gray;
 					border-radius: .3em;
 					margin: .8em .4em;
 					padding: .2em .6em;
 					
 					.name {
-						color: #2c333b;
+						color: @color_nav_bg;
 						font-size: .8em;
 						font-weight: bold;
-						border-bottom: 1px solid #2c333b;
+						border-bottom: 1px solid @color_nav_bg;
 						margin-bottom: .6em;
 					}
 
 					
 					.info {
-						color: #2c333b;
+						color: @color_nav_bg;
 						overflow: hidden;
 						margin: .6em 0;
 						
@@ -294,17 +287,17 @@ footer, .page-wrap:after {
 							
 							&.forecasted {
 								color: white;
-								background: #99b570;
+								background: @brand-success;
 							}
 
 							&.missed {
 								color: white;
-								background: #ef5a39;
+								background: @brand-danger;
 							}
 
 							&.pending {
-								color: black;
-								background: #edca3b;
+								color: white;
+								background: @brand-warning;
 							}
 						}
 
@@ -324,7 +317,7 @@ footer, .page-wrap:after {
 									td {
 										background: white;
 										padding: .2em .4em;
-										border: 1px solid #a6a8ab;
+										border: 1px solid @medium_gray;
 										text-align: center;
 									}
 								}
@@ -335,7 +328,7 @@ footer, .page-wrap:after {
 										background: @brand-primary;
 										color: white;
 										padding: .2em .4em;
-										border: 1px solid #a6a8ab;
+										border: 1px solid @medium_gray;
 									}
 								}
 							}
