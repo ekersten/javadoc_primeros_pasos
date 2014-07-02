@@ -30,7 +30,7 @@
 								<div class="indicators">
 									<!-- item start -->
 									<div class="item">
-										<div class="name">IMS Manufacturing</div>
+										<div class="name">ISM Manufacturing </div>
 										<div class="info">
 											<span class="hour">8:30</span>
 											<span class="status forecasted">forecasted</span>
