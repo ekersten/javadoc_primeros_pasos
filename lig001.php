@@ -57,8 +57,8 @@
 							<img src="img/liga06.jpg" class="responsive" width="80"/>
 						</div>
 						<div class="col-xs-4">
-							<h5>CFA Macro Challenge</h5>
-							<p>Sponsored by CFA Institute - Chicago Society<br/>
+							<h5>Global InstitutionMacro Challenge</h5>
+							<p>Sponsored by Global InstitutionInstitute - Chicago Society<br/>
 							Closed to Invited participants<br/>
 							From 01/04/2014 to 31/10/2014<br/>
 							Prize: awards for best three forecasters
@@ -89,7 +89,7 @@
 							<img src="img/liga05.jpg" class="responsive" width="80"/>
 						</div>
 						<div class="col-xs-4">
-							<h5>Goldman Sachs - Talent Scouting</h5>
+							<h5>Economic Research Foundation- Talent Scouting</h5>
 							<p>Sponsored by Goldman Sachs<br/>
 							Open with admission<br/>
 							From 01/04/2014 to 31/10/2014<br/>

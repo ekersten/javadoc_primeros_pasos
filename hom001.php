@@ -18,7 +18,7 @@
 							<div id="slider_prev"><span class="glyphicon glyphicon-chevron-left"></span></div>
 							<div id="slider_next"><span class="glyphicon glyphicon-chevron-right"></span></div>
 						</div>
-						<div class="slides cycle-slideshow composite-example" data-cycle-fx="scrollHorz" data-cycle-slides="> div"data-cycle-timeout="4000" data-cycle-prev="#slider_prev" data-cycle-next="#slider_next" data-cycle-pager=".pager">
+						<div class="slides cycle-slideshow composite-example" data-cycle-fx="scrollHorz" data-cycle-slides="> div"data-cycle-timeout="5000" data-cycle-prev="#slider_prev" data-cycle-next="#slider_next" data-cycle-pager=".pager">
 							<div class="slide left light" data-cycle-pager-template="<a href=#>Welcome</a>">
 								<div class="text">
 									<h3>Rely on us for Macroeconomic Forecasts</h3>
@@ -44,32 +44,37 @@
 							<div class="slide right dark" data-cycle-pager-template="<a href=#>League</a>">
 								<div class="text">
 									<h3>Are you an educator? Join us!</h3>
-									<p>Sample text</p>
+									<p>Start a League for your institution and add value for your students.</br>
+									Engage them in a private contest and keep track of their activity.	
+									</p>
 								</div>
-								<div class="media">
+								<!-- <div class="media">
 									<img src="http://placehold.it/480x320/6492C8/ffffff&text=Video" />
-								</div>
-								<img src="http://placehold.it/1140x400"/>
+								</div> -->
+								<img src="img/hom03.jpg"/>
 							</div>
-							<div class="slide right light" data-cycle-pager-template="<a href=#>Looking</a>">
+							<div class="slide right dark" data-cycle-pager-template="<a href=#>Looking</a>">
 								<div class="text">
-									<h3>Sample title 4</h3>
-									<p>Sample text</p>
+									<h3>Looking for talented economists?</h3>
+									<p>Follow the rankings and contact our forecasters.</br>
+									Know their skills before hiring them.
+									</p>
 								</div>
-								<div class="media">
+								<!-- <div class="media">
 									<img src="http://placehold.it/480x320/6492C8/ffffff&text=Video" />
-								</div>
-								<img src="http://placehold.it/1140x400"/>
+								</div> -->
+								<img src="img/hom04.jpg"/>
 							</div>
-							<div class="slide left light" data-cycle-pager-template="<a href=#>opportunities</a>">
+							<div class="slide left dark" data-cycle-pager-template="<a href=#>Opportunities</a>">
 								<div class="text">
-									<h3>Are you an educator? Join us!5</h3>
-									<p>Sample text</p>
+									<h3>Sponsorship opportunities</h3>
+									<p>Show your brand to a highly qualified and niche audience.</br>
+									Support the development of macroeconomic skills.</p>
 								</div>
-								<div class="media">
+								<!-- <div class="media">
 									<img src="http://placehold.it/480x320/6492C8/ffffff&text=Video" />
-								</div>
-								<img src="http://placehold.it/1140x400"/>
+								</div> -->
+								<img src="img/hom05.jpg"/>
 							</div>
 						</div>
 						<div class="pager"></div>
@@ -109,7 +114,7 @@
 							<div class="indicators">
 								<!-- item start -->
 								<div class="item">
-									<div class="name">IMS Manufacturing</div>
+									<div class="name">ISM Manufacturing </div>
 									<div class="info">
 										<span class="hour">8:30</span>
 									</div>

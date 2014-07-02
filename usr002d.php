@@ -138,7 +138,7 @@
 							<img src="img/liga06.jpg" width="80" alt="">
 						</div>
 						<div class="col-xs-7">
-							<h5>CFA - Macro Challenge</h5>
+							<h5>Global Institution- Macro Challenge</h5>
 							<p>Sponsored by Harvard University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
 							Prize: 50 credits</p>
