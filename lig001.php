@@ -21,9 +21,11 @@
 				<div class="col-xs-12">
 					<!-- article start -->
 					<div class="row league">
-						<div class="col-xs-1 text-center">
-							<p><img src="img/liga02.jpg" class="responsive" width="80"/></p>
-							<p style="font-size:10px;">Sponsored by<br/><img src="img/sponsor01.jpg" class="responsive" width="80"/></p>
+						<div class="col-xs-1 text-center logo">
+							<p>&nbsp;<br/><img src="img/liga02.jpg" class="responsive" width="80"/></p>
+						</div>
+						<div class="col-xs-1 text-center logo">
+							<p>Sponsored by<br/><img src="img/sponsor01.jpg" class="responsive" width="80"/></p>
 						</div>
 						<div class="col-xs-4">
 							<h5>Harvard - US Macro Forecasting</h5>
@@ -33,11 +35,11 @@
 							</p>
 						</div>
 						<div class="col-xs-2 text-center date">
-							<h5>Suscription Due Date</h5>
+							<h5>Subscription Due Date</h5>
 							<span>31/03/2014</span>
 							<p>3 days remaining!</p>
 						</div>
-						<div class="col-xs-2 text-center participants">
+						<div class="col-xs-1 text-center participants">
 							<h5>Participants</h5>
 							<p>24</p>
 						</div>
@@ -53,9 +55,10 @@
 					<!-- article end -->
 					<!-- article start -->
 					<div class="row league">
-						<div class="col-xs-1">
-							<img src="img/liga06.jpg" class="responsive" width="80"/>
+						<div class="col-xs-1 text-center logo">
+							<p>&nbsp;<br/><img src="img/liga06.jpg" class="responsive" width="80"/></p>
 						</div>
+						<div class="col-xs-1 text-center logo"></div>
 						<div class="col-xs-4">
 							<h5>Global InstitutionMacro Challenge</h5>
 							<p>Sponsored by Global InstitutionInstitute - Chicago Society<br/>
@@ -64,12 +67,13 @@
 							Prize: awards for best three forecasters
 							</p>
 						</div>
+
 						<div class="col-xs-2 text-center date">
-							<h5>Suscription Due Date</h5>
+							<h5>Subscription Due Date</h5>
 							<span>31/03/2014</span>
 							<p>3 days remaining!</p>
 						</div>
-						<div class="col-xs-2 text-center participants">
+						<div class="col-xs-1 text-center participants">
 							<h5>Participants</h5>
 							<p>47</p>
 						</div>
@@ -85,9 +89,10 @@
 					<!-- article end -->
 					<!-- article start -->
 					<div class="row league">
-						<div class="col-xs-1">
-							<img src="img/liga05.jpg" class="responsive" width="80"/>
+						<div class="col-xs-1 text-center logo">
+							<p>&nbsp;<br/><img src="img/liga05.jpg" class="responsive" width="80"/></p>
 						</div>
+						<div class="col-xs-1 text-center logo"></div>
 						<div class="col-xs-4">
 							<h5>Economic Research Foundation- Talent Scouting</h5>
 							<p>Sponsored by Goldman Sachs<br/>
@@ -97,11 +102,11 @@
 							</p>
 						</div>
 						<div class="col-xs-2 text-center date">
-							<h5>Suscription Due Date</h5>
+							<h5>Subscription Due Date</h5>
 							<span>31/03/2014</span>
 							<p>3 days remaining!</p>
 						</div>
-						<div class="col-xs-2 text-center participants">
+						<div class="col-xs-1 text-center participants">
 							<h5>Participants</h5>
 							<p>108</p>
 						</div>
