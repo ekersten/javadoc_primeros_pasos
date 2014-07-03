@@ -14,10 +14,10 @@
 			<div class="logos">
 				<div class="row">
 					<div class="col-xs-6">
-						<p>&nbsp;<br/><img src="img/liga02.jpg"/></p>
+						<p>&nbsp;<br/><img src="img/liga02.jpg" width="90"/></p>
 					</div>
 					<div class="col-xs-6">
-						<p>Sponsored by:<br/><img src="img/sponsor01.jpg"/></p>
+						<p>Sponsored by:<br/><img src="img/sponsor01.jpg" width="90"/></p>
 					</div>
 				</div>
 			</div>
@@ -165,7 +165,7 @@
 						</div><div class="column assignment">
 							<div class="header-cell">
 								<div>Assig #2 Tell us how</div>
-								<div>20-may-14</div>
+								<div>31-may-14</div>
 							</div>
 							<div class="grid-cell"><span class="icon icon-file-pdf"></span><span class="icon icon-pencil green"></span></div>
 							<div class="grid-cell"><span class="icon icon-file-pdf"></span><span class="icon icon-pencil green"></span></div>
@@ -213,7 +213,7 @@
 						</div><div class="column assignment">
 							<div class="header-cell">
 								<div>Assig #3 Write like a pro</div>
-								<div>20-may-14</div>
+								<div>28-may-14</div>
 							</div>
 							<div class="grid-cell"><span class="icon icon-file-pdf"></span><span class="icon icon-pencil green"></span></div>
 							<div class="grid-cell"><span class="icon icon-file-pdf"></span><span class="icon icon-pencil green"></span></div>

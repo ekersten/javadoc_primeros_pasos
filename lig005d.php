@@ -14,10 +14,10 @@
 			<div class="logos">
 				<div class="row">
 					<div class="col-xs-6">
-						<p>&nbsp;<br/><img src="img/liga02.jpg"/></p>
+						<p>&nbsp;<br/><img src="img/liga02.jpg" width="90"/></p>
 					</div>
 					<div class="col-xs-6">
-						<p>Sponsored by:<br/><img src="img/sponsor01.jpg"/></p>
+						<p>Sponsored by:<br/><img src="img/sponsor01.jpg" width="90"/></p>
 					</div>
 				</div>
 			</div>

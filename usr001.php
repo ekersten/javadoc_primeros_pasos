@@ -28,8 +28,11 @@
 						Forecaster since Jan-2010</br>
 					</p>
 				</div>
-				<div class="col-xs-7 text-left">
+				<div class="col-xs-5 text-left">
 					<span class="icon icon-linkedin linkedin"></span> <span class="linkedin">Hernán Kisluk</span>
+				</div>
+				<div class="col-xs-2 text-right">
+					<a class="btn btn-success btn-lg">Edit profile</a>
 				</div>
 			</div>
 			<!-- fin fila1 -->
@@ -66,12 +69,13 @@
 								<td class="text-center">12</td>
 							</tr>
 							<tr>
-								<td class="first-level"><span class="icon-caret-right"></span> England</td>
+								<td class="first-level"><span class="icon-caret-right"></span> UK</td>
 								<td class="text-center">4<sup>th</sup></td>
 								<td class="text-center">23</td>
 							</tr>
 						</tbody>
 					</table>
+					<p class="text-right"><a href="#" class="view-more">View Detail</a></p>
 				</div>
 				<div class="col-xs-6">
 					<table class="table table-striped table-bordered ranking">

@@ -81,9 +81,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xs-12 leagues">
+			<div class="row leagues">
+				<div class="col-xs-12 ">
 					<h3>Sponsored Forecasting Leagues</h3>
+					<!-- <span><a href="" title="">Create new League</a></span> -->
 					<ul>
 						<li class="new"><img src="img/liga01.jpg" width="60" alt=""></li>
 						<li><img src="img/liga02.jpg" width="60" alt=""></li>
@@ -91,9 +92,14 @@
 						<li><img src="img/liga05.jpg" width="60" alt=""></li>
 						<li><img src="img/liga04.jpg" width="60" alt=""></li>
 					</ul>
-					<a class="view-all" href="#">View all leagues</a>
+					<a class="btn btn-success">Create new League</a>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<a class="view-all" href="#">View all leagues</a>
+				</div>
+			</div>	
 			<div class="row">
 				<div class="col-xs-12 country-selector">
 					<h3>Today's Releases for:</h3>
@@ -104,6 +110,7 @@
 							<option value="">Germany</option>
 						</select>
 					</span>
+					<a class="view-all" href="#">View full calendar</a>
 				</div>
 			</div>
 			<div class="row">

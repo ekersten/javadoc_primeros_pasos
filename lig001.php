@@ -12,8 +12,11 @@
 		<?php include('includes/header.php'); ?>
 		<section class="container-fluid leagues">
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-6">
 					<h1>Active Leagues</h1>
+				</div>
+				<div class="col-xs-6 text-right margin-top">
+					<a class="btn btn-success btn-lg">Create new League</a>
 				</div>
 			</div>
 			<!-- fila1 -->

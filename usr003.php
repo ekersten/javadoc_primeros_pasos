@@ -213,8 +213,59 @@
 						<!-- fin fila4 -->
 						</form>
 					</div>
-					<div class="tab-pane fade" id="indicator">
-					<h1>Indicator</h1>
+						<div class="tab-pane fade" id="indicator">
+						<div class="row">	
+							<div class="col-xs-12">
+									<h3>Indicator</h3>
+								</div>
+						</div>		
+						<div class="row">
+							<div class="col-xs-12">
+								<p>Select the indicators you are interested on. This will help you to avoid missing a data release.<br/>We recommend selecting and making forecasts on all the indicators inside a caetgory to be fairly ranked.</p>
+							</div>	
+						</div>	
+						<div class="row margin-top">
+							<div class="col-xs-4">
+								<div class="panel panel-primary no-padding">
+								<div class="panel-heading">
+									<h3 class="panel-title">Available Indicators</h3>
+								</div>
+								<div class="panel-body">
+									<div class="list-group">
+										<a class="list-group-item first-level"><span class="icon-caret-down"></span>US</a>
+										<a class="list-group-item second-level"><span class="icon-caret-down"></span>Activity</a>
+										<a class="list-group-item third-level"><span></span>ISM</a>
+										<a class="list-group-item second-level"><span class="icon-caret-right"></span>Construction</a>
+										<a class="list-group-item first-level"><span class="icon-caret-right"></span>Japan</a>
+										<a class="list-group-item first-level"><span class="icon-caret-right"></span>China</a>
+									</div>
+								</div>
+								</div>
+							</div>
+							<div class="col-xs-2 col-xs-offset-1 text-center">
+								<p><button class="btn btn-default btn-block">&lt;&lt;</button></p>
+								<p><button class="btn btn-default btn-block">&gt;&gt;</button></p>
+							</div>
+							<div class="col-xs-4 col-xs-offset-1">
+								<div class="panel panel-primary no-padding">
+								<div class="panel-heading">
+									<h3 class="panel-title">My Items</h3>
+								</div>
+								<div class="panel-body">
+									<div class="list-group">
+										<a class="list-group-item">None</a>
+										<a class="list-group-item">&nbsp;</a>
+										<a class="list-group-item">&nbsp;</a>
+										<a class="list-group-item">&nbsp;</a>
+										<a class="list-group-item">&nbsp;</a>
+										<a class="list-group-item">&nbsp;</a>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>	
+							
+
 					</div>
 					<div class="tab-pane fade" id="alerts">
 					<div class="row">
@@ -278,7 +329,123 @@
 					</div>
 
 					<div class="tab-pane fade" id="leagues">
-					<h1>LEAGUES</h1>
+						<div class="row">	
+							<div class="col-xs-12">
+									<h3>Leagues</h3>
+							</div>
+						</div>
+						<div class="row leagues">
+				<div class="col-xs-6 league">
+					<div class="row">
+						<div class="col-xs-2">
+							<img src="img/liga01.jpg" width="80" alt="">
+						</div>
+						<div class="col-xs-7">
+							<h5>AEA Macro Challenge </h5>
+							<p>American Economic Association<br/>
+							From 1/8/2013 to 15/11/2013<br/>
+							Enrolled participants: 24<br/>
+							Prize: US$ 1000 on grants
+						</p>
+						</div>
+						<div class="col-xs-3">
+							<button type="submit" class="btn btn-default">Suscribe</button>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-xs-6 league">
+					<div class="row">
+						<div class="col-xs-2">
+							<img src="img/liga02.jpg" width="80" alt="">
+						</div>
+						<div class="col-xs-7">
+							<h5>Harvard - Course Econ 401 - Macro Forecasting</h5>
+							<p>Harvard University<br/>
+							From 1/8/2013 to 15/11/2013<br/>
+							Professor John Smith</p>
+						</div>
+						<div class="col-xs-3">
+							<button type="submit" class="btn btn-success">Suscribed</button>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<hr>
+			<div class="row leagues">
+				<div class="col-xs-6 league">
+					<div class="row">
+						<div class="col-xs-2">
+							<img src="img/liga03.jpg" width="80" alt="">
+						</div>
+						<div class="col-xs-7">
+							<h5>Forecast Brasil - Fundacao Getulio Vargas</h5>
+							<p>Sponsored by Harvard University - School of Economics<br/>
+							From 01/04/2014 to 31/10/2014<br/>
+							Prize: 50 credits</p>
+						</div>
+						<div class="col-xs-3">
+							<button type="submit" class="btn btn-default">Suscribe</button>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-xs-6 league">
+					<div class="row">
+						<div class="col-xs-2">
+							<img src="img/liga04.jpg" width="80" alt="">
+						</div>
+						<div class="col-xs-7">
+							<h5>NYU - Econometrics 110</h5>
+							<p>Sponsored by Harvard University - School of Economics<br/>
+							From 01/04/2014 to 31/10/2014<br/>
+							Prize: 50 credits</p>
+						</div>
+						<div class="col-xs-3">
+							<button type="submit" class="btn btn-default">Suscribed</button>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<hr>
+			<div class="row leagues">
+				<div class="col-xs-6 league">
+					<div class="row">
+						<div class="col-xs-2">
+							<img src="img/liga05.jpg" width="80" alt="">
+						</div>
+						<div class="col-xs-7">
+							<h5>Talent Scouting- Goldman Sachs</h5>
+							<p>Sponsored by Harvard University - School of Economics<br/>
+							From 01/04/2014 to 31/10/2014<br/>
+							Prize: 50 credits</p>
+						</div>
+						<div class="col-xs-3">
+							<button type="submit" class="btn btn-default">Suscribe</button>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-xs-6 league">
+					<div class="row">
+						<div class="col-xs-2">
+							<img src="img/liga06.jpg" width="80" alt="">
+						</div>
+						<div class="col-xs-7">
+							<h5>Global Institution- Macro Challenge</h5>
+							<p>Sponsored by Harvard University - School of Economics<br/>
+							From 01/04/2014 to 31/10/2014<br/>
+							Prize: 50 credits</p>
+						</div>
+						<div class="col-xs-3">
+							<button type="submit" class="btn btn-default">Suscribed</button>
+						</div>
+					</div>
+					
+				</div>
+										
 					</div>
 					</div>
 				</div>
