@@ -360,8 +360,8 @@
 							<img src="img/liga02.jpg" width="80" alt="">
 						</div>
 						<div class="col-xs-7">
-							<h5>Harvard - Course Econ 401 - Macro Forecasting</h5>
-							<p>Harvard University<br/>
+							<h5>University XYZ  - Course Econ 401 - Macro Forecasting</h5>
+							<p>University XYZ  University<br/>
 							From 1/8/2013 to 15/11/2013<br/>
 							Professor John Smith</p>
 						</div>
@@ -381,7 +381,7 @@
 						</div>
 						<div class="col-xs-7">
 							<h5>Forecast Brasil - Fundacao Getulio Vargas</h5>
-							<p>Sponsored by Harvard University - School of Economics<br/>
+							<p>Sponsored by University XYZ  University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
 							Prize: 50 credits</p>
 						</div>
@@ -398,7 +398,7 @@
 						</div>
 						<div class="col-xs-7">
 							<h5>NYU - Econometrics 110</h5>
-							<p>Sponsored by Harvard University - School of Economics<br/>
+							<p>Sponsored by University XYZ  University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
 							Prize: 50 credits</p>
 						</div>
@@ -418,7 +418,7 @@
 						</div>
 						<div class="col-xs-7">
 							<h5>Talent Scouting- Goldman Sachs</h5>
-							<p>Sponsored by Harvard University - School of Economics<br/>
+							<p>Sponsored by University XYZ  University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
 							Prize: 50 credits</p>
 						</div>
@@ -435,7 +435,7 @@
 						</div>
 						<div class="col-xs-7">
 							<h5>Global Institution- Macro Challenge</h5>
-							<p>Sponsored by Harvard University - School of Economics<br/>
+							<p>Sponsored by University XYZ  University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
 							Prize: 50 credits</p>
 						</div>

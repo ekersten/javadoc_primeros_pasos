@@ -57,13 +57,13 @@
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Title</label>
 						<div class="col-xs-8">
-							<input class="form-control input-sm" type="text" id="inputSmall" value="Harvard - US Macro Forecasting">
+							<input class="form-control input-sm" type="text" id="inputSmall" value="University XYZ  - US Macro Forecasting">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Institution</label>
 						<div class="col-xs-8">
-							<input class="form-control input-sm" type="text" id="inputSmall" value="Harvard University - School of Economics">
+							<input class="form-control input-sm" type="text" id="inputSmall" value="University XYZ  University - School of Economics">
 						</div>
 					</div>
 				</div>

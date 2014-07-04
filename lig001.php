@@ -31,8 +31,8 @@
 							<p>Sponsored by<br/><img src="img/sponsor01.jpg" class="responsive" width="80"/></p>
 						</div>
 						<div class="col-xs-4">
-							<h5>Harvard - US Macro Forecasting</h5>
-							<p>Sponsored by Harvard University - School of Economics<br/>
+							<h5>University XYZ  - US Macro Forecasting</h5>
+							<p>Sponsored by University XYZ  University - School of Economics<br/>
 							Closed to Invited participants<br/>
 							From 01/04/2014 to 31/10/2014<br/>	
 							</p>
@@ -63,7 +63,7 @@
 						</div>
 						<div class="col-xs-1 text-center logo"></div>
 						<div class="col-xs-4">
-							<h5>Global InstitutionMacro Challenge</h5>
+							<h5>Global Institution Macro Challenge</h5>
 							<p>Sponsored by Global InstitutionInstitute - Chicago Society<br/>
 							Closed to Invited participants<br/>
 							From 01/04/2014 to 31/10/2014<br/>

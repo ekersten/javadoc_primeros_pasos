@@ -78,7 +78,7 @@
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Link</label>
 						<div class="col-xs-8">
-							<input class="form-control input-sm" type="text" id="inputSmall" value="http://www.macrocampus.com/HarvardEcon401Spring2014.php">
+							<input class="form-control input-sm" type="text" id="inputSmall" value="http://www.macrocampus.com/University XYZ Econ401Spring2014.php">
 						</div>
 					</div>
 
@@ -91,7 +91,7 @@
 					<div class="form-group">
 						<label class="control-label col-xs-4" for="inputSmall">Proposed message</label>
 						<div class="col-xs-8">
-							<textarea class="form-control input-sm" type="text" id="inputSmall" rows="5">Dear student, You've been invited to participate in the Harvard Forecasting League. …
+							<textarea class="form-control input-sm" type="text" id="inputSmall" rows="5">Dear student, You've been invited to participate in the University XYZ  Forecasting League. …
 							</textarea>
 						</div>
 					</div>

@@ -74,7 +74,7 @@
 								<td class="text-center"></td>
 							</tr>
 							<tr>
-								<td class="first-level"><span class="icon-caret-right"></span> England</td>
+								<td class="first-level"><span class="icon-caret-right"></span> UK</td>
 								<td class="text-center">4</td>
 								<td class="text-center">94</td>
 								<td class="text-center">4<sup>th</sup></td>
@@ -123,7 +123,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><img src="img/liga02.jpg" width="25" alt=""> Harvard - US Macro Forecasting</td>
+								<td><img src="img/liga02.jpg" width="25" alt=""> University XYZ  - US Macro Forecasting</td>
 								<td class="text-center">18</td>
 								<td class="text-center">198</td>
 								<td class="text-center"><a href="#" class="icon icon-stats"></a></td>

@@ -27,7 +27,7 @@
 					<label class="control-label col-xs-3" for="league_selector">Choose one of your leagues</label>
 					<div class="col-xs-6">
 						<select class="form-control input-sm" id="league_selector">
-							<option>Harvard - US Macro Forecasting</option>
+							<option>University XYZ  - US Macro Forecasting</option>
 							<option>2</option>
 							<option>3</option>
 							<option>4</option>
@@ -105,7 +105,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td colspan="10" class="student"><img src="img/cara01.jpg" width="25"/> John Smith (johnsmith@harvard.edu). Total Score: 72 . League Ranking: 3</td>
+								<td colspan="10" class="student"><img src="img/cara01.jpg" width="25"/> John Smith (johnsmith@University XYZ .edu). Total Score: 72 . League Ranking: 3</td>
 							</tr>
 							<tr>
 								<td>05/05/2014</td>
@@ -157,7 +157,7 @@
 							</tr>
 							<!-- student -->
 							<tr>
-								<td colspan="10" class="student"><img src="img/cara04.jpg" width="25"/> Ana Garcia (anagarcia@harvard.edu). Total Score: 72 . League Ranking: 3</td>
+								<td colspan="10" class="student"><img src="img/cara04.jpg" width="25"/> Ana Garcia (anagarcia@University XYZ .edu). Total Score: 72 . League Ranking: 3</td>
 							</tr>
 							<tr>
 								<td>05/05/2014</td>

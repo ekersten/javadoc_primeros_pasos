@@ -86,7 +86,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><img src="img/liga02.jpg" width="25" alt="" class="logo"> Harvard - US Macro Forecasting</td>
+								<td><img src="img/liga02.jpg" width="25" alt="" class="logo"> University XYZ  - US Macro Forecasting</td>
 							</tr>
 							<tr>
 								<td><img src="img/liga01.jpg" width="25" alt="" class="logo"> AEA Macro Challenge </td>

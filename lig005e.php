@@ -28,7 +28,7 @@
 						<label class="control-label col-xs-3" for="league_selector">Choose one of your leagues</label>
 						<div class="col-xs-6">
 							<select class="form-control input-sm" id="league_selector">
-								<option>Harvard - US Macro Forecasting</option>
+								<option>University XYZ  - US Macro Forecasting</option>
 								<option>2</option>
 								<option>3</option>
 								<option>4</option>

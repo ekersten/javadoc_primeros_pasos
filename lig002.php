@@ -18,8 +18,8 @@
 					<p><strong>Sponsored by</strong><br/><img src="img/sponsor01.jpg" class="responsive" width="100"/></p>
 				</div>
 				<div class="col-xs-6 margin-top">
-					<h4>Harvard - US Macro Forecasting</h4>
-					<p>Sponsored by Harvard University - School of Economics<br/>Closed to Invited participants<br/>From 01/04/2014 to 31/10/2014<br/></p>
+					<h4>University XYZ  - US Macro Forecasting</h4>
+					<p>Sponsored by University XYZ  University - School of Economics<br/>Closed to Invited participants<br/>From 01/04/2014 to 31/10/2014<br/></p>
 					<p><strong>Course:</strong> Econ401<br/><strong>Season:</strong> Spring 2013</p>
 					<h5>Indicators included:</h5>
 					<p><strong>US:</strong> GDP - ISM - CPI - House Prices<br/><strong>Eurozone:</strong> Unemployment - CPI</p>

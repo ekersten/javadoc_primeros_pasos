@@ -17,7 +17,7 @@
 					<label class="control-label col-xs-3" for="league_selector">Choose one of your leagues</label>
 					<div class="col-xs-6">
 						<select class="form-control input-sm" id="league_selector">
-							<option>Harvard - US Macro Forecasting</option>
+							<option>University XYZ  - US Macro Forecasting</option>
 							<option>2</option>
 							<option>3</option>
 							<option>4</option>
@@ -46,7 +46,7 @@
 					<!-- article start -->
 					<div class="row monitor-header">
 						<div class="col-xs-6">
-							<h2>Harvard - US Macro Forecasting</h2>
+							<h2>University XYZ  - US Macro Forecasting</h2>
 						</div>
 						<div class="col-xs-6 text-right">
 							<a class="btn btn-warning icon icon-pencil" title="Edit"></a> <a class="btn btn-danger icon icon-remove" title="Delete"></a>
@@ -69,7 +69,7 @@
 								</tr>
 								<tr>
 									<th>Title</th>
-									<td>Harvard - US Macro Forecasting</td>
+									<td>University XYZ  - US Macro Forecasting</td>
 								</tr>
 								<tr>
 									<th>Course</th>
@@ -184,7 +184,7 @@
 						<tbody>
 							<tr>
 								<td>John Smith</td>
-								<td>johnsmith@harvard.com</td>
+								<td>johnsmith@University XYZ .com</td>
 								<td class="text-center"><span class="icon icon-close"></span></td>
 							</tr>
 							<tr>
@@ -199,7 +199,7 @@
 							</tr>
 							<tr>
 								<td>Michael Spencer</td>
-								<td>michaelspencer@harvard.com</td>
+								<td>michaelspencer@University XYZ .com</td>
 								<td class="text-center"><span class="icon icon-checkmark"></span></td>
 							</tr>
 						</tbody>
