@@ -19,7 +19,7 @@
 							<div id="slider_prev"><span class="glyphicon glyphicon-chevron-left"></span></div>
 							<div id="slider_next"><span class="glyphicon glyphicon-chevron-right"></span></div>
 						</div>
-						<div class="slides cycle-slideshow composite-example" data-cycle-fx="scrollHorz" data-cycle-slides="> div"data-cycle-timeout="5000" data-cycle-prev="#slider_prev" data-cycle-next="#slider_next" data-cycle-pager=".pager">
+						<div class="slides cycle-slideshow composite-example" data-cycle-fx="scrollHorz" data-cycle-slides="> div"data-cycle-timeout="6000" data-cycle-prev="#slider_prev" data-cycle-next="#slider_next" data-cycle-pager=".pager">
 							<div class="slide left light" data-cycle-pager-template="<a href=#>Welcome</a>">
 								<div class="text">
 									<h3>Rely on us for Macroeconomic Forecasts</h3>

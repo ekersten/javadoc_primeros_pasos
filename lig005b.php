@@ -166,7 +166,7 @@
 						</div><div class="column assignment">
 							<div class="header-cell">
 								<div>Assig #2 Tell us how</div>
-								<div>31-may-14</div>
+								<div>30-jun-14</div>
 							</div>
 							<div class="grid-cell"><span class="icon icon-file-pdf"></span><span class="icon icon-pencil green"></span></div>
 							<div class="grid-cell"><span class="icon icon-file-pdf"></span><span class="icon icon-pencil green"></span></div>
