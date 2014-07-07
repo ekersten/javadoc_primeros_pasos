@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Macro Campus</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href='http://fonts.googleapis.com/css?family=Ropa+Sans|Open+Sans:400,300,700' rel='stylesheet' type='text/css'/>
 	<link rel="stylesheet" href="css/macrocampus.css"/>
 </head>
@@ -121,7 +122,7 @@
 							<img src="img/liga05.jpg" width="80" alt="">
 						</div>
 						<div class="col-xs-7">
-							<h5>Talent Scouting- Goldman Sachs</h5>
+							<h5>Talent Scouting- Top Tier 1 Bank</h5>
 							<p>Sponsored by University XYZ  University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
 							Prize: 50 credits</p>

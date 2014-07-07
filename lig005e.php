@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Macro Campus</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href='http://fonts.googleapis.com/css?family=Ropa+Sans|Open+Sans:400,300,700' rel='stylesheet' type='text/css'/>
 	<link rel="stylesheet" href="css/macrocampus.css"/>
 </head>
@@ -53,7 +54,7 @@
 			</div>
 			<div class="row margin-top">
 				<div class="col-xs-12 text-center">
-					<div class="month-selector"><a class="prev glyphicon glyphicon-chevron-left"></a><span class="other-month">April 2014</span> March 2014 <span class="other-month">June 2014</span><a class="next glyphicon glyphicon-chevron-right"></a></div>
+					<div class="month-selector"><a class="prev glyphicon glyphicon-chevron-left"></a><span class="other-month">April 2014</span> May 2014 <span class="other-month">June 2014</span><a class="next glyphicon glyphicon-chevron-right"></a></div>
 				</div>
 			</div>
 			<div class="row margin-top">

@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Macro Campus</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href='http://fonts.googleapis.com/css?family=Ropa+Sans|Open+Sans:400,300,700' rel='stylesheet' type='text/css'/>
 	<link rel="stylesheet" href="css/macrocampus.css"/>
 </head>
@@ -64,7 +65,7 @@
 						<div class="col-xs-1 text-center logo"></div>
 						<div class="col-xs-4">
 							<h5>Global Institution Macro Challenge</h5>
-							<p>Sponsored by Global InstitutionInstitute - Chicago Society<br/>
+							<p>Sponsored by Global Institution Institute - Chicago Society<br/>
 							Closed to Invited participants<br/>
 							From 01/04/2014 to 31/10/2014<br/>
 							Prize: awards for best three forecasters
@@ -98,7 +99,7 @@
 						<div class="col-xs-1 text-center logo"></div>
 						<div class="col-xs-4">
 							<h5>Economic Research Foundation- Talent Scouting</h5>
-							<p>Sponsored by Goldman Sachs<br/>
+							<p>Sponsored by Top Tier 1 Bank<br/>
 							Open with admission<br/>
 							From 01/04/2014 to 31/10/2014<br/>
 							Prize: internship for the best forecaster

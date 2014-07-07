@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Macro Campus</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href='http://fonts.googleapis.com/css?family=Ropa+Sans|Open+Sans:400,300,700' rel='stylesheet' type='text/css'/>
 	<link rel="stylesheet" href="css/macrocampus.css"/>
 </head>
@@ -23,7 +24,7 @@
 				<div class="col-xs-12">
 					<ul class="nav nav-tabs" style="margin-bottom: 15px;">
 						<li class="active"><a href="#home" data-toggle="tab">Basic Data</a></li>
-						<li><a href="#privancy" data-toggle="tab">Privancy</a></li>
+						<li><a href="#privacy" data-toggle="tab">Privacy</a></li>
 						<li><a href="#indicator" data-toggle="tab">Indicator</a></li>
 						<li><a href="#alerts" data-toggle="tab">Alerts</a></li>
 						<li><a href="#leagues" data-toggle="tab">Leagues</a></li>
@@ -163,7 +164,7 @@
 
 
 						</div>
-					<div class="tab-pane fade" id="privancy">
+					<div class="tab-pane fade" id="privacy">
 					<div class="row">
 							<div class="col-xs-12">
 								<h3>Privacy Options</h3>
@@ -221,7 +222,7 @@
 						</div>		
 						<div class="row">
 							<div class="col-xs-12">
-								<p>Select the indicators you are interested on. This will help you to avoid missing a data release.<br/>We recommend selecting and making forecasts on all the indicators inside a caetgory to be fairly ranked.</p>
+								<p>Select the indicators you are interested on. This will help you to avoid missing a data release.<br/>We recommend selecting and making forecasts on all the indicators inside a category to be fairly ranked.</p>
 							</div>	
 						</div>	
 						<div class="row margin-top">
@@ -417,7 +418,7 @@
 							<img src="img/liga05.jpg" width="80" alt="">
 						</div>
 						<div class="col-xs-7">
-							<h5>Talent Scouting- Goldman Sachs</h5>
+							<h5>Talent Scouting- Top Tier 1 Bank</h5>
 							<p>Sponsored by University XYZ  University - School of Economics<br/>
 							From 01/04/2014 to 31/10/2014<br/>
 							Prize: 50 credits</p>

@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Macro Campus</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href='http://fonts.googleapis.com/css?family=Ropa+Sans|Open+Sans:400,300,700' rel='stylesheet' type='text/css'/>
 	<link rel="stylesheet" href="css/macrocampus.css"/>
 </head>
@@ -365,7 +366,7 @@
 						<div class="col-xs-4 widget-top3">
 							<h6>Activity</h6>
 							<ol>
-								<li><img src="img/cara03.jpg" width="45" alt="">Eric</span></li>
+								<li><img src="img/cara03.jpg" width="45" alt=""><span class="author">Eric</span></li>
 								<li><img src="img/cara04.jpg" width="45" alt=""><span class="author">Flavia</span></li>
 								<li><img src="img/cara01.jpg" width="45" alt=""><span class="author">Steven</span></li>
 							</ol>
