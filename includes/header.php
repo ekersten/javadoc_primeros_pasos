@@ -4,7 +4,6 @@
 			<div class="col-xs-3"><img src="img/logo.png" width="273px" /></div>
 			<div class="col-xs-9 pull-right">
 			<ul class="nav nav-pills">
-				<li ><a href="#">Indicators</a></li>
 				<li><a href="#">Leagues</a></li>
 				<li><a href="#">Forecasters</a></li>
 				<li><a href="#">Rankings</a></li>
